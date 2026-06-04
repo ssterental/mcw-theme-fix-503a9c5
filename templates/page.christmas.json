@@ -299,7 +299,7 @@
             "openTab": false,
             "buttonStyle": "secondary",
             "buttonType": "filled",
-            "image": "shopify://shop_images/mcw-bf-kids-2.jpg"
+            "image": "shopify://shop_images/mcw-bf-christmas-1.jpg"
           }
         },
         "column_image_WXzAxr": {
@@ -313,7 +313,7 @@
             "openTab": false,
             "buttonStyle": "secondary",
             "buttonType": "filled",
-            "image": "shopify://shop_images/mcw-bf-moms-1.jpg"
+            "image": "shopify://shop_images/mcw-bf-christmas-2.jpg"
           }
         },
         "column_image_JRHPbG": {
@@ -361,7 +361,7 @@
         "column_image_N3v4Cx": {
           "type": "columnImage",
           "settings": {
-            "image": "shopify://shop_images/mcw-bf-moms-6.jpg",
+            "image": "shopify://shop_images/mcw-bf-christmas-3.jpg",
             "imageSize": 100,
             "heading": "<h3>One Book the Whole Family Shares</h3>",
             "content": "<p>From the grandkids to the grandparents, everyone claims a page. Order a few for the cousins, or one big book for the whole family gathering.</p>",
