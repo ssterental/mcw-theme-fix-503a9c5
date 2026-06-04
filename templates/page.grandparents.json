@@ -311,7 +311,8 @@
             "buttonURL": "",
             "openTab": false,
             "buttonStyle": "secondary",
-            "buttonType": "filled"
+            "buttonType": "filled",
+            "image": "shopify://shop_images/mcw-bf-moms-1.jpg"
           }
         },
         "column_image_WXzAxr": {
@@ -324,7 +325,8 @@
             "buttonURL": "",
             "openTab": false,
             "buttonStyle": "secondary",
-            "buttonType": "filled"
+            "buttonType": "filled",
+            "image": "shopify://shop_images/mcw-bf-moms-4.jpg"
           }
         },
         "column_image_JRHPbG": {
@@ -337,13 +339,14 @@
             "buttonURL": "",
             "openTab": false,
             "buttonStyle": "secondary",
-            "buttonType": "filled"
+            "buttonType": "filled",
+            "image": "shopify://shop_images/mcw-bf-moms-2.jpg"
           }
         },
         "column_image_N1v4Ax": {
           "type": "columnImage",
           "settings": {
-            "image": "shopify://shop_images/Gemini_Generated_Image_gjgxr4gjgxr4gjgx_b0e01d85-6f03-4bda-864c-db4775b62353.png",
+            "image": "shopify://shop_images/mcw-bf-hanukkah-5.jpg",
             "imageSize": 100,
             "heading": "<p>Something to Share</p>",
             "content": "<p>A coloring book for grandparents is an activity to do together — at the table with the grandkids, screen-free.</p>",
@@ -357,7 +360,7 @@
         "column_image_N2v4Bx": {
           "type": "columnImage",
           "settings": {
-            "image": "shopify://shop_images/Custom_Coloring_Book_from_Photos.jpg",
+            "image": "shopify://shop_images/mcw-bf-moms-5.jpg",
             "imageSize": 100,
             "heading": "<p>For Every Grandparent</p>",
             "content": "<p>Grandma, Grandpa, Abuela, Nonna — a personalized gift for grandparents fits, because it's about their family.</p>",
@@ -371,7 +374,7 @@
         "column_image_N3v4Cx": {
           "type": "columnImage",
           "settings": {
-            "image": "shopify://shop_images/5_82452436-ee00-4da2-a547-ad8dba6b897c.png",
+            "image": "shopify://shop_images/mcw-bf-moms-6.jpg",
             "imageSize": 100,
             "heading": "<p>The Whole Family Included</p>",
             "content": "<p>Grandkids, kids, even the family pet — upload them all and we turn each into a coloring page.</p>",
