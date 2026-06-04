@@ -293,7 +293,7 @@
           "settings": {
             "imageSize": 100,
             "heading": "<p>A Creative And Screen-Free Activity</p>",
-            "content": "",
+            "content": "<p>Markers and colored pencils instead of one more screen. A personalized coloring book turns quiet Christmas afternoons into hands-on, creative time the whole family can share.</p>",
             "buttonText": "",
             "buttonURL": "",
             "openTab": false,
@@ -307,7 +307,7 @@
           "settings": {
             "imageSize": 100,
             "heading": "<p>A Meaningful And Personal Gift</p>",
-            "content": "",
+            "content": "<p>Not another candle or gift card. A coloring book made from your real photos says “I see you” in a way store-bought gifts can’t — and it costs less than you’d think.</p>",
             "buttonText": "",
             "buttonURL": "",
             "openTab": false,
@@ -321,7 +321,7 @@
           "settings": {
             "imageSize": 100,
             "heading": "<p>Fun For Home, School Or Special Moments</p>",
-            "content": "",
+            "content": "<p>Color it Christmas morning, pack it for the drive to Grandma’s, or save it for the first snow day. One book that goes wherever the holidays take you.</p>",
             "buttonText": "",
             "buttonURL": "",
             "openTab": false,
@@ -329,12 +329,57 @@
             "buttonType": "filled",
             "image": "shopify://shop_images/mcw-bf-kids-5.jpg"
           }
+        },
+        "column_image_N1v4Ax": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/mcw-bf-kids-1.jpg",
+            "imageSize": 100,
+            "heading": "<h3>“That’s Me!” on Christmas Morning</h3>",
+            "content": "<p>They flip it open, spot their own face — their family, their dog, their whole world — and you get that gasp. That moment is the whole reason we make these.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        },
+        "column_image_N2v4Bx": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/mcw-bf-moms-4.jpg",
+            "imageSize": 100,
+            "heading": "<h3>A Gift They Won’t Return in January</h3>",
+            "content": "<p>Most holiday gifts are forgotten by New Year’s. A personalized coloring book made from your photos gets colored, displayed, and kept long after the tree comes down.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        },
+        "column_image_N3v4Cx": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/mcw-bf-moms-6.jpg",
+            "imageSize": 100,
+            "heading": "<h3>One Book the Whole Family Shares</h3>",
+            "content": "<p>From the grandkids to the grandparents, everyone claims a page. Order a few for the cousins, or one big book for the whole family gathering.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
         }
       },
       "block_order": [
         "column_image_M9iA9b",
         "column_image_WXzAxr",
-        "column_image_JRHPbG"
+        "column_image_JRHPbG",
+        "column_image_N1v4Ax",
+        "column_image_N2v4Bx",
+        "column_image_N3v4Cx"
       ],
       "name": "Columns",
       "settings": {
