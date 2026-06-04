@@ -1,0 +1,946 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {}
+    },
+    "page": {
+      "type": "product-page__product",
+      "blocks": {
+        "product_page_delivery_BKPddf": {
+          "type": "productPageDelivery",
+          "settings": {
+            "noMargin": true,
+            "icon": "None",
+            "iconColor": "rgba(0,0,0,0)",
+            "text": "<p><a href=\"#review\" title=\"#review\">⭐️⭐⭐️️⭐️⭐️ 100+ reviews</a></p>",
+            "textColor": "#fb046f"
+          }
+        },
+        "ppTitle": {
+          "type": "productPageTitle",
+          "settings": {
+            "noMargin": false,
+            "color": "rgba(0,0,0,0)",
+            "fontFamily": "base",
+            "fontSize": "medium"
+          }
+        },
+        "product_page_description_nVwdVW": {
+          "type": "productPageDescription",
+          "settings": {
+            "heading": "Product description",
+            "noMargin": false
+          }
+        },
+        "ppPrice": {
+          "type": "productPagePrice",
+          "settings": {
+            "noMargin": true,
+            "color": "rgba(0,0,0,0)",
+            "newPriceColor": "rgba(0,0,0,0)",
+            "oldPriceColor": "rgba(0,0,0,0)",
+            "fontFamily": "base",
+            "fontSize": "medium"
+          }
+        },
+        "product_page_delivery_XfB8HD": {
+          "type": "productPageDelivery",
+          "disabled": true,
+          "settings": {
+            "noMargin": false,
+            "icon": "None",
+            "iconColor": "rgba(0,0,0,0)",
+            "text": "<p><strong>Free Shipping on order of above $50<br/></strong></p>",
+            "textColor": "#fb046f"
+          }
+        },
+        "ppSwatch": {
+          "type": "productPageSwatch",
+          "settings": {
+            "noMargin": false
+          }
+        },
+        "appstle_subscription_appstle_subscription_product_page_widget_8pK3wf": {
+          "type": "shopify://apps/appstle-subscription/blocks/appstle-subscription-product-page-widget/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
+          "settings": {}
+        },
+        "ppATC": {
+          "type": "productPageATC",
+          "settings": {
+            "noMargin": false,
+            "displayAtcFor": "display--both",
+            "atcLayout": "boxed",
+            "stickyATC": "scroll"
+          }
+        },
+        "product_page_tab_4VDtm7": {
+          "type": "productPageTab",
+          "settings": {
+            "showInline": true,
+            "heading": "What’s Included",
+            "content": "custom",
+            "metafieldNS": "global",
+            "metafieldKey": "",
+            "page": "",
+            "customContent": "<ul>\n<li>Beautiful coloring pages created from your own photos</li>\n<li>A high-quality printed coloring book made to last</li>\n<li>Optional personalized cover to make your book truly unique</li>\n<li>Carefully printed and delivered within 10–15 business days</li>\n</ul>"
+          }
+        },
+        "product_page_tab_iQ7Pqz": {
+          "type": "productPageTab",
+          "settings": {
+            "showInline": true,
+            "heading": "Perfect For",
+            "content": "custom",
+            "metafieldNS": "global",
+            "metafieldKey": "",
+            "page": "",
+            "customContent": "<ul>\n<li>Memorable birthday gifts for kids, friends, and families</li>\n<li>Meaningful keepsakes for couples and anniversaries</li>\n<li>Fun and creative activities kids will love</li>\n<li>Thoughtful gifts for Mother’s Day or Father’s Day</li>\n<li>A special way to share memories with the people you love</li>\n</ul>"
+          }
+        },
+        "product_page_tab_YbEVwm": {
+          "type": "productPageTab",
+          "settings": {
+            "showInline": true,
+            "heading": "Why You'll Love It",
+            "content": "custom",
+            "metafieldNS": "global",
+            "metafieldKey": "",
+            "page": "",
+            "customContent": "<ul>\n<li>Turn your favorite photos into a personalized coloring book</li>\n<li>A meaningful gift for birthdays and special occasions</li>\n<li>A fun, screen-free activity kids can enjoy anytime</li>\n<li>Create your book easily with our simple 3-step process</li>\n<li>Professionally printed with durable, high-quality binding</li>\n</ul>"
+          }
+        },
+        "product_page_accordion_43QCEB": {
+          "type": "productPageAccordion",
+          "disabled": true,
+          "settings": {
+            "noMargin": false,
+            "heading": "What’s Included",
+            "content": "custom",
+            "metafieldNS": "global",
+            "metafieldKey": "",
+            "page": "",
+            "customContent": "<ul>\n<li>Beautiful coloring pages created from your own photos</li>\n<li>A high-quality printed coloring book made to last</li>\n<li>Optional personalized cover to make your book truly unique</li>\n<li>Carefully printed and delivered within 10–15 business days</li>\n</ul>"
+          }
+        },
+        "product_page_accordion_caVMnV": {
+          "type": "productPageAccordion",
+          "disabled": true,
+          "settings": {
+            "noMargin": false,
+            "heading": "Perfect For",
+            "content": "custom",
+            "metafieldNS": "global",
+            "metafieldKey": "",
+            "page": "",
+            "customContent": "<ul>\n<li>Memorable birthday gifts for kids, friends, and families</li>\n<li>Meaningful keepsakes for couples and anniversaries</li>\n<li>Fun and creative activities kids will love</li>\n<li>Thoughtful gifts for Mother’s Day or Father’s Day</li>\n<li>A special way to share memories with the people you love</li>\n</ul>"
+          }
+        },
+        "product_page_accordion_gWiz4h": {
+          "type": "productPageAccordion",
+          "disabled": true,
+          "settings": {
+            "noMargin": false,
+            "heading": "Why You'll Love It",
+            "content": "custom",
+            "metafieldNS": "global",
+            "metafieldKey": "",
+            "page": "",
+            "customContent": "<ul>\n<li>Turn your favorite photos into a personalized coloring book</li>\n<li>A meaningful gift for birthdays and special occasions</li>\n<li>A fun, screen-free activity kids can enjoy anytime</li>\n<li>Create your book easily with our simple 3-step process</li>\n<li>Professionally printed with durable, high-quality binding</li>\n</ul>"
+          }
+        },
+        "product_page_share_mPiPPJ": {
+          "type": "productPageShare",
+          "settings": {
+            "noMargin": false
+          }
+        }
+      },
+      "block_order": [
+        "product_page_delivery_BKPddf",
+        "ppTitle",
+        "product_page_description_nVwdVW",
+        "ppPrice",
+        "product_page_delivery_XfB8HD",
+        "ppSwatch",
+        "appstle_subscription_appstle_subscription_product_page_widget_8pK3wf",
+        "ppATC",
+        "product_page_tab_4VDtm7",
+        "product_page_tab_iQ7Pqz",
+        "product_page_tab_YbEVwm",
+        "product_page_accordion_43QCEB",
+        "product_page_accordion_caVMnV",
+        "product_page_accordion_gWiz4h",
+        "product_page_share_mPiPPJ"
+      ],
+      "custom_css": [
+        ".product__urgency .urgency__text .uil {display: none;}",
+        ".urgency__text span * {text-decoration: none;}",
+        ".tab--product.tab--active,.featured-tabs__tab.tab--active {background: #3e2f8c;}",
+        ".gpo-group__wrapper {padding: 15px;}",
+        ".gpo-total-text {padding: 15px;}",
+        ".gpo-app {text-align: left; border-radius: 12px;}",
+        ".tab__container--product .tab--product {border: 1px solid lightgrey; /* Added shadow */ box-shadow: 0 0px 6px rgba(0, 0, 0, 0.1); border-radius: 8px;}"
+      ],
+      "settings": {
+        "view": "default",
+        "layout": "max-width",
+        "galleryStyle": "default",
+        "galleryPosition": "left",
+        "video_loop": true,
+        "video_autoplay": true,
+        "autoZoom": false,
+        "autoChange": false,
+        "galleryImageFit": "cover",
+        "galleryImageGap": 16,
+        "productNavigation": true,
+        "productMainImageSize": "crop",
+        "imageSticky": true,
+        "imageStickyPosition": 100
+      }
+    },
+    "upsell": {
+      "type": "api__upsell--inline",
+      "disabled": true,
+      "settings": {}
+    },
+    "section_content_tNnAjg": {
+      "type": "section__content",
+      "name": "Custom content",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "scopedCSS": "",
+        "height": 0,
+        "padding": 0,
+        "lineMargin": 12,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 0,
+        "overlayColor": "#000000",
+        "contentColor": "rgba(0,0,0,0)",
+        "horizontalAlignment": "center",
+        "verticalAlignment": "middle",
+        "vertPaddingAccord": 12,
+        "horPaddingAccord": 4
+      }
+    },
+    "section_columns_AGBidm": {
+      "type": "section__columns",
+      "blocks": {
+        "column_icon_XBdy3X": {
+          "type": "columnIcon",
+          "settings": {
+            "icon": "brain",
+            "iconSize": 50,
+            "iconColor": "#fb046f",
+            "heading": "<h3>Made for Faces, Not Filters</h3>",
+            "content": "<p>We keep faces truly recognizable — so your child can point and say \"That's Grandma!\"</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        },
+        "column_icon_TNwAkT": {
+          "type": "columnIcon",
+          "settings": {
+            "icon": "check-square",
+            "iconSize": 50,
+            "iconColor": "#fb046f",
+            "heading": "<h3>Human Eyes on Every Page</h3>",
+            "content": "<p>A real person reviews every image in your book before it goes to print. Every page, every book.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        },
+        "column_icon_6zeDWR": {
+          "type": "columnIcon",
+          "settings": {
+            "icon": "award",
+            "iconSize": 50,
+            "iconColor": "#fb046f",
+            "heading": "<h3>Printed to Keep, Not Toss</h3>",
+            "content": "<p>Thick, lay-flat pages that handle markers, pencils, and little hands. Built to keep, not toss.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        }
+      },
+      "block_order": [
+        "column_icon_XBdy3X",
+        "column_icon_TNwAkT",
+        "column_icon_6zeDWR"
+      ],
+      "custom_css": [
+        ".columns {display: flex; flex-wrap: wrap; margin: -10px;}",
+        ".columns__column {flex: 1 1 calc(33.333% - 20px); padding: 10px; min-height: 0; background-color: white; border-radius: 30px; border: 1px solid lightgrey; box-shadow: 0 0 10px lightgrey; overflow: hidden; margin: 10px; box-sizing: border-box;}",
+        "@media (max-width: 768px) {.columns__column {flex: 1 1 100%; }}"
+      ],
+      "name": "Columns",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "scopedCSS": "",
+        "height": 450,
+        "padding": 10,
+        "lineMargin": 12,
+        "backgroundColor": "#fff7f0",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 0,
+        "overlayColor": "#000000",
+        "contentColor": "rgba(0,0,0,0)",
+        "horizontalAlignment": "center",
+        "verticalAlignment": "middle",
+        "heading": "Why Families Choose My Colorful World Coloring Books Over Others.",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "",
+        "subheadingColor": "rgba(0,0,0,0)",
+        "subheadingPosition": "above",
+        "headingAlignment": "center",
+        "colHeight": 0,
+        "colGap": 20,
+        "textAlign": "center",
+        "contentAlign": "top",
+        "colCount": "col-md-4",
+        "enableCarousel": false,
+        "enableAutoplay": true,
+        "slideSpeed": 3,
+        "spaceBetween": 30,
+        "enableDragging": true,
+        "enablePagination": true,
+        "enableAutoHeight": false,
+        "buttonDisplayFor": "hide-mobile",
+        "productCardDesktop": 4,
+        "productCardTablet": 2,
+        "productCardMobile": 1
+      }
+    },
+    "section_columns_aHw7xq": {
+      "type": "section__columns",
+      "blocks": {
+        "column_image_RkxJtk": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/4_df039b2c-6f70-4222-be87-477cc80dd8fc.png",
+            "imageSize": 100,
+            "heading": "<h3>Step 1: Choose Your Book Size</h3>",
+            "content": "<p>Choose your coloring book size. Select 20, 32, or 40 pages depending on how many photos you'd like to turn into coloring pages.<br/></p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        },
+        "column_image_6EECq3": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/How_to_1.png",
+            "imageSize": 100,
+            "heading": "<h3>Step 2: Upload Photos and Customize Your Cover</h3>",
+            "content": "<p>Upload the photos you'd like to turn into coloring pages for your book. Upload the same number of photos as the book size you selected (20, 32, or 40). Even better, personalize your cover with a photo and custom message.<br/></p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        },
+        "column_image_XeYWx3": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/5_82452436-ee00-4da2-a547-ad8dba6b897c.png",
+            "imageSize": 100,
+            "heading": "<h3>Step 3: Checkout and Delivery</h3>",
+            "content": "<p>Complete your order and we'll transform your photos into beautiful coloring pages, printed in a personalized coloring book and delivered to your door within 10–15 business days.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        }
+      },
+      "block_order": [
+        "column_image_RkxJtk",
+        "column_image_6EECq3",
+        "column_image_XeYWx3"
+      ],
+      "name": "Columns",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": true,
+        "scopedCSS": "",
+        "height": 0,
+        "padding": 0,
+        "lineMargin": 12,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 0,
+        "overlayColor": "#000000",
+        "contentColor": "rgba(0,0,0,0)",
+        "horizontalAlignment": "center",
+        "verticalAlignment": "top",
+        "heading": "How It Works",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "Turning your photos into a personalized coloring book is easy. In just 3 simple steps, upload your images, choose your book options, and we transform your memories into beautifully outlined coloring pages printed in a high-quality book.",
+        "subheadingColor": "#004a70",
+        "subheadingPosition": "below",
+        "headingAlignment": "center",
+        "colHeight": 80,
+        "colGap": 10,
+        "textAlign": "start",
+        "contentAlign": "top",
+        "colCount": "col-md-4",
+        "enableCarousel": false,
+        "enableAutoplay": true,
+        "slideSpeed": 3,
+        "spaceBetween": 30,
+        "enableDragging": true,
+        "enablePagination": true,
+        "enableAutoHeight": false,
+        "buttonDisplayFor": "hide-mobile",
+        "productCardDesktop": 4,
+        "productCardTablet": 2,
+        "productCardMobile": 1
+      }
+    },
+    "recommended": {
+      "type": "product-page__recommended",
+      "settings": {
+        "enabled": true,
+        "personalizedOffers": true,
+        "layout": "max-width",
+        "heading": "",
+        "subheading": "You May Also Like",
+        "subheadingPosition": "above",
+        "textAlignment": "start",
+        "defaultCollection": "",
+        "cardDesktop": "3",
+        "cardMobile": "default"
+      }
+    },
+    "section_content_YrJ6NG": {
+      "type": "section__content",
+      "name": "Custom content",
+      "settings": {
+        "custom_id": "review",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "scopedCSS": "",
+        "height": 0,
+        "padding": 0,
+        "lineMargin": 12,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 0,
+        "overlayColor": "#000000",
+        "contentColor": "rgba(0,0,0,0)",
+        "horizontalAlignment": "center",
+        "verticalAlignment": "middle",
+        "vertPaddingAccord": 12,
+        "horPaddingAccord": 4
+      }
+    },
+    "section_testimonials_R4tGq7": {
+      "type": "section__testimonials",
+      "blocks": {
+        "testimonial_X9bVh2": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>I made a coloring book for my mom for Mother’s Day with photos of all her grandkids. She literally cried when she opened it. Best Mother’s Day gift I’ve ever given her</em></p>",
+            "authorName": "Angela R",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Mother's Day</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_P7kWdZ": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>Is there a better way to celebrate life’s great moments? So nice to see </em>birthdays, holidays<em> and just everyday celebrations ready for the kids to color and reimagine themselves. Cannot believe mys election of photos turned into something that will be treasured by my family.</em></p>",
+            "authorName": "Kathy Spencer",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Birthday</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_L2qJvM": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>Made coloring books for my husband and kids for Valentine’s Day. The kids especially loved seeing </em>themselves. My<em> husband thought it was really creative and sweet. Will definitely be doing this again!</em></p>",
+            "authorName": "Donna",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Valentine's Day</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_Z6yHtF": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>Could not be more thrilled with how the coloring book turned out! It was a Hanukkah gift for my kids and they absolutely loved seeing their photos as coloring pages. Such a special and creative gift idea</em></p>",
+            "authorName": "Amanda Gershowitz",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Christmas</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_K8pQrS": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>Used these as party favors at my son’s graduation party. Each guest got coloring pages. It was such a conversation starter and everyone loved them!</em></p>",
+            "authorName": "Amy",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Graduation</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_Y4dMfH": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>Put personalized coloring books in my grandkids’ Easter baskets and they were more excited about those than the candy! Such a creative gift idea.</em></p>",
+            "authorName": "Pamela",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Easter</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_R1bJtK": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>My granddaughter LOVED it! The WHOLE family loved it!!</em></p>",
+            "authorName": "Mary Peacock",
+            "showAuthorImage": false,
+            "fakeImageSex": "men",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Birthdays</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_T3kVzL": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>My granddaughter (age 7) just LOVES her new coloring book. When she realized the pictures were of her, her family and friends she had the biggest smile! Dad and Mom were amazed as well. I’ve given many friends the suggestion to make them for their families!</em></p>",
+            "authorName": "Robyn Kellman Herbst",
+            "showAuthorImage": false,
+            "fakeImageSex": "men",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Christmas</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_Q5vRtG": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>My wife and kids surprised me with a coloring book for Father’s Day and it was honestly the best gift. All our family adventures in one book. Now we color together on weekends.</em></p>",
+            "authorName": "Greg",
+            "showAuthorImage": false,
+            "fakeImageSex": "men",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Birthdays</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_M9pLbX": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>Made a coloring book chronicling my daughter’s school years for her high school graduation. It was a huge hit at the graduation party. All the other parents wanted to know how to make one.</em></p>",
+            "authorName": "Mike T",
+            "showAuthorImage": false,
+            "fakeImageSex": "men",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Graduation</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_V2pHtK": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>Turned our wedding photos and years of memories into a coloring book for our 10th anniversary. My wife said it was the most thoughtful gift I’ve ever given her. We spent the evening coloring and reminiscing.</em></p>",
+            "authorName": "James",
+            "showAuthorImage": false,
+            "fakeImageSex": "men",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Anniversaries</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_F1pJxR": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>I loved this book from the moment my family and I started putting it together and choosing photos from our last trip. We were so excited to see the final result and it did not disappoint.</em></p>",
+            "authorName": "Camila Galinsky",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Birthdays</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_K3vLpY": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>The coloring book was such a hit at our family gathering. Everyone was fighting over who got to color which page. Such a fun and unique gift!</em></p>",
+            "authorName": "Heidi W",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Christmas</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_P4kHrM": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>As a total cat person, I had to try this with photos of my cats. The results were adorable! I gave copies to my cat-loving friends and they all want to make their own now.</em></p>",
+            "authorName": "Christina M.",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Birthdays</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_D7pKtF": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>Made a coloring book featuring our family dog and gave it to the kids. They think the dog is famous now because he has his own book! Great quality and fun for the whole family.</em></p>",
+            "authorName": "Kevin",
+            "showAuthorImage": false,
+            "fakeImageSex": "men",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Christmas</strong></p>",
+            "star_rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_X9bVh2",
+        "testimonial_P7kWdZ",
+        "testimonial_L2qJvM",
+        "testimonial_Z6yHtF",
+        "testimonial_K8pQrS",
+        "testimonial_Y4dMfH",
+        "testimonial_R1bJtK",
+        "testimonial_T3kVzL",
+        "testimonial_Q5vRtG",
+        "testimonial_M9pLbX",
+        "testimonial_V2pHtK",
+        "testimonial_F1pJxR",
+        "testimonial_K3vLpY",
+        "testimonial_P4kHrM",
+        "testimonial_D7pKtF"
+      ],
+      "custom_css": [],
+      "name": "Testimonials",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": true,
+        "scopedCSS": "",
+        "height": 0,
+        "padding": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "heading": "Thousands of Coloring Books Created and Loved",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "TESTIMONIALS",
+        "subheadingColor": "#fb046f",
+        "subheadingPosition": "above",
+        "headingAlignment": "center",
+        "blockStyle": "author-below",
+        "blockBackground": "rgba(0,0,0,0)",
+        "blockText": "#000000",
+        "testimonialAlign": "left",
+        "cardBackgroundColor": "#ffffff",
+        "cardBorderRadius": 26,
+        "cardPadding": 20,
+        "starRatingColor": "#ffb503",
+        "ratingBadgeBackground": "#fff4cc",
+        "ratingBadgeText": "#004a70",
+        "blockBottomBackground": "#000000",
+        "blockBottomText": "#004a70",
+        "useFakeImages": true,
+        "roundedImages": true,
+        "enableCarousel": true,
+        "enableAutoplay": true,
+        "slideSpeed": 4,
+        "spaceBetween": 10,
+        "enableDragging": true,
+        "enablePagination": true,
+        "enableAutoHeight": false,
+        "buttonDisplayFor": "hide-mobile",
+        "productCardDesktop": 3,
+        "productCardTablet": 2,
+        "productCardMobile": 1
+      }
+    },
+    "section_cta_8CcFyB": {
+      "type": "section__cta",
+      "blocks": {
+        "button_UP4EMg": {
+          "type": "button",
+          "settings": {
+            "fullWidth": true,
+            "text": "Rate Us on Truspilot!",
+            "url": "https://www.trustpilot.com/review/mycolorfulworld.art",
+            "icon": "",
+            "iconPosition": "icon--left",
+            "wideButton": false,
+            "buttonStyle": "primary",
+            "buttonType": "default",
+            "fontSize": "base",
+            "fontFamily": "base",
+            "animation": "none",
+            "animationDuration": 1000,
+            "animationInfinite": true
+          }
+        }
+      },
+      "block_order": [
+        "button_UP4EMg"
+      ],
+      "name": "Call to action",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "scopedCSS": "",
+        "height": 0,
+        "padding": 10,
+        "lineMargin": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "backgroundImageUrl": "",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 0,
+        "overlayColor": "#000000",
+        "contentColor": "rgba(0,0,0,0)",
+        "horizontalAlignment": "center",
+        "verticalAlignment": "middle",
+        "maxContentWidth": 100,
+        "heading": "",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "",
+        "subheadingColor": "rgba(0,0,0,0)",
+        "subheadingPosition": "above",
+        "headingAlignment": "center"
+      }
+    },
+    "section_faq_c9ikQd": {
+      "type": "section__faq",
+      "blocks": {
+        "accordion_2ZnSd0": {
+          "type": "accordion",
+          "settings": {
+            "openAccordion": true,
+            "question": "<p>Is a personalized coloring book a good gift?</p>",
+            "answer": "<p>It’s one of the most meaningful gifts you can give — because every page features real photos of the people and moments that matter most. Customers consistently tell us recipients cry when they open it. Whether it’s for a birthday, holiday, or just because, a personalized coloring book says ‘I thought about you’ in a way generic gifts never can.</p>"
+          }
+        },
+        "accordion_I538rx": {
+          "type": "accordion",
+          "settings": {
+            "openAccordion": false,
+            "question": "<p>How is this different from a regular coloring book?</p>",
+            "answer": "<p>Every page in this personalized coloring book features your actual photos — your family, your pets, your world. Our custom AI preserves face recognizability, a human designer reviews every page, and we print on thick, lay-flat paper. That’s the difference between a generic $10 coloring book and one families frame pages from.</p>"
+          }
+        },
+        "accordion_jCCRdr": {
+          "type": "accordion",
+          "settings": {
+            "openAccordion": false,
+            "question": "<p>Will the coloring pages hold up to markers and colored pencils?</p>",
+            "answer": "<p>Yes! Our personalized coloring books are printed on thick, premium paper specifically chosen to handle markers without bleed-through and provide a smooth surface for colored pencils. The lay-flat binding means pages stay open for comfortable coloring. Built to keep, not toss.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_2ZnSd0",
+        "accordion_I538rx",
+        "accordion_jCCRdr"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "scopedCSS": "",
+        "height": 0,
+        "padding": 0,
+        "lineMargin": 12,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 0,
+        "overlayColor": "#000000",
+        "contentColor": "rgba(0,0,0,0)",
+        "horizontalAlignment": "center",
+        "verticalAlignment": "middle",
+        "maxContentWidth": 100,
+        "heading": "Frequently Asked Questions",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "",
+        "subheadingColor": "rgba(0,0,0,0)",
+        "subheadingPosition": "above",
+        "headingAlignment": "center",
+        "textContent": "",
+        "vertPaddingAccord": 12,
+        "horPaddingAccord": 4
+      }
+    },
+    "section_cta_6kPqty": {
+      "type": "section__cta",
+      "blocks": {
+        "title_GdGcQ3": {
+          "type": "title",
+          "settings": {
+            "fullWidth": true,
+            "content": "Subscribe to our emails",
+            "textColor": "rgba(0,0,0,0)",
+            "fontFamily": "title",
+            "fontSize": "medium"
+          }
+        },
+        "rich_text_3YxDbq": {
+          "type": "richText",
+          "settings": {
+            "fullWidth": true,
+            "maxBWidth": 100,
+            "content": "<p>Join our email list for exclusive offers and the latest news.</p>",
+            "detectLists": true,
+            "textColor": "rgba(0,0,0,0)",
+            "fontFamily": "base",
+            "fontSize": "base"
+          }
+        },
+        "block_newsletter_AzyzYM": {
+          "type": "blockNewsletter",
+          "settings": {
+            "fullWidth": true,
+            "newsletter": "shopify",
+            "inputMaxWidth": 500,
+            "inputText": "rgba(0,0,0,0)",
+            "inputBackground": "rgba(0,0,0,0)",
+            "email": "Your e-mail goes here",
+            "buttonType": "primary",
+            "submit": "Subscribe"
+          }
+        }
+      },
+      "block_order": [
+        "title_GdGcQ3",
+        "rich_text_3YxDbq",
+        "block_newsletter_AzyzYM"
+      ],
+      "custom_css": [
+        ".button--primary__filled,.shopify-challenge__button {border-bottom-left-radius: 0px !important; border-top-left-radius: 0px !important;}"
+      ],
+      "name": "Call to action",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": true,
+        "scopedCSS": "",
+        "height": 300,
+        "padding": 10,
+        "lineMargin": 12,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "backgroundImage": "shopify://shop_images/My_Colorful_World_4.png",
+        "backgroundImageUrl": "",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 80,
+        "overlayColor": "#934590",
+        "contentColor": "#f4ffff",
+        "horizontalAlignment": "center",
+        "verticalAlignment": "middle",
+        "maxContentWidth": 100,
+        "heading": "",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "",
+        "subheadingColor": "rgba(0,0,0,0)",
+        "subheadingPosition": "above",
+        "headingAlignment": "center"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "page",
+    "upsell",
+    "section_content_tNnAjg",
+    "section_columns_AGBidm",
+    "section_columns_aHw7xq",
+    "recommended",
+    "section_content_YrJ6NG",
+    "section_testimonials_R4tGq7",
+    "section_cta_8CcFyB",
+    "section_faq_c9ikQd",
+    "section_cta_6kPqty"
+  ]
+}
