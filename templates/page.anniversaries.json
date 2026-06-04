@@ -232,6 +232,18 @@
         "horPaddingAccord": 4
       }
     },
+    "section_before_after_occ": {
+      "type": "mcw-before-after",
+      "settings": {
+        "custom_id": "occ-before-after",
+        "product_handle": "anniversary-coloring-book",
+        "heading": "See a Real Before & After",
+        "subheading": "From your photos",
+        "intro": "<p>Upload your favorite photos, we turn them into custom coloring pages, and we print and ship a finished book to your door.</p>",
+        "padding": 35,
+        "backgroundColor": "rgba(0,0,0,0)"
+      }
+    },
     "section_cta_zwHNWz": {
       "type": "section__cta",
       "blocks": {
@@ -350,7 +362,7 @@
         "column_image_N1v4Ax": {
           "type": "columnImage",
           "settings": {
-            "image": "shopify://shop_images/Gemini_Generated_Image_gjgxr4gjgxr4gjgx_b0e01d85-6f03-4bda-864c-db4775b62353.png",
+            "image": "shopify://shop_images/valentines-day-coloring-book.png",
             "imageSize": 100,
             "heading": "<p>Any Year, Any Milestone</p>",
             "content": "<p>Paper anniversary or golden anniversary, every year has its own photos worth revisiting. A personalized anniversary coloring book that grows more meaningful the longer you’ve been together, or even <a href=\"https://mycolorfulworld.art/collections/bulk-purchases\">custom coloring books for special occasions</a>.</p>",
@@ -364,7 +376,7 @@
         "column_image_N2v4Bx": {
           "type": "columnImage",
           "settings": {
-            "image": "shopify://shop_images/How_to_2.png",
+            "image": "shopify://shop_images/mcw-bf-couples-3.jpg",
             "imageSize": 100,
             "heading": "<p>No Guessing, No Overthinking</p>",
             "content": "<p>Choose your favorite photos from the years you've shared, pick a size, and we do the rest. A personalized anniversary gift without the decision paralysis — just your real memories, beautifully transformed.</p>",
@@ -378,7 +390,7 @@
         "column_image_N3v4Cx": {
           "type": "columnImage",
           "settings": {
-            "image": "shopify://shop_images/DSC02820.jpg",
+            "image": "shopify://shop_images/mcw-bf-hanukkah-1.jpg",
             "imageSize": 100,
             "heading": "<p>A Gift That Says \"I See You\"</p>",
             "content": "<p>Not a generic gift card. Not flowers you'll forget. A personalized anniversary coloring book filled with the moments that prove you've been paying attention — that you still see the person, not just the routine.</p>",
@@ -1256,16 +1268,163 @@
         "horPaddingAccord": 4
       }
     },
-    "section_before_after_occ": {
-      "type": "mcw-before-after",
+    "section_persona_xref": {
+      "type": "section__columns",
+      "blocks": {
+        "persona_kids": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/mcw-bf-back-to-school-5.jpg",
+            "imageSize": 100,
+            "heading": "<p>Kids</p>",
+            "content": "<p>Their face, their pets, their whole world — screen-free fun they actually recognize.</p>",
+            "buttonText": "Shop for Kids",
+            "buttonURL": "/pages/personalized-coloring-books-for-kids",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "text"
+          }
+        },
+        "persona_adults": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/mcw-hero-adults.jpg",
+            "imageSize": 100,
+            "heading": "<p>Adults</p>",
+            "content": "<p>A mindful, nostalgic coloring book made from your own photos.</p>",
+            "buttonText": "Shop for Adults",
+            "buttonURL": "/pages/personalized-coloring-books-for-adults",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "text"
+          }
+        },
+        "persona_mom": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/mcw-hero-moms.jpg",
+            "imageSize": 100,
+            "heading": "<p>Moms</p>",
+            "content": "<p>A gift that makes Mom feel seen — her people, on every page.</p>",
+            "buttonText": "Shop for Moms",
+            "buttonURL": "/pages/personalized-coloring-books-for-mom",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "text"
+          }
+        },
+        "persona_dad": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/mcw-hero-dad.jpg",
+            "imageSize": 100,
+            "heading": "<p>Dads</p>",
+            "content": "<p>An easy win for Dad — the whole family, in a book he'll keep.</p>",
+            "buttonText": "Shop for Dads",
+            "buttonURL": "/pages/personalized-coloring-books-for-dad",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "text"
+          }
+        },
+        "persona_grandparents": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/mcw-hero-grandparents.jpg",
+            "imageSize": 100,
+            "heading": "<p>Grandparents</p>",
+            "content": "<p>Family moments grandparents can color and treasure.</p>",
+            "buttonText": "Shop for Grandparents",
+            "buttonURL": "/pages/personalized-coloring-books-for-grandparents",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "text"
+          }
+        },
+        "persona_pet_lovers": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/mcw-hero-pet-lovers.jpg",
+            "imageSize": 100,
+            "heading": "<p>Pet Lovers</p>",
+            "content": "<p>Their best friend, turned into pages worth framing.</p>",
+            "buttonText": "Shop for Pet Lovers",
+            "buttonURL": "/pages/personalized-coloring-books-for-pet-lovers",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "text"
+          }
+        },
+        "persona_couples": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/mcw-hero-couples.jpg",
+            "imageSize": 100,
+            "heading": "<p>Couples</p>",
+            "content": "<p>Your story together — trips, date nights and all — ready to color in.</p>",
+            "buttonText": "Shop for Couples",
+            "buttonURL": "/pages/personalized-coloring-books-for-couples",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "text"
+          }
+        }
+      },
+      "block_order": [
+        "persona_kids",
+        "persona_adults",
+        "persona_mom",
+        "persona_dad",
+        "persona_grandparents",
+        "persona_pet_lovers",
+        "persona_couples"
+      ],
+      "custom_css": [
+        ".column__media img {max-width: 100%; border-radius: 20px;}"
+      ],
+      "name": "Columns",
       "settings": {
-        "custom_id": "occ-before-after",
-        "product_handle": "anniversary-coloring-book",
-        "heading": "See a Real Before & After",
-        "subheading": "From your photos",
-        "intro": "<p>Upload your favorite photos, we turn them into custom coloring pages, and we print and ship a finished book to your door.</p>",
-        "padding": 35,
-        "backgroundColor": "rgba(0,0,0,0)"
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "scopedCSS": "",
+        "height": 0,
+        "padding": 10,
+        "lineMargin": 28,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 0,
+        "overlayColor": "#000000",
+        "contentColor": "rgba(0,0,0,0)",
+        "horizontalAlignment": "center",
+        "verticalAlignment": "middle",
+        "heading": "<p>Shopping for Someone Else? Coloring Books for Everyone You Love</p>",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "SHOP BY WHO IT'S FOR",
+        "subheadingColor": "rgba(0,0,0,0)",
+        "subheadingPosition": "above",
+        "headingAlignment": "center",
+        "colHeight": 240,
+        "colGap": 65,
+        "textAlign": "center",
+        "contentAlign": "top",
+        "colCount": "col-md-4",
+        "enableCarousel": true,
+        "enableAutoplay": true,
+        "slideSpeed": 3,
+        "spaceBetween": 50,
+        "enableDragging": true,
+        "enablePagination": true,
+        "enableAutoHeight": false,
+        "buttonDisplayFor": "hide-mobile",
+        "productCardDesktop": 3,
+        "productCardTablet": 2,
+        "productCardMobile": 1
       }
     }
   },
@@ -1282,6 +1441,7 @@
     "section_image_text_xwE7U6",
     "section_columns_9Qh9EV",
     "section_featured_collection_DPnpY8",
+    "section_persona_xref",
     "section_image_text_yHgpzP",
     "section_testimonials_X9fKp2",
     "section_faq_ann01"

@@ -39,7 +39,7 @@
           "type": "title",
           "settings": {
             "fullWidth": true,
-            "content": "Personalized Coloring Books From Your Photos",
+            "content": "Personalized Birthday Coloring Books From Your Photos",
             "textColor": "rgba(0,0,0,0)",
             "fontFamily": "title",
             "fontSize": "medium"
@@ -61,7 +61,7 @@
           "type": "button",
           "settings": {
             "fullWidth": false,
-            "text": "Create Your Personalized Coloring Book",
+            "text": "Create Your Personalized birthday Coloring Book",
             "url": "shopify://collections/frontpage",
             "icon": "",
             "iconPosition": "icon--left",
@@ -136,14 +136,16 @@
     "section_image_text_bq3JXN": {
       "type": "section__image-text",
       "blocks": {
-        "title_MVWwiH": {
-          "type": "title",
+        "rich_text_jXkcyg": {
+          "type": "richText",
           "settings": {
             "fullWidth": true,
-            "content": "Personalized Coloring Books for Christmas Gifts",
+            "maxBWidth": 100,
+            "content": "<h1>The Personalized Birthday Gift That Makes Them Squeal — A Coloring Book Made From Their Favorite Photos</h1>",
+            "detectLists": true,
             "textColor": "rgba(0,0,0,0)",
             "fontFamily": "title",
-            "fontSize": "medium"
+            "fontSize": "base"
           }
         },
         "rich_text_6MqW6x": {
@@ -151,7 +153,7 @@
           "settings": {
             "fullWidth": true,
             "maxBWidth": 100,
-            "content": "<p>Turn favorite photos into a <a href=\"https://mycolorfulworld.art/collections/frontpage\">personalized coloring book</a> they’ll treasure long after Christmas morning. Made from real photos, reviewed by a designer, and printed to last.<br/><br/>We transform photos into detailed black-and-white coloring pages using careful design and print preparation, preserving important details while keeping every page fun and easy to color.</p>",
+            "content": "<p><br/>A personalized birthday gift transforms their favorite photos into a <a href=\"https://mycolorfulworld.art/collections/frontpage\">coloring book from your photos</a>, their face on the cover, their memories on every page. Not another toy that ends up in the donate pile.</p>",
             "detectLists": true,
             "textColor": "rgba(0,0,0,0)",
             "fontFamily": "base",
@@ -162,7 +164,7 @@
           "type": "button",
           "settings": {
             "fullWidth": true,
-            "text": "Gift a Coloring Book",
+            "text": "Create Their Birthday Book",
             "url": "shopify://collections/frontpage",
             "icon": "",
             "iconPosition": "icon--left",
@@ -178,11 +180,14 @@
         }
       },
       "block_order": [
-        "title_MVWwiH",
+        "rich_text_jXkcyg",
         "rich_text_6MqW6x",
         "button_JXH3yy"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "h1 {margin-bottom: 10px !important;}",
+        ".tximage__txt p {margin-top: 0px !important;}"
+      ],
       "name": "Image + text",
       "settings": {
         "custom_id": "",
@@ -207,7 +212,7 @@
         "verticalAlignment": "middle",
         "imagePosition": "right",
         "imageWidth": "6",
-        "image": "shopify://shop_images/Christmas_4b780060-45e8-4e58-b731-ab76b63b1c85.png",
+        "image": "shopify://shop_images/Birthday_4449c716-b393-4c22-90a4-fdea7035f10c.png",
         "image_url": "",
         "imageOverlayOpacity": 0,
         "imageOverlayColor": "#000000",
@@ -222,7 +227,7 @@
           "type": "title",
           "settings": {
             "fullWidth": true,
-            "content": "Why a Personalized Coloring Book",
+            "content": "Why a Personalized birthday Coloring Book",
             "textColor": "#004a70",
             "fontFamily": "title",
             "fontSize": "medium"
@@ -232,10 +237,22 @@
           "type": "title",
           "settings": {
             "fullWidth": true,
-            "content": "Is the Perfect Christmas Gift",
+            "content": "Is the Perfect Birthday Gift",
             "textColor": "#004a70",
             "fontFamily": "title",
             "fontSize": "medium"
+          }
+        },
+        "rich_text_tchYwR": {
+          "type": "richText",
+          "settings": {
+            "fullWidth": true,
+            "maxBWidth": 100,
+            "content": "<p>A personalized birthday coloring book turns their favorite photos into a <strong>screen-free, clutter-free birthday gift that stands out at any birthday party. </strong><br/>Instead of another toy or generic present, it becomes a creative experience they can enjoy and keep, or even <a href=\"https://mycolorfulworld.art/collections/bulk-purchases\">custom coloring books for birthday parties</a> for group celebrations.</p>",
+            "detectLists": true,
+            "textColor": "#004a70",
+            "fontFamily": "base",
+            "fontSize": "base"
           }
         },
         "separator_x7Tk6m": {
@@ -252,6 +269,7 @@
       "block_order": [
         "title_4miMTx",
         "title_HkB437",
+        "rich_text_tchYwR",
         "separator_x7Tk6m"
       ],
       "name": "Call to action",
@@ -291,52 +309,52 @@
         "column_image_M9iA9b": {
           "type": "columnImage",
           "settings": {
+            "image": "shopify://shop_images/Real_Examples_1.png",
             "imageSize": 100,
-            "heading": "<p>A Creative And Screen-Free Activity</p>",
-            "content": "<p>Markers and colored pencils instead of one more screen. A personalized coloring book turns quiet Christmas afternoons into hands-on, creative time the whole family can share.</p>",
+            "heading": "<p>Not Another Thing Collecting Dust</p>",
+            "content": "<p>No batteries. No storage bins. No regifting. A personalized birthday coloring book gets used, displayed, and kept — not tossed in a pile after the party.</p>",
             "buttonText": "",
             "buttonURL": "",
             "openTab": false,
             "buttonStyle": "secondary",
-            "buttonType": "filled",
-            "image": "shopify://shop_images/mcw-bf-christmas-1.jpg"
+            "buttonType": "filled"
           }
         },
         "column_image_WXzAxr": {
           "type": "columnImage",
           "settings": {
+            "image": "shopify://shop_images/Custom_Coloring_Book_from_Photos.jpg",
             "imageSize": 100,
-            "heading": "<p>A Meaningful And Personal Gift</p>",
-            "content": "<p>Not another candle or gift card. A coloring book made from your real photos says “I see you” in a way store-bought gifts can’t — and it costs less than you’d think.</p>",
+            "heading": "<p>A Gift, an Activity & a Keepsake</p>",
+            "content": "<p>One personalized birthday gift that keeps them busy at the party, sparks creativity for weeks, and becomes a keepsake they flip through years later. Three purposes, one book.</p>",
             "buttonText": "",
             "buttonURL": "",
             "openTab": false,
             "buttonStyle": "secondary",
-            "buttonType": "filled",
-            "image": "shopify://shop_images/mcw-bf-christmas-2.jpg"
+            "buttonType": "filled"
           }
         },
         "column_image_JRHPbG": {
           "type": "columnImage",
           "settings": {
+            "image": "shopify://shop_images/Mindfulness.png",
             "imageSize": 100,
-            "heading": "<p>Fun For Home, School Or Special Moments</p>",
-            "content": "<p>Color it Christmas morning, pack it for the drive to Grandma’s, or save it for the first snow day. One book that goes wherever the holidays take you.</p>",
+            "heading": "<p>It's Thoughtful &amp; Meaningful</p>",
+            "content": "<p>Quick, easy to make, and affordable — yet they'll think you spent days and a lot of money on it!</p>",
             "buttonText": "",
             "buttonURL": "",
             "openTab": false,
             "buttonStyle": "secondary",
-            "buttonType": "filled",
-            "image": "shopify://shop_images/mcw-bf-kids-5.jpg"
+            "buttonType": "filled"
           }
         },
         "column_image_N1v4Ax": {
           "type": "columnImage",
           "settings": {
-            "image": "shopify://shop_images/mcw-bf-kids-1.jpg",
+            "image": "shopify://shop_images/Gemini_Generated_Image_gjgxr4gjgxr4gjgx_b0e01d85-6f03-4bda-864c-db4775b62353.png",
             "imageSize": 100,
-            "heading": "<h3>“That’s Me!” on Christmas Morning</h3>",
-            "content": "<p>They flip it open, spot their own face — their family, their dog, their whole world — and you get that gasp. That moment is the whole reason we make these.</p>",
+            "heading": "<p>\"That's Me!\" — The Moment That Makes It</p>",
+            "content": "<p>They open their personalized birthday coloring book and realize the pictures are of them. Their face. Their dog. Their family. That reaction is why we built this.</p>",
             "buttonText": "",
             "buttonURL": "",
             "openTab": false,
@@ -347,10 +365,10 @@
         "column_image_N2v4Bx": {
           "type": "columnImage",
           "settings": {
-            "image": "shopify://shop_images/mcw-bf-moms-4.jpg",
+            "image": "shopify://shop_images/Birthday.png",
             "imageSize": 100,
-            "heading": "<h3>A Gift They Won’t Return in January</h3>",
-            "content": "<p>Most holiday gifts are forgotten by New Year’s. A personalized coloring book made from your photos gets colored, displayed, and kept long after the tree comes down.</p>",
+            "heading": "<p>Birthday Party Favors That Actually Last</p>",
+            "content": "<p>Personalized birthday party favors that kids take home and keep — not another plastic toy headed for the trash. Order in bulk for the whole party.</p>",
             "buttonText": "",
             "buttonURL": "",
             "openTab": false,
@@ -361,10 +379,10 @@
         "column_image_N3v4Cx": {
           "type": "columnImage",
           "settings": {
-            "image": "shopify://shop_images/mcw-bf-christmas-3.jpg",
+            "image": "shopify://shop_images/5_82452436-ee00-4da2-a547-ad8dba6b897c.png",
             "imageSize": 100,
-            "heading": "<h3>One Book the Whole Family Shares</h3>",
-            "content": "<p>From the grandkids to the grandparents, everyone claims a page. Order a few for the cousins, or one big book for the whole family gathering.</p>",
+            "heading": "<p>Include Their Pets</p>",
+            "content": "<p>The family dog, the classroom hamster, the cat who rules the house — add pet photos to their custom birthday coloring book for pages they'll color first.</p>",
             "buttonText": "",
             "buttonURL": "",
             "openTab": false,
@@ -387,7 +405,7 @@
         "displayFor": "display--both",
         "layout": "default",
         "nomargin": false,
-        "scopedCSS": "",
+        "scopedCSS": "##scoped .column__media { height: 220px; overflow: hidden; display: flex; align-items: center; justify-content: center; } ##scoped .column__media img { width: 100%; height: 100%; object-fit: cover; border-radius: 8px; } @media screen and (max-width: 767px) { ##scoped .column__media { height: auto; max-height: 280px; } ##scoped .column__media img { height: auto; max-height: 280px; object-fit: contain; } }",
         "height": 0,
         "padding": 0,
         "lineMargin": 12,
@@ -426,6 +444,46 @@
         "productCardMobile": 1
       }
     },
+    "section_content_text_WaXwdD": {
+      "type": "section__content-text",
+      "blocks": {
+        "image_text_rQJpeW": {
+          "type": "imageText",
+          "settings": {
+            "displayFor": "display--both",
+            "layout": "default",
+            "nomargin": false,
+            "scopedCSS": "",
+            "height": 0,
+            "padding": 20,
+            "lineMargin": 12,
+            "backgroundColor": "#3e2f8c",
+            "contentColor": "#ffffff",
+            "horizontalAlignment": "start",
+            "verticalAlignment": "middle",
+            "imagePosition": "left",
+            "imageWidth": "4",
+            "image": "shopify://shop_images/Birthday_old.png",
+            "overlayOpacity": 0,
+            "overlayColor": "#000000",
+            "heading": "<p>Another Year, Another Gift Card They'll Forget By Next Week</p>",
+            "text": "<p>A personalized birthday gift lasts. Their photos, their memories, their name on the cover — a coloring book they'll pull off the shelf for years.</p>",
+            "buttonText": "Order Yours Today",
+            "url": "shopify://collections/frontpage",
+            "wideButton": false,
+            "buttonType": "primary",
+            "buttonStyle": "default"
+          }
+        }
+      },
+      "block_order": [
+        "image_text_rQJpeW"
+      ],
+      "name": "Content + Text (bulk)",
+      "settings": {
+        "custom_id": ""
+      }
+    },
     "section_columns_96WPHc": {
       "type": "section__columns",
       "blocks": {
@@ -435,7 +493,7 @@
             "image": "shopify://shop_images/How_to_1.png",
             "imageSize": 100,
             "heading": "<h3>Step 1: Choose Your Book Size</h3>",
-            "content": "<p>Select the size that works best for their personalized Christmas coloring book.</p>",
+            "content": "<p>Select from 20, 32, or 40 pages for your birthday coloring book.</p>",
             "buttonText": "Choose Your Size",
             "buttonURL": "shopify://collections/frontpage",
             "openTab": false,
@@ -448,8 +506,8 @@
           "settings": {
             "image": "shopify://shop_images/How_to_2.png",
             "imageSize": 100,
-            "heading": "<h3>Step 2: Upload Photos and Customize Your Cover</h3>",
-            "content": "<p>Upload your photos and personalize the cover to create a unique Christmas coloring book.</p>",
+            "heading": "<h3>Step 2: Upload Birthday Photos</h3>",
+            "content": "<p>Upload birthday photos — family, friends, pets, adventures. Our AI transforms each into a coloring page, then a human designer reviews every single page.</p>",
             "buttonText": "Upload Your Photos",
             "buttonURL": "shopify://collections/frontpage",
             "openTab": false,
@@ -462,9 +520,9 @@
           "settings": {
             "image": "shopify://shop_images/5_82452436-ee00-4da2-a547-ad8dba6b897c.png",
             "imageSize": 100,
-            "heading": "<h3>Step 3: Checkout and Delivery</h3>",
-            "content": "<p>Complete your order, and their personalized Christmas coloring book will be printed and shipped to your door.</p>",
-            "buttonText": " Place Your Order",
+            "heading": "<h3>Step 3: Delivered, Ready to Gift</h3>",
+            "content": "<p>Your birthday coloring book arrives printed on high-quality paper. Ready to gift, ready to color.</p>",
+            "buttonText": "Place Your Order",
             "buttonURL": "shopify://collections/frontpage",
             "openTab": false,
             "buttonStyle": "primary",
@@ -498,7 +556,7 @@
         "contentColor": "rgba(0,0,0,0)",
         "horizontalAlignment": "center",
         "verticalAlignment": "top",
-        "heading": "How Personalized Coloring Books Work",
+        "heading": "<p>Create Your Coloring Book in 3 Simple Steps</p>",
         "headingColor": "rgba(0,0,0,0)",
         "subheading": "",
         "subheadingColor": "rgba(0,0,0,0)",
@@ -529,7 +587,7 @@
           "type": "title",
           "settings": {
             "fullWidth": true,
-            "content": "Personalized Coloring Book Options",
+            "content": "What You Get in Your Personalized Birthday Coloring Book",
             "textColor": "rgba(0,0,0,0)",
             "fontFamily": "title",
             "fontSize": "medium"
@@ -539,15 +597,15 @@
           "type": "html",
           "settings": {
             "fullWidth": true,
-            "html": "<div class=\"custom-age-section\">\n  <div class=\"age-card-styled\">\n    <span class=\"age-icon-styled\">📸</span>\n    <span class=\"age-text-styled\">Coloring Books From Photos</span>\n  </div>\n</div>",
-            "customCSS": "<style>\n  /* Container to ensure it looks good in Shopify layouts */\n  .custom-age-section {\n    padding: 15px 0;\n    width: 100%;\n    display: flex;\n    justify-content: center;\n  }\n\n  /* The Card Style */\n  .age-card-styled {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: flex-start; /* Aligns content to the left like the image */\n    \n    background-color: #f2f2f2; /* Light grey background */\n    border-radius: 24px;       /* Smooth rounded corners */\n    padding: 25px 30px;        /* Matches the generous padding in the image */\n    width: 100%;\n    max-width: 100%;          /* Adjust width as needed */\nmargin:0 auto;\n    border: none;\n    text-decoration: none;\n    transition: transform 0.2s ease, background-color 0.2s ease;\n  }\n\n  /* Hover effect for interactivity */\n  .age-card-styled:hover {\n    background-color: #ebebeb;\n    transform: translateY(-2px);\n  }\n\n  /* The Emoji Icon */\n  .age-icon-styled {\n    font-size: 32px;           /* Large emoji size */\n    margin-bottom: 12px;       /* Space between icon and text */\n    display: block;\n    line-height: 1;\n  }\n\n  /* The Text Style */\n  .age-text-styled {\n    font-family: \"Assistant\", sans-serif; /* Shopify's common font, or use Helvetica */\n    font-size: 20px;\n    font-weight: 700;          /* Bold weight to match image */\n    color: #000000;\n    margin: 0;\n    letter-spacing: -0.01em;   /* Tightens the text slightly for that modern look */\n  }\n</style>"
+            "html": "<div class=\"custom-age-section\">\n  <div class=\"age-card-styled\">\n    <span class=\"age-icon-styled\">📸</span>\n    <span class=\"age-text-styled\">Your Real Photos, Transformed</span>\n    <span class=\"age-desc-styled\">Our AI converts your birthday photos into detailed coloring pages — faces, pets, and backgrounds preserved with precision.</span>\n  </div>\n</div>",
+            "customCSS": "<style>\n  /* Container to ensure it looks good in Shopify layouts */\n  .custom-age-section {\n    padding: 15px 0;\n    width: 100%;\n    display: flex;\n    justify-content: center;\n  }\n\n  /* The Card Style */\n  .age-card-styled {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: flex-start; /* Aligns content to the left like the image */\n    \n    background-color: #f2f2f2; /* Light grey background */\n    border-radius: 24px;       /* Smooth rounded corners */\n    padding: 25px 30px;        /* Matches the generous padding in the image */\n    width: 100%;\n    max-width: 100%;          /* Adjust width as needed */\nmargin:0 auto;\n    border: none;\n    text-decoration: none;\n    transition: transform 0.2s ease, background-color 0.2s ease;\n  }\n\n  /* Hover effect for interactivity */\n  .age-card-styled:hover {\n    background-color: #ebebeb;\n    transform: translateY(-2px);\n  }\n\n  /* The Emoji Icon */\n  .age-icon-styled {\n    font-size: 32px;           /* Large emoji size */\n    margin-bottom: 12px;       /* Space between icon and text */\n    display: block;\n    line-height: 1;\n  }\n\n  /* The Text Style */\n  .age-text-styled {\n    font-family: \"Assistant\", sans-serif; /* Shopify's common font, or use Helvetica */\n    font-size: 20px;\n    font-weight: 700;          /* Bold weight to match image */\n    color: #000000;\n    margin: 0;\n    letter-spacing: -0.01em;   /* Tightens the text slightly for that modern look */\n  }\n\n  .age-desc-styled {\n    font-family: \"Assistant\", sans-serif;\n    font-size: 14px;\n    font-weight: 400;\n    color: #555;\n    margin-top: 8px;\n    line-height: 1.5;\n    display: block;\n  }\n</style>"
           }
         },
         "html_aMVHNG": {
           "type": "html",
           "settings": {
             "fullWidth": true,
-            "html": "<div class=\"custom-age-section\">\n  <div class=\"age-card-styled\">\n    <span class=\"age-icon-styled\">🎨</span>\n    <span class=\"age-text-styled\">Custom Book Covers</span>\n  </div>\n</div>",
+            "html": "<div class=\"custom-age-section\">\n  <div class=\"age-card-styled\">\n    <span class=\"age-icon-styled\">🎨</span>\n    <span class=\"age-text-styled\">Custom Cover With Their Name</span>\n    <span class=\"age-desc-styled\">A personalized cover featuring their name and your chosen photos. Makes it feel like a real published book.</span>\n  </div>\n</div>",
             "customCSS": "<style>\n  /* Container to ensure it looks good in Shopify layouts */\n  .custom-age-section {\n    padding: 15px 0;\n    width: 100%;\n    display: flex;\n    justify-content: center;\n  }\n\n  /* The Card Style */\n  .age-card-styled {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: flex-start; /* Aligns content to the left like the image */\n    \n    background-color: #f2f2f2; /* Light grey background */\n    border-radius: 24px;       /* Smooth rounded corners */\n    padding: 25px 30px;        /* Matches the generous padding in the image */\n    \n    width: 100%;\n    max-width: 500px;          /* Adjust width as needed */\n    border: none;\n    text-decoration: none;\n    transition: transform 0.2s ease, background-color 0.2s ease;\n  }\n\n  /* Hover effect for interactivity */\n  .age-card-styled:hover {\n    background-color: #ebebeb;\n    transform: translateY(-2px);\n  }\n\n  /* The Emoji Icon */\n  .age-icon-styled {\n    font-size: 32px;           /* Large emoji size */\n    margin-bottom: 12px;       /* Space between icon and text */\n    display: block;\n    line-height: 1;\n  }\n\n  /* The Text Style */\n  .age-text-styled {\n    font-family: \"Assistant\", sans-serif; /* Shopify's common font, or use Helvetica */\n    font-size: 20px;\n    font-weight: 700;          /* Bold weight to match image */\n    color: #000000;\n    margin: 0;\n    letter-spacing: -0.01em;   /* Tightens the text slightly for that modern look */\n  }\n</style>"
           }
         },
@@ -555,7 +613,7 @@
           "type": "html",
           "settings": {
             "fullWidth": true,
-            "html": "<div class=\"custom-age-section\">\n  <div class=\"age-card-styled\">\n    <span class=\"age-icon-styled\">📏</span>\n    <span class=\"age-text-styled\">Coloring Books Sizes and Pages Options</span>\n  </div>\n</div>",
+            "html": "<div class=\"custom-age-section\">\n  <div class=\"age-card-styled\">\n    <span class=\"age-icon-styled\">📐</span>\n    <span class=\"age-text-styled\">20, 32, or 40 Pages — You Choose</span>\n    <span class=\"age-desc-styled\">High-quality paper that handles markers, colored pencils, and crayons. Spiral-bound so every page stays open for easy coloring.</span>\n  </div>\n</div>",
             "customCSS": "<style>\n  /* Container to ensure it looks good in Shopify layouts */\n  .custom-age-section {\n    padding: 15px 0;\n    width: 100%;\n    display: flex;\n    justify-content: center;\n  }\n\n  /* The Card Style */\n  .age-card-styled {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: flex-start; /* Aligns content to the left like the image */\n    \n    background-color: #f2f2f2; /* Light grey background */\n    border-radius: 24px;       /* Smooth rounded corners */\n    padding: 25px 30px;        /* Matches the generous padding in the image */\n    \n    width: 100%;\n    max-width: 500px;          /* Adjust width as needed */\n    border: none;\n    text-decoration: none;\n    transition: transform 0.2s ease, background-color 0.2s ease;\n  }\n\n  /* Hover effect for interactivity */\n  .age-card-styled:hover {\n    background-color: #ebebeb;\n    transform: translateY(-2px);\n  }\n\n  /* The Emoji Icon */\n  .age-icon-styled {\n    font-size: 32px;           /* Large emoji size */\n    margin-bottom: 12px;       /* Space between icon and text */\n    display: block;\n    line-height: 1;\n  }\n\n  /* The Text Style */\n  .age-text-styled {\n    font-family: \"Assistant\", sans-serif; /* Shopify's common font, or use Helvetica */\n    font-size: 20px;\n    font-weight: 700;          /* Bold weight to match image */\n    color: #000000;\n    margin: 0;\n    letter-spacing: -0.01em;   /* Tightens the text slightly for that modern look */\n  }\n</style>"
           }
         },
@@ -626,8 +684,8 @@
           "settings": {
             "image": "shopify://shop_images/By_Age_2.png",
             "imageSize": 100,
-            "heading": "<h3><strong>Kids</strong></h3>",
-            "content": "<p>Kids love seeing themselves on the pages. Family, pets, and favorite moments become something fun to color.</p>",
+            "heading": "<h3><strong>For Kids</strong></h3>",
+            "content": "<p>'That's me! That's my dog!' — A personalized birthday coloring book with their own photos. Screen-free, clutter-free fun that develops creativity. Ages 3 and up.</p>",
             "buttonText": "",
             "buttonURL": "",
             "openTab": false,
@@ -638,10 +696,10 @@
         "column_image_A8wDyT": {
           "type": "columnImage",
           "settings": {
-            "image": "shopify://shop_images/By_Age_1.png",
+            "image": "shopify://shop_images/Valentine_s.png",
             "imageSize": 100,
-            "heading": "<h3><strong>Adults</strong></h3>",
-            "content": "<p>Enjoy a relaxing creative activity together during the holidays while coloring pages made from your favorite photos.</p>",
+            "heading": "<h3><strong>For Couples</strong></h3>",
+            "content": "<p>Turn your favorite moments together into a personalized birthday gift — vacations, date nights, silly selfies. A creative date night activity and keepsake in one.</p>",
             "buttonText": "",
             "buttonURL": "",
             "openTab": false,
@@ -652,10 +710,10 @@
         "column_image_LLqhEe": {
           "type": "columnImage",
           "settings": {
-            "image": "shopify://shop_images/Christmas_5ec101b6-d84e-42c1-a154-db4a4354028c.png",
+            "image": "shopify://shop_images/Website_Landing_Images_4.png",
             "imageSize": 100,
-            "heading": "<h3><strong>Parents</strong></h3>",
-            "content": "<p>A screen-free holiday activity parents and kids can enjoy together while coloring pages made from their favorite photos.</p>",
+            "heading": "<h3><strong>For Families</strong></h3>",
+            "content": "<p>Family photos, group vacations, holiday memories — a personalized birthday coloring book the whole family can enjoy together. Quality time that doesn't require a screen.</p>",
             "buttonText": "",
             "buttonURL": "",
             "openTab": false,
@@ -668,8 +726,8 @@
           "settings": {
             "image": "shopify://shop_images/By_Age_4.png",
             "imageSize": 100,
-            "heading": "<h3><strong>Grandparents</strong></h3>",
-            "content": "<p>A meaningful Christmas gift grandparents can give their grandkids, turning family memories into a keepsake they can treasure.</p>",
+            "heading": "<h3><strong>For Grandparents</strong></h3>",
+            "content": "<p>A meaningful birthday gift filled with photos of the grandkids. Something they'll display on the coffee table, color on a quiet afternoon, and keep for years.</p>",
             "buttonText": "",
             "buttonURL": "",
             "openTab": false,
@@ -693,7 +751,7 @@
         "displayFor": "display--both",
         "layout": "default",
         "nomargin": false,
-        "scopedCSS": "",
+        "scopedCSS": "##scoped .column__media { height: 220px; overflow: hidden; display: flex; align-items: center; justify-content: center; } ##scoped .column__media img { width: 100%; height: 100%; object-fit: cover; border-radius: 8px; } @media screen and (max-width: 767px) { ##scoped .column__media { height: auto; max-height: 280px; } ##scoped .column__media img { height: auto; max-height: 280px; object-fit: contain; } }",
         "height": 0,
         "padding": 10,
         "lineMargin": 28,
@@ -708,7 +766,7 @@
         "contentColor": "rgba(0,0,0,0)",
         "horizontalAlignment": "center",
         "verticalAlignment": "middle",
-        "heading": "Perfect Christmas Gift for Every Age",
+        "heading": "Perfect for Every Age and Any Occasion",
         "headingColor": "rgba(0,0,0,0)",
         "subheading": "",
         "subheadingColor": "rgba(0,0,0,0)",
@@ -739,7 +797,7 @@
           "type": "title",
           "settings": {
             "fullWidth": true,
-            "content": "Why Customers Love Our Personalized Coloring Books",
+            "content": "Why Customers Love Our Personalized Birthday Coloring Books",
             "textColor": "rgba(0,0,0,0)",
             "fontFamily": "title",
             "fontSize": "medium"
@@ -750,7 +808,7 @@
           "settings": {
             "fullWidth": true,
             "maxBWidth": 100,
-            "content": "<p>Customers love our personalized coloring books because they combine smart technology with real craftsmanship.</p><p>Our AI is trained to preserve recognizable faces, every page is reviewed by a human designer, and each book is printed on thick, high-quality paper made to last.</p><p>Holiday photos, family traditions, and everyday moments become keepsakes families can enjoy for years, ideal for <a href=\"https://mycolorfulworld.art/collections/bulk-purchases\">bulk custom coloring books for events</a>.</p>",
+            "content": "<p>Birthday gifts should feel personal — not pulled off a shelf. Our personalized birthday coloring books turn your real photos into hand-finished coloring pages that birthday kids and adults actually recognize.</p><p>Custom AI preserves the faces and details that matter. A human designer reviews every page before printing. And each book arrives on high-quality paper, spiral-bound and ready to unwrap.</p><p>From first birthdays to 80th celebrations, customers tell us it's the gift that gets the biggest reaction at the party.</p>",
             "detectLists": true,
             "textColor": "rgba(0,0,0,0)",
             "fontFamily": "base",
@@ -761,7 +819,7 @@
           "type": "html",
           "settings": {
             "fullWidth": true,
-            "html": "<div class=\"age-grid-wrapper\">\n    <div class=\"age-card\">\n      <span class=\"age-icon\">👨‍👩‍👧‍👦</span>\n      <span class=\"age-text\">Loved By Families And Gift Buyers</span>\n    </div>\n</div>",
+            "html": "<div class=\"age-grid-wrapper\">\n    <div class=\"age-card\">\n      <span class=\"age-icon\">🎂</span>\n      <span class=\"age-text\">The Birthday Gift That Gets the Biggest Reaction</span>\n    </div>\n</div>",
             "customCSS": "<style>\n.age-grid-wrapper {\n  width: 1000%;\n  max-width: 1200px;\nmin-width: 1200px;\n}\n.age-card {\n  background: #f2f2f2;\n  border-radius: 18px;\n  padding: 22px;\n  display: flex;\n  align-items: center;\n  gap: 16px;\n  transition: 0.2s ease;\n}\n\n.age-card:hover {\n  background: #e9e9e9;\n}\n\n.age-icon {\n  font-size: 34px;\n  line-height: 1;\n  flex-shrink: 0;\n}\n\n.age-text {\n  font-size: 22px;\n  font-weight: 700;\n  text-align: left;\n  line-height: 1.3;\n}\n\n@media (max-width: 768px) {\n  .age-grid {\n    grid-template-columns: 1fr;\n  }\n\n  .age-text {\n    font-size: 20px;\n  }\n}\n</style>"
           }
         },
@@ -769,7 +827,7 @@
           "type": "html",
           "settings": {
             "fullWidth": true,
-            "html": "<div class=\"age-grid-wrapper\">\n    <div class=\"age-card\">\n      <span class=\"age-icon\">⭐</span>\n      <span class=\"age-text\">Real Stories From Happy Customers</span>\n    </div>\n</div>",
+            "html": "<div class=\"age-grid-wrapper\">\n    <div class=\"age-card\">\n      <span class=\"age-icon\">⭐</span>\n      <span class=\"age-text\">Rated 5 Stars by Birthday Gift Buyers</span>\n    </div>\n</div>",
             "customCSS": "<style>\n.age-grid-wrapper {\n  width: 1000%;\n  max-width: 1200px;\n}\n.age-card {\n  background: #f2f2f2;\n  border-radius: 18px;\n  padding: 22px;\n  display: flex;\n  align-items: center;\n  gap: 16px;\n  transition: 0.2s ease;\n}\n\n.age-card:hover {\n  background: #e9e9e9;\n}\n\n.age-icon {\n  font-size: 34px;\n  line-height: 1;\n  flex-shrink: 0;\n}\n\n.age-text {\n  font-size: 22px;\n  font-weight: 700;\n  text-align: left;\n  line-height: 1.3;\n}\n\n@media (max-width: 768px) {\n  .age-grid {\n    grid-template-columns: 1fr;\n  }\n\n  .age-text {\n    font-size: 20px;\n  }\n}\n</style>"
           }
         },
@@ -777,7 +835,7 @@
           "type": "button",
           "settings": {
             "fullWidth": true,
-            "text": "Get this now!",
+            "text": "Create a Birthday Coloring Book",
             "url": "shopify://collections/frontpage",
             "icon": "",
             "iconPosition": "icon--left",
@@ -1043,7 +1101,7 @@
         "height": 0,
         "padding": 0,
         "backgroundColor": "rgba(0,0,0,0)",
-        "heading": " Why Christmas Gift Givers Love My Colorful World",
+        "heading": "<p>What Customers Say About Their Birthday Coloring Books</p>",
         "headingColor": "rgba(0,0,0,0)",
         "subheading": "TESTIMONIAL",
         "subheadingColor": "#fb046f",
@@ -1076,47 +1134,56 @@
         "productCardMobile": 1
       }
     },
-    "section_faq_ANd7IK": {
+    "section_faq_2sEJDH": {
       "type": "section__faq",
       "blocks": {
-        "accordion_vPHR0G": {
+        "accordion_VfkGE3": {
           "type": "accordion",
           "settings": {
             "openAccordion": true,
-            "question": "<p>Why is a personalized coloring book a great Christmas gift?</p>",
-            "answer": "<p>A personalized coloring book is a Christmas gift that means something long after the wrapping paper is gone. While plastic toys get forgotten by New Year's, a custom coloring book filled with family memories becomes a keepsake. It's screen-free, clutter-free, and gives families quality time together during the holidays.</p>"
+            "question": "<p>What's a personalized birthday gift that isn't generic?</p>",
+            "answer": "<p>A custom coloring book made from their real photos. Upload family moments, pet photos, vacations — our AI transforms each into a coloring page and a human designer reviews every one before printing. Starting at $34.50.</p>"
           }
         },
-        "accordion_2glA8i": {
+        "accordion_sJuaRU": {
           "type": "accordion",
           "settings": {
             "openAccordion": false,
-            "question": "<p>What's the last day to order a personalized coloring book for Christmas?</p>",
-            "answer": "<p>We recommend ordering your personalized Christmas coloring book by early December. Production takes 10–15 business days including AI photo transformation, human designer review, and premium printing. Check our website for exact holiday shipping deadlines each year.</p>"
+            "question": "<p>What are good personalized birthday gifts for kids?</p>",
+            "answer": "<p>A personalized birthday gift for kids made from their own family photos. Kids love seeing themselves, their siblings, and their pets on coloring pages. Works for ages 3-12+. Screen-free fun that develops focus and creativity.</p>"
           }
         },
-        "accordion_FnxNoS": {
+        "accordion_AFBkQy": {
           "type": "accordion",
           "settings": {
             "openAccordion": false,
-            "question": "<p>Can I ship a personalized coloring book directly to someone for Christmas?</p>",
-            "answer": "<p>Yes — enter the recipient's address at checkout and we'll ship your personalized coloring book directly to them. Perfect for grandparents sending gifts to grandkids across the country, or anyone who wants a meaningful custom gift delivered without the extra step.</p>"
+            "question": "<p>Can I order birthday coloring books in bulk for a party?</p>",
+            "answer": "<p>Yes! Personalized birthday coloring books work great as party favors. Every guest gets a coloring book featuring the birthday kid's photos. Email hello@mycolorfulworld.art for bulk pricing on orders of 10+.</p>"
           }
         },
-        "accordion_i0vu21": {
+        "accordion_Cg0631": {
           "type": "accordion",
           "settings": {
             "openAccordion": false,
-            "question": "<p>How do I order a personalized Christmas coloring book?</p>",
-            "answer": "<p>Upload 16–40 family photos — holiday traditions, vacation memories, pet photos, anything meaningful. Our custom AI transforms each one into line art, a human designer reviews every page, and we print on premium lay-flat paper. The whole process takes about 5 minutes on your end. Check our website for holiday shipping deadlines each year.</p>"
+            "question": "<p>How long does a personalized birthday coloring book take to arrive?</p>",
+            "answer": "<p>Upload takes about 5 minutes. Production takes 10-15 business days (AI transformation + human review + printing). Plan ahead for the birthday — and reach out to hello@mycolorfulworld.art if you need to discuss timing.</p>"
+          }
+        },
+        "accordion_xvVbMr": {
+          "type": "accordion",
+          "settings": {
+            "openAccordion": false,
+            "question": "<p>Can I include pet photos in a birthday coloring book?</p>",
+            "answer": "<p>Absolutely! Kids and adults love seeing their dog or cat on a coloring page. Upload pet photos alongside family memories and we'll transform them all. Some of our best customer reactions come from the pet pages.</p>"
           }
         }
       },
       "block_order": [
-        "accordion_vPHR0G",
-        "accordion_2glA8i",
-        "accordion_FnxNoS",
-        "accordion_i0vu21"
+        "accordion_VfkGE3",
+        "accordion_sJuaRU",
+        "accordion_AFBkQy",
+        "accordion_Cg0631",
+        "accordion_xvVbMr"
       ],
       "name": "FAQ",
       "settings": {
@@ -1140,7 +1207,7 @@
         "horizontalAlignment": "center",
         "verticalAlignment": "middle",
         "maxContentWidth": 100,
-        "heading": "Frequently Asked Questions",
+        "heading": "<p>Frequently Asked Questions</p>",
         "headingColor": "rgba(0,0,0,0)",
         "subheading": "",
         "subheadingColor": "rgba(0,0,0,0)",
@@ -1161,16 +1228,16 @@
         "height": 0,
         "padding": 35,
         "backgroundColor": "rgba(0,0,0,0)",
-        "heading": "Shop Christmas Coloring Books",
+        "heading": "Shop Birthday Coloring Books",
         "headingColor": "rgba(0,0,0,0)",
-        "subheading": "CHRISTMAS GIFTS",
+        "subheading": "BIRTHDAY GIFTS",
         "subheadingColor": "rgba(0,0,0,0)",
         "subheadingPosition": "above",
         "headingAlignment": "center",
-        "collection": "christmas-coloring-books",
+        "collection": "birthday-coloring-books",
         "productCount": 12,
         "showMore": true,
-        "showMoreText": "See all Christmas coloring books",
+        "showMoreText": "See all birthday coloring books",
         "showMoreAlignment": "center",
         "enableCarousel": true,
         "enableAutoplay": false,
@@ -1191,7 +1258,7 @@
       "type": "mcw-before-after",
       "settings": {
         "custom_id": "occ-before-after",
-        "product_handle": "christmas-coloring-book",
+        "product_handle": "birthday-coloring-book-for-mom",
         "heading": "See a Real Before & After",
         "subheading": "From your photos",
         "intro": "<p>Upload your favorite photos, we turn them into custom coloring pages, and we print and ship a finished book to your door.</p>",
@@ -1367,6 +1434,7 @@
     "section_before_after_occ",
     "section_cta_zwHNWz",
     "section_columns_Jy8iex",
+    "section_content_text_WaXwdD",
     "section_columns_96WPHc",
     "section_image_text_xwE7U6",
     "section_columns_9Qh9EV",
@@ -1374,6 +1442,6 @@
     "section_persona_xref",
     "section_image_text_yHgpzP",
     "section_testimonials_X9fKp2",
-    "section_faq_ANd7IK"
+    "section_faq_2sEJDH"
   ]
 }
