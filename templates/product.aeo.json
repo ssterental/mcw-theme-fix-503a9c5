@@ -1,0 +1,364 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {}
+    },
+    "main": {
+      "type": "product-page__product",
+      "blocks": {
+        "trust_bar": {
+          "type": "productPageDelivery",
+          "settings": {
+            "noMargin": true,
+            "icon": "None",
+            "iconColor": "rgba(0,0,0,0)",
+            "text": "<p><a href=\"#testimonials\">⭐️⭐⭐️️⭐️⭐️ Thousands of Happy Customers · Hand-reviewed every page · Built to keep</a></p>",
+            "textColor": "#fb046f"
+          }
+        },
+        "ppTitle": {
+          "type": "productPageTitle",
+          "settings": {
+            "noMargin": false
+          }
+        },
+        "product_page_description": {
+          "type": "productPageDescription",
+          "settings": {
+            "heading": "",
+            "noMargin": true
+          }
+        },
+        "ppPrice": {
+          "type": "productPagePrice",
+          "settings": {
+            "noMargin": false
+          }
+        },
+        "ppSwatch": {
+          "type": "productPageSwatch",
+          "settings": {
+            "noMargin": false
+          }
+        },
+        "appstle_subscription_widget": {
+          "type": "shopify://apps/appstle-subscription/blocks/appstle-subscription-product-page-widget/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
+          "settings": {}
+        },
+        "ppATC": {
+          "type": "productPageATC",
+          "settings": {
+            "noMargin": false,
+            "displayAtcFor": "display--both",
+            "atcLayout": "boxed",
+            "stickyATC": "scroll"
+          }
+        },
+        "tab_whats_included": {
+          "type": "productPageTab",
+          "settings": {
+            "showInline": true,
+            "heading": "What's Included",
+            "content": "metafield",
+            "metafieldNS": "mcw",
+            "metafieldKey": "tab_whats_included"
+          }
+        },
+        "tab_perfect_for": {
+          "type": "productPageTab",
+          "settings": {
+            "showInline": true,
+            "heading": "Perfect For",
+            "content": "metafield",
+            "metafieldNS": "mcw",
+            "metafieldKey": "tab_perfect_for"
+          }
+        },
+        "tab_why_youll_love": {
+          "type": "productPageTab",
+          "settings": {
+            "showInline": true,
+            "heading": "Why You'll Love It",
+            "content": "metafield",
+            "metafieldNS": "mcw",
+            "metafieldKey": "tab_why_youll_love"
+          }
+        },
+        "product_page_share": {
+          "type": "productPageShare",
+          "settings": {
+            "noMargin": false
+          }
+        }
+      },
+      "block_order": [
+        "trust_bar",
+        "ppTitle",
+        "product_page_description",
+        "ppPrice",
+        "ppSwatch",
+        "appstle_subscription_widget",
+        "ppATC",
+        "tab_whats_included",
+        "tab_perfect_for",
+        "tab_why_youll_love",
+        "product_page_share"
+      ],
+      "settings": {}
+    },
+    "mcw_product_intro": {
+      "type": "mcw-product-intro",
+      "settings": {}
+    },
+    "three_pillars": {
+      "type": "section__columns",
+      "blocks": {
+        "pillar_ai": {
+          "type": "columnIcon",
+          "settings": {
+            "icon": "brain",
+            "iconSize": 50,
+            "iconColor": "#fb046f",
+            "heading": "<h3>Made for Faces, Not Filters</h3>",
+            "content": "<p>We keep faces truly recognizable — so your child can point and say \"That's Grandma!\"</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        },
+        "pillar_human": {
+          "type": "columnIcon",
+          "settings": {
+            "icon": "check-square",
+            "iconSize": 50,
+            "iconColor": "#fb046f",
+            "heading": "<h3>Human Eyes on Every Page</h3>",
+            "content": "<p>A real person reviews every image in your book before it goes to print. Every page, every book.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        },
+        "pillar_print": {
+          "type": "columnIcon",
+          "settings": {
+            "icon": "award",
+            "iconSize": 50,
+            "iconColor": "#fb046f",
+            "heading": "<h3>Printed to Keep, Not Toss</h3>",
+            "content": "<p>Single-sided premium paper that handles markers, pencils, and little hands. Built to keep, not toss.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        }
+      },
+      "block_order": [
+        "pillar_ai",
+        "pillar_human",
+        "pillar_print"
+      ],
+      "custom_css": [
+        ".columns {display: flex; flex-wrap: wrap; margin: -10px;}",
+        ".columns__column {flex: 1 1 calc(33.333% - 20px); padding: 10px; min-height: 0; background-color: white; border-radius: 30px; border: 1px solid lightgrey; box-shadow: 0 0 10px lightgrey; overflow: hidden; margin: 10px; box-sizing: border-box;}",
+        "@media (max-width: 768px) {.columns__column {flex: 1 1 100%; }}"
+      ],
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "scopedCSS": "",
+        "height": 450,
+        "padding": 10,
+        "lineMargin": 12,
+        "backgroundColor": "#fff7f0",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 0,
+        "overlayColor": "#000000",
+        "contentColor": "rgba(0,0,0,0)",
+        "horizontalAlignment": "center",
+        "verticalAlignment": "middle",
+        "heading": "Why Families Choose My Colorful World Coloring Books Over Others.",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "",
+        "subheadingColor": "rgba(0,0,0,0)",
+        "subheadingPosition": "above",
+        "headingAlignment": "center",
+        "colHeight": 0,
+        "colGap": 20,
+        "textAlign": "center",
+        "contentAlign": "top",
+        "colCount": "col-md-4",
+        "enableCarousel": false,
+        "enableAutoplay": true,
+        "slideSpeed": 3,
+        "spaceBetween": 30,
+        "enableDragging": true,
+        "enablePagination": true,
+        "enableAutoHeight": false,
+        "buttonDisplayFor": "hide-mobile",
+        "productCardDesktop": 4,
+        "productCardTablet": 2,
+        "productCardMobile": 1
+      }
+    },
+    "how_it_works": {
+      "type": "section__columns",
+      "blocks": {
+        "step_size": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/4_df039b2c-6f70-4222-be87-477cc80dd8fc.png",
+            "imageSize": 100,
+            "heading": "<h3>Step 1: Choose Your Book Size</h3>",
+            "content": "<p>Choose your coloring book size. Select 20, 32, or 40 pages depending on how many photos you'd like to turn into coloring pages.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        },
+        "step_upload": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/How_to_1.png",
+            "imageSize": 100,
+            "heading": "<h3>Step 2: Upload Photos and Customize Your Cover</h3>",
+            "content": "<p>Upload the photos you'd like to turn into coloring pages. Upload the same number of photos as the book size you selected (20, 32, or 40). Even better, personalize your cover with a photo and custom message.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        },
+        "step_ship": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/5_82452436-ee00-4da2-a547-ad8dba6b897c.png",
+            "imageSize": 100,
+            "heading": "<h3>Step 3: Checkout and Delivery</h3>",
+            "content": "<p>Complete your order and we'll transform your photos into beautiful coloring pages, printed in a personalized coloring book and delivered to your door. Standard 10–15 business days, expedited 5–7 BD at checkout.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        }
+      },
+      "block_order": [
+        "step_size",
+        "step_upload",
+        "step_ship"
+      ],
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": true,
+        "scopedCSS": "",
+        "height": 0,
+        "padding": 0,
+        "lineMargin": 12,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 0,
+        "overlayColor": "#000000",
+        "contentColor": "rgba(0,0,0,0)",
+        "horizontalAlignment": "center",
+        "verticalAlignment": "top",
+        "heading": "How It Works",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "Turning your photos into a personalized coloring book is easy. In just 3 simple steps, upload your images, choose your book options, and we transform your memories into beautifully outlined coloring pages printed in a high-quality book.",
+        "subheadingColor": "#004a70",
+        "subheadingPosition": "below",
+        "headingAlignment": "center",
+        "colHeight": 80,
+        "colGap": 10,
+        "textAlign": "start",
+        "contentAlign": "top",
+        "colCount": "col-md-4",
+        "enableCarousel": false,
+        "enableAutoplay": true,
+        "slideSpeed": 3,
+        "spaceBetween": 30,
+        "enableDragging": true,
+        "enablePagination": true,
+        "enableAutoHeight": false,
+        "buttonDisplayFor": "hide-mobile",
+        "productCardDesktop": 4,
+        "productCardTablet": 2,
+        "productCardMobile": 1
+      }
+    },
+    "mcw_howto_schema": {
+      "type": "mcw-howto-schema",
+      "settings": {}
+    },
+    "pricing_table": {
+      "type": "mcw-pricing-table",
+      "settings": {}
+    },
+    "comparison_table": {
+      "type": "mcw-comparison",
+      "settings": {}
+    },
+    "mcw_faq": {
+      "type": "mcw-faq",
+      "settings": {}
+    },
+    "mcw_related_reads": {
+      "type": "mcw-related-reads",
+      "settings": {}
+    },
+    "cta_final": {
+      "type": "mcw-final-cta",
+      "settings": {}
+    },
+    "mcw_testimonials": {
+      "type": "mcw-testimonials",
+      "settings": {}
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main",
+    "mcw_product_intro",
+    "three_pillars",
+    "how_it_works",
+    "mcw_howto_schema",
+    "pricing_table",
+    "comparison_table",
+    "mcw_faq",
+    "mcw_testimonials",
+    "mcw_related_reads",
+    "cta_final"
+  ]
+}

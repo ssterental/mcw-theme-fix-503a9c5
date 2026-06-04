@@ -1,0 +1,1315 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "banner--page",
+      "disabled": true,
+      "settings": {
+        "layout": "default",
+        "height": 300,
+        "horizontalAlignment": "center",
+        "verticalAlignment": "middle",
+        "fontSize": "medium",
+        "contentColor": "rgba(0,0,0,0)",
+        "fillColor": "rgba(0,0,0,0)",
+        "overlayOpacity": 0,
+        "overlayColor": "#000000"
+      }
+    },
+    "content": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "layout": "default",
+        "enableShortcodes": false
+      }
+    },
+    "section_cta_zAfiNG": {
+      "type": "section__cta",
+      "blocks": {
+        "title_kRkKUP": {
+          "type": "title",
+          "settings": {
+            "fullWidth": true,
+            "content": "Personalized Coloring Books for Kids From Your Photos",
+            "textColor": "rgba(0,0,0,0)",
+            "fontFamily": "title",
+            "fontSize": "medium"
+          }
+        },
+        "rich_text_whfxpx": {
+          "type": "richText",
+          "settings": {
+            "fullWidth": true,
+            "maxBWidth": 50,
+            "content": "<p>Turn your real memories into custom coloring books printed and delivered to your door. Perfect for gifts, activities, and keepsakes for kids and adults.</p><p>Create something meaningful from your photos in just a few steps. Upload your photos, choose your book size, and we handle the rest.</p>",
+            "detectLists": true,
+            "textColor": "rgba(0,0,0,0)",
+            "fontFamily": "base",
+            "fontSize": "base"
+          }
+        },
+        "button_LFAbbM": {
+          "type": "button",
+          "settings": {
+            "fullWidth": false,
+            "text": "Create Your Personalized kids' Coloring Book",
+            "url": "/products/bachelorette-coloring-books",
+            "icon": "",
+            "iconPosition": "icon--left",
+            "wideButton": false,
+            "buttonStyle": "primary",
+            "buttonType": "default",
+            "fontSize": "base",
+            "fontFamily": "base",
+            "animation": "none",
+            "animationDuration": 1000,
+            "animationInfinite": true
+          }
+        },
+        "button_difzJG": {
+          "type": "button",
+          "settings": {
+            "fullWidth": false,
+            "text": "Gift a Coloring Book",
+            "url": "shopify://products/gift-card",
+            "icon": "",
+            "iconPosition": "icon--left",
+            "wideButton": false,
+            "buttonStyle": "secondary",
+            "buttonType": "default",
+            "fontSize": "base",
+            "fontFamily": "base",
+            "animation": "none",
+            "animationDuration": 1000,
+            "animationInfinite": true
+          }
+        }
+      },
+      "block_order": [
+        "title_kRkKUP",
+        "rich_text_whfxpx",
+        "button_LFAbbM",
+        "button_difzJG"
+      ],
+      "disabled": true,
+      "name": "Call to action",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "stretchBg",
+        "nomargin": false,
+        "scopedCSS": "",
+        "height": 550,
+        "padding": 25,
+        "lineMargin": 12,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "backgroundImage": "shopify://shop_images/Custom_Coloring_Book_from_Photos.jpg",
+        "backgroundImageUrl": "",
+        "backgroundPosition": "top",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 70,
+        "overlayColor": "#f4ffff",
+        "contentColor": "rgba(0,0,0,0)",
+        "horizontalAlignment": "start",
+        "verticalAlignment": "middle",
+        "maxContentWidth": 100,
+        "heading": "",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "",
+        "subheadingColor": "rgba(0,0,0,0)",
+        "subheadingPosition": "above",
+        "headingAlignment": "center"
+      }
+    },
+    "section_image_text_bq3JXN": {
+      "type": "section__image-text",
+      "blocks": {
+        "title_MVWwiH": {
+          "type": "title",
+          "settings": {
+            "fullWidth": true,
+            "content": "Personalized Bachelorette Party Coloring Books — Favors She'll Never Forget",
+            "textColor": "rgba(0,0,0,0)",
+            "fontFamily": "title",
+            "fontSize": "medium"
+          }
+        },
+        "rich_text_6MqW6x": {
+          "type": "richText",
+          "settings": {
+            "fullWidth": true,
+            "maxBWidth": 100,
+            "content": "<p>Personalized bachelorette party favors made from your photos — the bride, the crew, the inside jokes, turned into a custom bachelorette coloring book. The bachelorette party favor everyone keeps, not the one left at the Airbnb.</p>",
+            "detectLists": true,
+            "textColor": "rgba(0,0,0,0)",
+            "fontFamily": "base",
+            "fontSize": "base"
+          }
+        },
+        "button_JXH3yy": {
+          "type": "button",
+          "settings": {
+            "fullWidth": true,
+            "text": "Create Your Bachelorette Books",
+            "url": "/products/bachelorette-coloring-books",
+            "icon": "",
+            "iconPosition": "icon--left",
+            "wideButton": false,
+            "buttonStyle": "primary",
+            "buttonType": "default",
+            "fontSize": "base",
+            "fontFamily": "base",
+            "animation": "none",
+            "animationDuration": 1000,
+            "animationInfinite": true
+          }
+        }
+      },
+      "block_order": [
+        "title_MVWwiH",
+        "rich_text_6MqW6x",
+        "button_JXH3yy"
+      ],
+      "custom_css": [],
+      "name": "Image + text",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": true,
+        "scopedCSS": "##scoped .tximage__txt {\n    padding: 8px 96px !important;\n}\n@media (max-width: 600px) {\n##scoped .tximage__txt {\n    padding: 8px 10px !important;\n}\n##scoped  h1, h2 {\n    font-weight: 800;\n    color: var(--titleColor);\n    font-size: 36px !important;\n}\n}",
+        "height": 0,
+        "padding": 0,
+        "lineMargin": 12,
+        "content_padding": 20,
+        "backgroundColor": "#4eb9d7",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 0,
+        "overlayColor": "#000000",
+        "contentColor": "#f4ffff",
+        "horizontalAlignment": "start",
+        "verticalAlignment": "middle",
+        "imagePosition": "right",
+        "imageWidth": "6",
+        "image": "shopify://shop_images/mcw-hero-bachelorette.jpg",
+        "image_url": "",
+        "imageOverlayOpacity": 0,
+        "imageOverlayColor": "#000000",
+        "vertPaddingAccord": 12,
+        "horPaddingAccord": 4
+      }
+    },
+    "section_before_after_kids": {
+      "type": "mcw-before-after",
+      "settings": {
+        "custom_id": "kids-before-after",
+        "product_handle": "bachelorette-coloring-books",
+        "heading": "What Are Personalized Bachelorette Coloring Books?",
+        "subheading": "See the before & after",
+        "intro": "<p>Bachelorette party favors that double as the activity. Upload your favorite photos, we turn them into custom coloring pages, and we print and ship finished books to your door.</p>",
+        "padding": 35,
+        "backgroundColor": "rgba(0,0,0,0)"
+      }
+    },
+    "section_cta_zwHNWz": {
+      "type": "section__cta",
+      "blocks": {
+        "title_4miMTx": {
+          "type": "title",
+          "settings": {
+            "fullWidth": true,
+            "content": "Why a Bachelorette Coloring Book",
+            "textColor": "#ffffff",
+            "fontFamily": "title",
+            "fontSize": "medium"
+          }
+        },
+        "title_HkB437": {
+          "type": "title",
+          "settings": {
+            "fullWidth": true,
+            "content": "Beats Another Sash",
+            "textColor": "#ffffff",
+            "fontFamily": "title",
+            "fontSize": "medium"
+          }
+        },
+        "rich_text_zkz6eT": {
+          "type": "richText",
+          "settings": {
+            "fullWidth": true,
+            "maxBWidth": 100,
+            "content": "<p>Bachelorette favors usually end up in the trash by Sunday. A bachelorette coloring book made from your photos is the one the crew actually keeps — the bride, the trip, the inside jokes, on every page.</p><p>It's personalized bachelorette party favors and a hilarious group activity in one — wine optional, but encouraged.</p>",
+            "detectLists": true,
+            "textColor": "#ffffff",
+            "fontFamily": "base",
+            "fontSize": "base"
+          }
+        },
+        "separator_x7Tk6m": {
+          "type": "separator",
+          "settings": {
+            "height": 20,
+            "dividerHeight": 0,
+            "dividerWidth": 50,
+            "dividerColor": "#000000",
+            "position": "left"
+          }
+        }
+      },
+      "block_order": [
+        "title_4miMTx",
+        "title_HkB437",
+        "rich_text_zkz6eT",
+        "separator_x7Tk6m"
+      ],
+      "name": "Call to action",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": true,
+        "scopedCSS": "",
+        "height": 0,
+        "padding": 35,
+        "lineMargin": 12,
+        "backgroundColor": "#221464",
+        "backgroundImageUrl": "",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 0,
+        "overlayColor": "#000000",
+        "contentColor": "rgba(0,0,0,0)",
+        "horizontalAlignment": "center",
+        "verticalAlignment": "top",
+        "maxContentWidth": 100,
+        "heading": "",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "",
+        "subheadingColor": "rgba(0,0,0,0)",
+        "subheadingPosition": "above",
+        "headingAlignment": "center"
+      }
+    },
+    "section_columns_Jy8iex": {
+      "type": "section__columns",
+      "blocks": {
+        "column_image_M9iA9b": {
+          "type": "columnImage",
+          "settings": {
+            "imageSize": 100,
+            "heading": "<p>Favors They Actually Keep</p>",
+            "content": "<p>Personalized bachelorette party favors that beat sashes and shot glasses — a bachelorette coloring book the whole crew takes home.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled",
+            "image": "shopify://shop_images/mcw-bf-bachelorette-1.jpg"
+          }
+        },
+        "column_image_WXzAxr": {
+          "type": "columnImage",
+          "settings": {
+            "imageSize": 100,
+            "heading": "<p>All About the Bride</p>",
+            "content": "<p>The bride, the squad, the inside jokes — a bachelorette coloring book made from your photos makes her the star of every page.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled",
+            "image": "shopify://shop_images/mcw-bf-bachelorette-2.jpg"
+          }
+        },
+        "column_image_JRHPbG": {
+          "type": "columnImage",
+          "settings": {
+            "imageSize": 100,
+            "heading": "<p>The Group Activity</p>",
+            "content": "<p>A bachelorette coloring book is the perfect chill-night activity — color, laugh, and reminisce with a glass of wine.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled",
+            "image": "shopify://shop_images/mcw-bf-bachelorette-3.jpg"
+          }
+        },
+        "column_image_N1v4Ax": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/mcw-bf-bachelorette-4.jpg",
+            "imageSize": 100,
+            "heading": "<p>Order for the Whole Crew</p>",
+            "content": "<p>Bulk-order personalized bachelorette party favors so everyone gets their own copy to keep.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        },
+        "column_image_N2v4Bx": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/mcw-bf-bachelorette-5.jpg",
+            "imageSize": 100,
+            "heading": "<p>Made to Keep</p>",
+            "content": "<p>Thick, lay-flat pages built to last — a bachelorette coloring book that becomes a keepsake of the trip.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        },
+        "column_image_N3v4Cx": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/mcw-bf-bachelorette-6.jpg",
+            "imageSize": 100,
+            "heading": "<p>As Tame or Wild as You Want</p>",
+            "content": "<p>Keep it sweet or make it cheeky — you pick the photos, we make the pages.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        }
+      },
+      "block_order": [
+        "column_image_M9iA9b",
+        "column_image_WXzAxr",
+        "column_image_JRHPbG",
+        "column_image_N1v4Ax",
+        "column_image_N2v4Bx",
+        "column_image_N3v4Cx"
+      ],
+      "name": "Columns",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "scopedCSS": "##scoped .column__media { height: 220px; overflow: hidden; display: flex; align-items: center; justify-content: center; } ##scoped .column__media img { width: 100%; height: 100%; object-fit: cover; border-radius: 8px; } @media screen and (max-width: 767px) { ##scoped .column__media { height: auto; max-height: 280px; } ##scoped .column__media img { height: auto; max-height: 280px; object-fit: contain; } }",
+        "height": 0,
+        "padding": 0,
+        "lineMargin": 12,
+        "backgroundColor": "#221464",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 0,
+        "overlayColor": "#000000",
+        "contentColor": "#ffffff",
+        "horizontalAlignment": "center",
+        "verticalAlignment": "middle",
+        "heading": "",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "",
+        "subheadingColor": "rgba(0,0,0,0)",
+        "subheadingPosition": "above",
+        "headingAlignment": "center",
+        "colHeight": 240,
+        "colGap": 20,
+        "textAlign": "center",
+        "contentAlign": "top",
+        "colCount": "col-md-4",
+        "enableCarousel": false,
+        "enableAutoplay": true,
+        "slideSpeed": 3,
+        "spaceBetween": 30,
+        "enableDragging": true,
+        "enablePagination": true,
+        "enableAutoHeight": false,
+        "buttonDisplayFor": "hide-mobile",
+        "productCardDesktop": 4,
+        "productCardTablet": 2,
+        "productCardMobile": 1
+      }
+    },
+    "section_columns_96WPHc": {
+      "type": "section__columns",
+      "blocks": {
+        "column_image_QmrRYJ": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/How_to_1.png",
+            "imageSize": 100,
+            "heading": "<h3>Step 1: Pick the Book Size</h3>",
+            "content": "<p>Choose 20, 32, or 40 pages for your bachelorette coloring book.</p>",
+            "buttonText": "Choose Your Size",
+            "buttonURL": "shopify://collections/frontpage",
+            "openTab": false,
+            "buttonStyle": "primary",
+            "buttonType": "filled"
+          }
+        },
+        "column_image_hCgnjJ": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/How_to_2.png",
+            "imageSize": 100,
+            "heading": "<h3>Step 2: Upload Your Photos</h3>",
+            "content": "<p>The bride, the crew, the trip — upload them and our AI turns each into a coloring page. Then a real designer reviews every single page.</p>",
+            "buttonText": "Upload Your Photos",
+            "buttonURL": "shopify://collections/frontpage",
+            "openTab": false,
+            "buttonStyle": "primary",
+            "buttonType": "filled"
+          }
+        },
+        "column_image_dk6pBQ": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/5_82452436-ee00-4da2-a547-ad8dba6b897c.png",
+            "imageSize": 100,
+            "heading": "<h3>Step 3: We Print &amp; Ship</h3>",
+            "content": "<p>Your bachelorette coloring books arrive on thick, marker-friendly paper — favors, sorted.</p>",
+            "buttonText": "Place Your Order",
+            "buttonURL": "shopify://collections/frontpage",
+            "openTab": false,
+            "buttonStyle": "primary",
+            "buttonType": "filled"
+          }
+        }
+      },
+      "block_order": [
+        "column_image_QmrRYJ",
+        "column_image_hCgnjJ",
+        "column_image_dk6pBQ"
+      ],
+      "name": "Columns",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "scopedCSS": "",
+        "height": 0,
+        "padding": 0,
+        "lineMargin": 12,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 90,
+        "overlayColor": "#f4ffff",
+        "contentColor": "rgba(0,0,0,0)",
+        "horizontalAlignment": "center",
+        "verticalAlignment": "top",
+        "heading": "<p>Create Your Bachelorette Books in 3 Simple Steps</p>",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "",
+        "subheadingColor": "rgba(0,0,0,0)",
+        "subheadingPosition": "above",
+        "headingAlignment": "center",
+        "colHeight": 240,
+        "colGap": 20,
+        "textAlign": "start",
+        "contentAlign": "top",
+        "colCount": "col-md-4",
+        "enableCarousel": false,
+        "enableAutoplay": true,
+        "slideSpeed": 3,
+        "spaceBetween": 30,
+        "enableDragging": true,
+        "enablePagination": true,
+        "enableAutoHeight": false,
+        "buttonDisplayFor": "hide-mobile",
+        "productCardDesktop": 4,
+        "productCardTablet": 2,
+        "productCardMobile": 1
+      }
+    },
+    "section_image_text_xwE7U6": {
+      "type": "section__image-text",
+      "blocks": {
+        "title_ebQrFX": {
+          "type": "title",
+          "settings": {
+            "fullWidth": true,
+            "content": "What's Inside Personalized Bachelorette Coloring Books",
+            "textColor": "#ffffff",
+            "fontFamily": "title",
+            "fontSize": "medium"
+          }
+        },
+        "html_ixqnX7": {
+          "type": "html",
+          "settings": {
+            "fullWidth": true,
+            "html": "<div class=\"custom-age-section\">\n  <div class=\"age-card-styled\">\n    <span class=\"age-icon-styled\">📸</span>\n    <span class=\"age-text-styled\">Their Own Photos as Coloring Pages</span>\n    <span class=\"age-desc-styled\">Our AI transforms real photos into age-appropriate coloring pages — their face, their pets, their world. Every page is personal.</span>\n  </div>\n</div>",
+            "customCSS": "<style>\n  /* Container to ensure it looks good in Shopify layouts */\n  .custom-age-section {\n    padding: 15px 0;\n    width: 100%;\n    display: flex;\n    justify-content: center;\n  }\n\n  /* The Card Style */\n  .age-card-styled {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: flex-start; /* Aligns content to the left like the image */\n    \n    background-color: #f2f2f2; /* Light grey background */\n    border-radius: 24px;       /* Smooth rounded corners */\n    padding: 25px 30px;        /* Matches the generous padding in the image */\n    width: 100%;\n    max-width: 100%;          /* Adjust width as needed */\nmargin:0 auto;\n    border: none;\n    text-decoration: none;\n    transition: transform 0.2s ease, background-color 0.2s ease;\n  }\n\n  /* Hover effect for interactivity */\n  .age-card-styled:hover {\n    background-color: #ebebeb;\n    transform: translateY(-2px);\n  }\n\n  /* The Emoji Icon */\n  .age-icon-styled {\n    font-size: 32px;           /* Large emoji size */\n    margin-bottom: 12px;       /* Space between icon and text */\n    display: block;\n    line-height: 1;\n  }\n\n  /* The Text Style */\n  .age-text-styled {\n    font-family: \"Assistant\", sans-serif; /* Shopify's common font, or use Helvetica */\n    font-size: 20px;\n    font-weight: 700;          /* Bold weight to match image */\n    color: #000000;\n    margin: 0;\n    letter-spacing: -0.01em;   /* Tightens the text slightly for that modern look */\n  }\n\n  .age-desc-styled {\n    font-family: \"Assistant\", sans-serif;\n    font-size: 14px;\n    font-weight: 400;\n    color: #555;\n    margin-top: 8px;\n    line-height: 1.5;\n    display: block;\n  }\n</style>"
+          }
+        },
+        "html_aMVHNG": {
+          "type": "html",
+          "settings": {
+            "fullWidth": true,
+            "html": "<div class=\"custom-age-section\">\n  <div class=\"age-card-styled\">\n    <span class=\"age-icon-styled\">🎨</span>\n    <span class=\"age-text-styled\">Custom Cover With Their Name</span>\n    <span class=\"age-desc-styled\">A custom cover featuring their name and photos. Kids love seeing their name on a 'real book' — makes it feel like it was made just for them.</span>\n  </div>\n</div>",
+            "customCSS": "<style>\n  /* Container to ensure it looks good in Shopify layouts */\n  .custom-age-section {\n    padding: 15px 0;\n    width: 100%;\n    display: flex;\n    justify-content: center;\n  }\n\n  /* The Card Style */\n  .age-card-styled {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: flex-start; /* Aligns content to the left like the image */\n    \n    background-color: #f2f2f2; /* Light grey background */\n    border-radius: 24px;       /* Smooth rounded corners */\n    padding: 25px 30px;        /* Matches the generous padding in the image */\n    \n    width: 100%;\n    max-width: 500px;          /* Adjust width as needed */\n    border: none;\n    text-decoration: none;\n    transition: transform 0.2s ease, background-color 0.2s ease;\n  }\n\n  /* Hover effect for interactivity */\n  .age-card-styled:hover {\n    background-color: #ebebeb;\n    transform: translateY(-2px);\n  }\n\n  /* The Emoji Icon */\n  .age-icon-styled {\n    font-size: 32px;           /* Large emoji size */\n    margin-bottom: 12px;       /* Space between icon and text */\n    display: block;\n    line-height: 1;\n  }\n\n  /* The Text Style */\n  .age-text-styled {\n    font-family: \"Assistant\", sans-serif; /* Shopify's common font, or use Helvetica */\n    font-size: 20px;\n    font-weight: 700;          /* Bold weight to match image */\n    color: #000000;\n    margin: 0;\n    letter-spacing: -0.01em;   /* Tightens the text slightly for that modern look */\n  }\n</style>"
+          }
+        },
+        "html_FtXtey": {
+          "type": "html",
+          "settings": {
+            "fullWidth": true,
+            "html": "<div class=\"custom-age-section\">\n  <div class=\"age-card-styled\">\n    <span class=\"age-icon-styled\">📐</span>\n    <span class=\"age-text-styled\">Thick Pages Built for Kids</span>\n    <span class=\"age-desc-styled\">Heavy-duty high-quality paper that handles markers, crayons, and colored pencils without bleeding through. Built to survive enthusiastic coloring.</span>\n  </div>\n</div>",
+            "customCSS": "<style>\n  /* Container to ensure it looks good in Shopify layouts */\n  .custom-age-section {\n    padding: 15px 0;\n    width: 100%;\n    display: flex;\n    justify-content: center;\n  }\n\n  /* The Card Style */\n  .age-card-styled {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: flex-start; /* Aligns content to the left like the image */\n    \n    background-color: #f2f2f2; /* Light grey background */\n    border-radius: 24px;       /* Smooth rounded corners */\n    padding: 25px 30px;        /* Matches the generous padding in the image */\n    \n    width: 100%;\n    max-width: 500px;          /* Adjust width as needed */\n    border: none;\n    text-decoration: none;\n    transition: transform 0.2s ease, background-color 0.2s ease;\n  }\n\n  /* Hover effect for interactivity */\n  .age-card-styled:hover {\n    background-color: #ebebeb;\n    transform: translateY(-2px);\n  }\n\n  /* The Emoji Icon */\n  .age-icon-styled {\n    font-size: 32px;           /* Large emoji size */\n    margin-bottom: 12px;       /* Space between icon and text */\n    display: block;\n    line-height: 1;\n  }\n\n  /* The Text Style */\n  .age-text-styled {\n    font-family: \"Assistant\", sans-serif; /* Shopify's common font, or use Helvetica */\n    font-size: 20px;\n    font-weight: 700;          /* Bold weight to match image */\n    color: #000000;\n    margin: 0;\n    letter-spacing: -0.01em;   /* Tightens the text slightly for that modern look */\n  }\n</style>"
+          }
+        },
+        "button_epFijN": {
+          "type": "button",
+          "settings": {
+            "fullWidth": true,
+            "text": "Start Creating",
+            "url": "/products/bachelorette-coloring-books",
+            "icon": "",
+            "iconPosition": "icon--left",
+            "wideButton": false,
+            "buttonStyle": "primary",
+            "buttonType": "default",
+            "fontSize": "base",
+            "fontFamily": "base",
+            "animation": "none",
+            "animationDuration": 1000,
+            "animationInfinite": true
+          }
+        }
+      },
+      "block_order": [
+        "title_ebQrFX",
+        "html_ixqnX7",
+        "html_aMVHNG",
+        "html_FtXtey",
+        "button_epFijN"
+      ],
+      "custom_css": [],
+      "name": "Image + text",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "scopedCSS": "@media (min-width: 769px) {\n  .age-card-styled {\n    width: 100%;\n    max-width: 700px;\n    min-width: 500px;\n  }\n}\n##scoped .tximage__txt {\n    padding: 8px 60px !important;\n}\n@media (max-width: 600px) {\n##scoped .tximage__txt {\n    padding: 8px 10px !important;\n}\n}",
+        "height": 0,
+        "padding": 30,
+        "lineMargin": 15,
+        "content_padding": 10,
+        "backgroundColor": "#4eb9d7",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 0,
+        "overlayColor": "#000000",
+        "contentColor": "rgba(0,0,0,0)",
+        "horizontalAlignment": "start",
+        "verticalAlignment": "middle",
+        "imagePosition": "left",
+        "imageWidth": "6",
+        "image": "shopify://shop_images/Service_page_image_3.png",
+        "image_url": "",
+        "imageOverlayOpacity": 0,
+        "imageOverlayColor": "#000000",
+        "vertPaddingAccord": 12,
+        "horPaddingAccord": 4
+      }
+    },
+    "section_columns_9Qh9EV": {
+      "type": "section__columns",
+      "blocks": {
+        "persona_kids": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/mcw-bf-back-to-school-5.jpg",
+            "imageSize": 100,
+            "heading": "<p>Kids</p>",
+            "content": "<p>Their face, their pets, their whole world — screen-free fun they actually recognize.</p>",
+            "buttonText": "Shop for Kids",
+            "buttonURL": "/pages/personalized-coloring-books-for-kids",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "text"
+          }
+        },
+        "persona_adults": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/mcw-hero-adults.jpg",
+            "imageSize": 100,
+            "heading": "<p>Adults</p>",
+            "content": "<p>A mindful, nostalgic coloring book made from your own photos.</p>",
+            "buttonText": "Shop for Adults",
+            "buttonURL": "/pages/personalized-coloring-books-for-adults",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "text"
+          }
+        },
+        "persona_mom": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/mcw-hero-moms.jpg",
+            "imageSize": 100,
+            "heading": "<p>Moms</p>",
+            "content": "<p>A gift that makes Mom feel seen — her people, on every page.</p>",
+            "buttonText": "Shop for Moms",
+            "buttonURL": "/pages/personalized-coloring-books-for-mom",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "text"
+          }
+        },
+        "persona_dad": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/mcw-hero-dad.jpg",
+            "imageSize": 100,
+            "heading": "<p>Dads</p>",
+            "content": "<p>An easy win for Dad — the whole family, in a book he'll keep.</p>",
+            "buttonText": "Shop for Dads",
+            "buttonURL": "/pages/personalized-coloring-books-for-dad",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "text"
+          }
+        },
+        "persona_grandparents": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/mcw-hero-grandparents.jpg",
+            "imageSize": 100,
+            "heading": "<p>Grandparents</p>",
+            "content": "<p>Family moments grandparents can color and treasure.</p>",
+            "buttonText": "Shop for Grandparents",
+            "buttonURL": "/pages/personalized-coloring-books-for-grandparents",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "text"
+          }
+        },
+        "persona_pet_lovers": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/mcw-hero-pet-lovers.jpg",
+            "imageSize": 100,
+            "heading": "<p>Pet Lovers</p>",
+            "content": "<p>Their best friend, turned into pages worth framing.</p>",
+            "buttonText": "Shop for Pet Lovers",
+            "buttonURL": "/pages/personalized-coloring-books-for-pet-lovers",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "text"
+          }
+        },
+        "persona_couples": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/mcw-hero-couples.jpg",
+            "imageSize": 100,
+            "heading": "<p>Couples</p>",
+            "content": "<p>Your story together — trips, date nights and all — ready to color in.</p>",
+            "buttonText": "Shop for Couples",
+            "buttonURL": "/pages/personalized-coloring-books-for-couples",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "text"
+          }
+        }
+      },
+      "block_order": [
+        "persona_kids",
+        "persona_adults",
+        "persona_mom",
+        "persona_dad",
+        "persona_grandparents",
+        "persona_pet_lovers",
+        "persona_couples"
+      ],
+      "custom_css": [
+        ".column__media img {max-width: 100%; border-radius: 20px;}"
+      ],
+      "name": "Columns",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "scopedCSS": "",
+        "height": 0,
+        "padding": 10,
+        "lineMargin": 28,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 0,
+        "overlayColor": "#000000",
+        "contentColor": "rgba(0,0,0,0)",
+        "horizontalAlignment": "center",
+        "verticalAlignment": "middle",
+        "heading": "<p>Shopping for Someone Else? Coloring Books for Everyone You Love</p>",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "SHOP BY WHO IT'S FOR",
+        "subheadingColor": "rgba(0,0,0,0)",
+        "subheadingPosition": "above",
+        "headingAlignment": "center",
+        "colHeight": 240,
+        "colGap": 65,
+        "textAlign": "center",
+        "contentAlign": "top",
+        "colCount": "col-md-4",
+        "enableCarousel": true,
+        "enableAutoplay": true,
+        "slideSpeed": 3,
+        "spaceBetween": 50,
+        "enableDragging": true,
+        "enablePagination": true,
+        "enableAutoHeight": false,
+        "buttonDisplayFor": "hide-mobile",
+        "productCardDesktop": 3,
+        "productCardTablet": 2,
+        "productCardMobile": 1
+      }
+    },
+    "section_image_text_yHgpzP": {
+      "type": "section__image-text",
+      "blocks": {
+        "title_rVRYYq": {
+          "type": "title",
+          "settings": {
+            "fullWidth": true,
+            "content": "Why Brides Love Our Bachelorette Party Favors",
+            "textColor": "rgba(0,0,0,0)",
+            "fontFamily": "title",
+            "fontSize": "medium"
+          }
+        },
+        "rich_text_CwgGHz": {
+          "type": "richText",
+          "settings": {
+            "fullWidth": true,
+            "maxBWidth": 100,
+            "content": "<p>People come back to our bachelorette coloring book because it's the favor nobody throws away — the bride and the crew, turned into pages worth keeping.</p><p>Our AI keeps faces recognizable, a real designer checks every page, and we print on thick paper that handles markers without bleeding through.</p><p>Funny, personal, and made to keep — that's why party planners reorder.</p>",
+            "detectLists": true,
+            "textColor": "rgba(0,0,0,0)",
+            "fontFamily": "base",
+            "fontSize": "base"
+          }
+        },
+        "html_mABQVR": {
+          "type": "html",
+          "settings": {
+            "fullWidth": true,
+            "html": "<div class=\"age-grid-wrapper\">\n    <div class=\"age-card\">\n      <span class=\"age-icon\">👧</span>\n      <span class=\"age-text\">Screen-Free Fun Kids Ask to Do Again</span>\n    </div>\n</div>",
+            "customCSS": "<style>\n.age-grid-wrapper {\n  width: 1000%;\n  max-width: 1200px;\nmin-width: 1200px;\n}\n.age-card {\n  background: #f2f2f2;\n  border-radius: 18px;\n  padding: 22px;\n  display: flex;\n  align-items: center;\n  gap: 16px;\n  transition: 0.2s ease;\n}\n\n.age-card:hover {\n  background: #e9e9e9;\n}\n\n.age-icon {\n  font-size: 34px;\n  line-height: 1;\n  flex-shrink: 0;\n}\n\n.age-text {\n  font-size: 22px;\n  font-weight: 700;\n  text-align: left;\n  line-height: 1.3;\n}\n\n@media (max-width: 768px) {\n  .age-grid {\n    grid-template-columns: 1fr;\n  }\n\n  .age-text {\n    font-size: 20px;\n  }\n}\n</style>"
+          }
+        },
+        "html_drgnpX": {
+          "type": "html",
+          "settings": {
+            "fullWidth": true,
+            "html": "<div class=\"age-grid-wrapper\">\n    <div class=\"age-card\">\n      <span class=\"age-icon\">⭐</span>\n      <span class=\"age-text\">Parents Say It's Their Kids' Favorite Gift</span>\n    </div>\n</div>",
+            "customCSS": "<style>\n.age-grid-wrapper {\n  width: 1000%;\n  max-width: 1200px;\n}\n.age-card {\n  background: #f2f2f2;\n  border-radius: 18px;\n  padding: 22px;\n  display: flex;\n  align-items: center;\n  gap: 16px;\n  transition: 0.2s ease;\n}\n\n.age-card:hover {\n  background: #e9e9e9;\n}\n\n.age-icon {\n  font-size: 34px;\n  line-height: 1;\n  flex-shrink: 0;\n}\n\n.age-text {\n  font-size: 22px;\n  font-weight: 700;\n  text-align: left;\n  line-height: 1.3;\n}\n\n@media (max-width: 768px) {\n  .age-grid {\n    grid-template-columns: 1fr;\n  }\n\n  .age-text {\n    font-size: 20px;\n  }\n}\n</style>"
+          }
+        },
+        "button_xhnayH": {
+          "type": "button",
+          "settings": {
+            "fullWidth": true,
+            "text": "Shop Wedding & Bachelorette",
+            "url": "shopify://collections/wedding-coloring-books",
+            "icon": "",
+            "iconPosition": "icon--left",
+            "wideButton": false,
+            "buttonStyle": "primary",
+            "buttonType": "default",
+            "fontSize": "base",
+            "fontFamily": "base",
+            "animation": "none",
+            "animationDuration": 1000,
+            "animationInfinite": true
+          }
+        }
+      },
+      "block_order": [
+        "title_rVRYYq",
+        "rich_text_CwgGHz",
+        "html_mABQVR",
+        "html_drgnpX",
+        "button_xhnayH"
+      ],
+      "name": "Image + text",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "scopedCSS": "@media (min-width: 769px) {\n  .age-card {\n    width: 100%;\n    max-width: 700px;\n    min-width: 500px;\n  }\n}\n##scoped .tximage__txt {\n    padding: 8px 96px !important;\n}\n@media (max-width: 600px) {\n##scoped .tximage__txt {\n    padding: 8px 10px !important;\n}\n}",
+        "height": 0,
+        "padding": 0,
+        "lineMargin": 15,
+        "content_padding": 20,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 0,
+        "overlayColor": "#000000",
+        "contentColor": "rgba(0,0,0,0)",
+        "horizontalAlignment": "start",
+        "verticalAlignment": "middle",
+        "imagePosition": "left",
+        "imageWidth": "6",
+        "image": "shopify://shop_images/Service_page_image_2.png",
+        "image_url": "",
+        "imageOverlayOpacity": 0,
+        "imageOverlayColor": "#000000",
+        "vertPaddingAccord": 12,
+        "horPaddingAccord": 4
+      }
+    },
+    "section_testimonials_X9fKp2": {
+      "type": "section__testimonials",
+      "blocks": {
+        "testimonial_A7kLzQ": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>I made a coloring book for my mom for Mother’s Day with photos of all her grandkids. She literally cried when she opened it. Best Mother’s Day gift I’ve ever given her</em></p>",
+            "authorName": "Angela R",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Mother's Day</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_K3vJr9": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>Is there a better way to celebrate life’s great moments? So nice to see </em>birthdays, holidays<em> and just everyday celebrations ready for the kids to color and reimagine themselves. Cannot believe mys election of photos turned into something that will be treasured by my family.</em></p>",
+            "authorName": "Kathy Spencer",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Birthday</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_L8qZpV": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>Made coloring books for my husband and kids for Valentine’s Day. The kids especially loved seeing </em>themselves. My<em> husband thought it was really creative and sweet. Will definitely be doing this again!</em></p>",
+            "authorName": "Donna",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Valentine's Day</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_Y2wHcD": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>Could not be more thrilled with how the coloring book turned out! It was a Hanukkah gift for my kids and they absolutely loved seeing their photos as coloring pages. Such a special and creative gift idea</em></p>",
+            "authorName": "Amanda Gershowitz",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Christmas</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_P4rJn8": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>Used these as party favors at my son’s graduation party. Each guest got coloring pages. It was such a conversation starter and everyone loved them!</em></p>",
+            "authorName": "Amy",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Graduation</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_V5gNpA": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>Put personalized coloring books in my grandkids’ Easter baskets and they were more excited about those than the candy! Such a creative gift idea.</em></p>",
+            "authorName": "Pamela",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Easter</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_R9bLtH": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>My granddaughter LOVED it! The WHOLE family loved it!!</em></p>",
+            "authorName": "Mary Peacock",
+            "showAuthorImage": false,
+            "fakeImageSex": "men",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Birthdays</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_T8mZxK": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>My granddaughter (age 7) just LOVES her new coloring book. When she realized the pictures were of her, her family and friends she had the biggest smile! Dad and Mom were amazed as well. I’ve given many friends the suggestion to make them for their families!</em></p>",
+            "authorName": "Robyn Kellman Herbst",
+            "showAuthorImage": false,
+            "fakeImageSex": "men",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Christmas</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_Q6wVfJ": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>My wife and kids surprised me with a coloring book for Father’s Day and it was honestly the best gift. All our family adventures in one book. Now we color together on weekends.</em></p>",
+            "authorName": "Greg",
+            "showAuthorImage": false,
+            "fakeImageSex": "men",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Birthdays</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_Z2kHtL": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>Made a coloring book chronicling my daughter’s school years for her high school graduation. It was a huge hit at the graduation party. All the other parents wanted to know how to make one.</em></p>",
+            "authorName": "Mike T",
+            "showAuthorImage": false,
+            "fakeImageSex": "men",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Graduation</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_M3pKrX": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>Turned our wedding photos and years of memories into a coloring book for our 10th anniversary. My wife said it was the most thoughtful gift I’ve ever given her. We spent the evening coloring and reminiscing.</em></p>",
+            "authorName": "James",
+            "showAuthorImage": false,
+            "fakeImageSex": "men",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Anniversaries</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_J7qHxP": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>I loved this book from the moment my family and I started putting it together and choosing photos from our last trip. We were so excited to see the final result and it did not disappoint.</em></p>",
+            "authorName": "Camila Galinsky",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Birthdays</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_F2wKtV": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>The coloring book was such a hit at our family gathering. Everyone was fighting over who got to color which page. Such a fun and unique gift!</em></p>",
+            "authorName": "Heidi W",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Christmas</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_P1xRtH": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>As a total cat person, I had to try this with photos of my cats. The results were adorable! I gave copies to my cat-loving friends and they all want to make their own now.</em></p>",
+            "authorName": "Christina M.",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Birthdays</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_D8kPmJ": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>Made a coloring book featuring our family dog and gave it to the kids. They think the dog is famous now because he has his own book! Great quality and fun for the whole family.</em></p>",
+            "authorName": "Kevin",
+            "showAuthorImage": false,
+            "fakeImageSex": "men",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Christmas</strong></p>",
+            "star_rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_A7kLzQ",
+        "testimonial_K3vJr9",
+        "testimonial_L8qZpV",
+        "testimonial_Y2wHcD",
+        "testimonial_P4rJn8",
+        "testimonial_V5gNpA",
+        "testimonial_R9bLtH",
+        "testimonial_T8mZxK",
+        "testimonial_Q6wVfJ",
+        "testimonial_Z2kHtL",
+        "testimonial_M3pKrX",
+        "testimonial_J7qHxP",
+        "testimonial_F2wKtV",
+        "testimonial_P1xRtH",
+        "testimonial_D8kPmJ"
+      ],
+      "custom_css": [],
+      "name": "Testimonials",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "scopedCSS": "",
+        "height": 0,
+        "padding": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "heading": "<p>What Brides Say About Our Bachelorette Favors</p>",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "TESTIMONIAL",
+        "subheadingColor": "#fb046f",
+        "subheadingPosition": "above",
+        "headingAlignment": "center",
+        "blockStyle": "author-below",
+        "blockBackground": "rgba(0,0,0,0)",
+        "blockText": "#000000",
+        "testimonialAlign": "left",
+        "cardBackgroundColor": "#ffffff",
+        "cardBorderRadius": 26,
+        "cardPadding": 20,
+        "starRatingColor": "#ffb503",
+        "ratingBadgeBackground": "#fff4cc",
+        "ratingBadgeText": "#004a70",
+        "blockBottomBackground": "#000000",
+        "blockBottomText": "#004a70",
+        "useFakeImages": true,
+        "roundedImages": true,
+        "enableCarousel": true,
+        "enableAutoplay": true,
+        "slideSpeed": 4,
+        "spaceBetween": 10,
+        "enableDragging": true,
+        "enablePagination": true,
+        "enableAutoHeight": false,
+        "buttonDisplayFor": "hide-mobile",
+        "productCardDesktop": 3,
+        "productCardTablet": 2,
+        "productCardMobile": 1
+      }
+    },
+    "section_featured_collection_kids": {
+      "type": "section__featured-collection",
+      "settings": {
+        "custom_id": "kids-featured-collection",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "scopedCSS": "",
+        "height": 0,
+        "padding": 35,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "heading": "Shop Bachelorette Party Coloring Books",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "BACHELORETTE FAVORS",
+        "subheadingColor": "rgba(0,0,0,0)",
+        "subheadingPosition": "above",
+        "headingAlignment": "center",
+        "collection": "wedding-coloring-books",
+        "productCount": 12,
+        "showMore": true,
+        "showMoreText": "See all bachelorette coloring books",
+        "showMoreAlignment": "center",
+        "enableCarousel": true,
+        "enableAutoplay": false,
+        "slideSpeed": 3,
+        "spaceBetween": 30,
+        "enableDragging": true,
+        "enablePagination": true,
+        "enableAutoHeight": false,
+        "buttonDisplayFor": "hide-mobile",
+        "productCardDesktop": 4,
+        "productCardTablet": 2,
+        "productCardMobile": 2,
+        "cardDesktop": "default",
+        "cardMobile": "default"
+      }
+    },
+    "section_faq_4yfu6G": {
+      "type": "section__faq",
+      "blocks": {
+        "accordion_PEpZxX": {
+          "type": "accordion",
+          "settings": {
+            "openAccordion": true,
+            "question": "<p>What are personalized bachelorette party favors?</p>",
+            "answer": "<p>A bachelorette coloring book made from your photos — the bride, the crew, and the inside jokes as custom coloring pages. Personalized bachelorette party favors everyone keeps, plus a group activity in one.</p>"
+          }
+        },
+        "accordion_DU3Jq8": {
+          "type": "accordion",
+          "settings": {
+            "openAccordion": false,
+            "question": "<p>Can I order a bachelorette coloring book for the whole group?</p>",
+            "answer": "<p>Yes — bulk-order so each guest gets a copy. Contact hello@mycolorfulworld.art for group pricing for your crew size.</p>"
+          }
+        },
+        "accordion_3WDpSV": {
+          "type": "accordion",
+          "settings": {
+            "openAccordion": false,
+            "question": "<p>How many photos do I need?</p>",
+            "answer": "<p>Enough to fill the size you choose (20, 32, or 40 pages). Upload the bride and the crew and we turn each into a coloring page, reviewed by a real designer.</p>"
+          }
+        },
+        "accordion_kids_faq4": {
+          "type": "accordion",
+          "settings": {
+            "openAccordion": false,
+            "question": "<p>Can the pages be a little cheeky?</p>",
+            "answer": "<p>Totally up to you — you choose the photos, we make the pages. Keep it sweet or make it a bachelorette to remember.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_PEpZxX",
+        "accordion_DU3Jq8",
+        "accordion_3WDpSV",
+        "accordion_kids_faq4"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "scopedCSS": "",
+        "height": 0,
+        "padding": 0,
+        "lineMargin": 12,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 0,
+        "overlayColor": "#000000",
+        "contentColor": "rgba(0,0,0,0)",
+        "horizontalAlignment": "center",
+        "verticalAlignment": "middle",
+        "maxContentWidth": 100,
+        "heading": "<p>Frequently Asked Questions</p>",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "",
+        "subheadingColor": "rgba(0,0,0,0)",
+        "subheadingPosition": "above",
+        "headingAlignment": "center",
+        "textContent": "",
+        "vertPaddingAccord": 12,
+        "horPaddingAccord": 4
+      }
+    },
+    "section_featured_collection_related": {
+      "type": "section__featured-collection",
+      "settings": {
+        "custom_id": "bachelorette-related-collection",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "height": 0,
+        "padding": 35,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "heading": "Gifts for Best Friends",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "YOU MIGHT ALSO LIKE",
+        "subheadingColor": "rgba(0,0,0,0)",
+        "subheadingPosition": "above",
+        "headingAlignment": "center",
+        "collection": "gifts-for-best-friends",
+        "productCount": 8,
+        "showMore": true,
+        "showMoreText": "See more",
+        "showMoreAlignment": "center",
+        "enableCarousel": true,
+        "enableAutoplay": false,
+        "slideSpeed": 3,
+        "spaceBetween": 30,
+        "enableDragging": true,
+        "enablePagination": true,
+        "enableAutoHeight": false,
+        "buttonDisplayFor": "hide-mobile",
+        "productCardDesktop": 4,
+        "productCardTablet": 2,
+        "productCardMobile": 2,
+        "cardDesktop": "default",
+        "cardMobile": "default"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "content",
+    "section_cta_zAfiNG",
+    "section_image_text_bq3JXN",
+    "section_before_after_kids",
+    "section_cta_zwHNWz",
+    "section_columns_Jy8iex",
+    "section_columns_96WPHc",
+    "section_image_text_xwE7U6",
+    "section_columns_9Qh9EV",
+    "section_image_text_yHgpzP",
+    "section_testimonials_X9fKp2",
+    "section_featured_collection_kids",
+    "section_featured_collection_related",
+    "section_faq_4yfu6G"
+  ]
+}
