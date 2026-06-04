@@ -1,0 +1,1238 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "banner--page",
+      "disabled": true,
+      "settings": {
+        "layout": "default",
+        "height": 300,
+        "horizontalAlignment": "center",
+        "verticalAlignment": "middle",
+        "fontSize": "medium",
+        "contentColor": "rgba(0,0,0,0)",
+        "fillColor": "rgba(0,0,0,0)",
+        "overlayOpacity": 0,
+        "overlayColor": "#000000"
+      }
+    },
+    "content": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "layout": "default",
+        "enableShortcodes": false
+      }
+    },
+    "section_cta_zAfiNG": {
+      "type": "section__cta",
+      "blocks": {
+        "title_kRkKUP": {
+          "type": "title",
+          "settings": {
+            "fullWidth": true,
+            "content": "Personalized Easter Coloring Books From Your Photos",
+            "textColor": "rgba(0,0,0,0)",
+            "fontFamily": "title",
+            "fontSize": "medium"
+          }
+        },
+        "rich_text_whfxpx": {
+          "type": "richText",
+          "settings": {
+            "fullWidth": true,
+            "maxBWidth": 50,
+            "content": "<p>Turn your real memories into custom coloring books printed and delivered to your door. Perfect for gifts, activities, and keepsakes for kids and adults.</p><p>Create something meaningful from your photos in just a few steps. Upload your photos, choose your book size, and we handle the rest.</p>",
+            "detectLists": true,
+            "textColor": "rgba(0,0,0,0)",
+            "fontFamily": "base",
+            "fontSize": "base"
+          }
+        },
+        "button_LFAbbM": {
+          "type": "button",
+          "settings": {
+            "fullWidth": false,
+            "text": "Create Your Personalized Easter Coloring Book",
+            "url": "shopify://collections/frontpage",
+            "icon": "",
+            "iconPosition": "icon--left",
+            "wideButton": false,
+            "buttonStyle": "primary",
+            "buttonType": "default",
+            "fontSize": "base",
+            "fontFamily": "base",
+            "animation": "none",
+            "animationDuration": 1000,
+            "animationInfinite": true
+          }
+        },
+        "button_difzJG": {
+          "type": "button",
+          "settings": {
+            "fullWidth": false,
+            "text": "Gift a Coloring Book",
+            "url": "shopify://products/gift-card",
+            "icon": "",
+            "iconPosition": "icon--left",
+            "wideButton": false,
+            "buttonStyle": "secondary",
+            "buttonType": "default",
+            "fontSize": "base",
+            "fontFamily": "base",
+            "animation": "none",
+            "animationDuration": 1000,
+            "animationInfinite": true
+          }
+        }
+      },
+      "block_order": [
+        "title_kRkKUP",
+        "rich_text_whfxpx",
+        "button_LFAbbM",
+        "button_difzJG"
+      ],
+      "disabled": true,
+      "name": "Call to action",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "stretchBg",
+        "nomargin": false,
+        "scopedCSS": "",
+        "height": 550,
+        "padding": 25,
+        "lineMargin": 12,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "backgroundImage": "shopify://shop_images/Custom_Coloring_Book_from_Photos.jpg",
+        "backgroundImageUrl": "",
+        "backgroundPosition": "top",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 70,
+        "overlayColor": "#f4ffff",
+        "contentColor": "rgba(0,0,0,0)",
+        "horizontalAlignment": "start",
+        "verticalAlignment": "middle",
+        "maxContentWidth": 100,
+        "heading": "",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "",
+        "subheadingColor": "rgba(0,0,0,0)",
+        "subheadingPosition": "above",
+        "headingAlignment": "center"
+      }
+    },
+    "section_image_text_bq3JXN": {
+      "type": "section__image-text",
+      "blocks": {
+        "rich_text_yYfkGV": {
+          "type": "richText",
+          "settings": {
+            "fullWidth": true,
+            "maxBWidth": 100,
+            "content": "<h1>Personalized Easter Coloring Book — The Screen-Free, Candy-Free Easter Basket Gift</h1>",
+            "detectLists": true,
+            "textColor": "rgba(0,0,0,0)",
+            "fontFamily": "base",
+            "fontSize": "base"
+          }
+        },
+        "title_MVWwiH": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "fullWidth": true,
+            "content": "Personalized Easter Coloring Book — The Screen-Free, Candy-Free Easter Basket Gift",
+            "textColor": "rgba(0,0,0,0)",
+            "fontFamily": "title",
+            "fontSize": "medium"
+          }
+        },
+        "rich_text_6MqW6x": {
+          "type": "richText",
+          "settings": {
+            "fullWidth": true,
+            "maxBWidth": 100,
+            "content": "<p>A personalized Easter coloring book transforms your family photos into custom coloring pages kids love — a screen-free, candy-free addition to any Easter basket that the whole family enjoys together.</p>",
+            "detectLists": true,
+            "textColor": "rgba(0,0,0,0)",
+            "fontFamily": "base",
+            "fontSize": "base"
+          }
+        },
+        "button_JXH3yy": {
+          "type": "button",
+          "settings": {
+            "fullWidth": true,
+            "text": "Create Your Easter Book",
+            "url": "shopify://collections/frontpage",
+            "icon": "",
+            "iconPosition": "icon--left",
+            "wideButton": false,
+            "buttonStyle": "primary",
+            "buttonType": "default",
+            "fontSize": "base",
+            "fontFamily": "base",
+            "animation": "none",
+            "animationDuration": 1000,
+            "animationInfinite": true
+          }
+        }
+      },
+      "block_order": [
+        "rich_text_yYfkGV",
+        "title_MVWwiH",
+        "rich_text_6MqW6x",
+        "button_JXH3yy"
+      ],
+      "custom_css": [
+        "h1 {margin-bottom: 10px !important;}",
+        ".tximage__txt p {margin-top: 0px !important;}"
+      ],
+      "name": "Image + text",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "scopedCSS": "##scoped .tximage__txt {\n    padding: 8px 96px !important;\n}\n@media (max-width: 600px) {\n##scoped .tximage__txt {\n    padding: 8px 10px !important;\n}\n##scoped  h1, h2 {\n    font-weight: 800;\n    color: var(--titleColor);\n    font-size: 36px !important;\n}\n}",
+        "height": 0,
+        "padding": 0,
+        "lineMargin": 12,
+        "content_padding": 20,
+        "backgroundColor": "#4eb9d7",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 0,
+        "overlayColor": "#000000",
+        "contentColor": "#f4ffff",
+        "horizontalAlignment": "start",
+        "verticalAlignment": "middle",
+        "imagePosition": "right",
+        "imageWidth": "6",
+        "image": "shopify://shop_images/My_Colorful_World.png",
+        "image_url": "",
+        "imageOverlayOpacity": 0,
+        "imageOverlayColor": "#000000",
+        "vertPaddingAccord": 12,
+        "horPaddingAccord": 4
+      }
+    },
+    "section_cta_zwHNWz": {
+      "type": "section__cta",
+      "blocks": {
+        "title_4miMTx": {
+          "type": "title",
+          "settings": {
+            "fullWidth": true,
+            "content": "Why Personalized Easter Coloring Books",
+            "textColor": "#004a70",
+            "fontFamily": "title",
+            "fontSize": "medium"
+          }
+        },
+        "title_HkB437": {
+          "type": "title",
+          "settings": {
+            "fullWidth": true,
+            "content": "Is the Screen-Free Easter Basket Gift Kids Actually Enjoy?",
+            "textColor": "#004a70",
+            "fontFamily": "title",
+            "fontSize": "medium"
+          }
+        },
+        "separator_x7Tk6m": {
+          "type": "separator",
+          "settings": {
+            "height": 20,
+            "dividerHeight": 0,
+            "dividerWidth": 50,
+            "dividerColor": "#000000",
+            "position": "left"
+          }
+        }
+      },
+      "block_order": [
+        "title_4miMTx",
+        "title_HkB437",
+        "separator_x7Tk6m"
+      ],
+      "name": "Call to action",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": true,
+        "scopedCSS": "",
+        "height": 0,
+        "padding": 10,
+        "lineMargin": 12,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "backgroundImageUrl": "",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 0,
+        "overlayColor": "#000000",
+        "contentColor": "rgba(0,0,0,0)",
+        "horizontalAlignment": "center",
+        "verticalAlignment": "top",
+        "maxContentWidth": 100,
+        "heading": "",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "",
+        "subheadingColor": "rgba(0,0,0,0)",
+        "subheadingPosition": "above",
+        "headingAlignment": "center"
+      }
+    },
+    "section_columns_Jy8iex": {
+      "type": "section__columns",
+      "blocks": {
+        "column_image_M9iA9b": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/compressed_DSC04453.jpg",
+            "imageSize": 100,
+            "heading": "<p>A Candy-Free Easter Basket Win</p>",
+            "content": "<p>The candy-free Easter basket addition parents actually feel good about. A screen-free Easter gift that doesn't add to the toy pile or the sugar rush. Kids color photos of themselves, their family, and their pets with <a href=\"https://mycolorfulworld.art/collections/frontpage\">personalized coloring books with photos</a>.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        },
+        "column_image_WXzAxr": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/Easter.png",
+            "imageSize": 100,
+            "heading": "<p>Screen-Free Fun They Actually Choose</p>",
+            "content": "<p>Because the pictures are of them. A personalized Easter coloring book with their own face, their own dog, their own family — kids choose it over the iPad. No batteries, no screens, no tiny pieces to step on at 2am.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        },
+        "column_image_JRHPbG": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/Easter_2.png",
+            "imageSize": 100,
+            "heading": "<p>The Whole Family Joins In</p>",
+            "content": "<p>A screen-free Easter activity the whole family does together. Moms love the guilt-free quality time. Dads love the 5-minute ordering process. Grandparents love giving a personalized Easter coloring book that means something.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        },
+        "column_image_N1v4Ax": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_gjgxr4gjgxr4gjgx_b0e01d85-6f03-4bda-864c-db4775b62353.png",
+            "imageSize": 100,
+            "heading": "<p>Ship Directly to the Grandkids</p>",
+            "content": "<p>Order from anywhere, ship to their door. Grandparents can send a personalized Easter coloring book without the logistics headache.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        },
+        "column_image_N2v4Bx": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/Easter_2.png",
+            "imageSize": 100,
+            "heading": "<p>Great for Church & School Events</p>",
+            "content": "<p>Personalized Easter coloring books for egg hunts, Sunday school, and classroom parties. A meaningful group activity that keeps kids engaged, perfect if you need <a href=\"https://mycolorfulworld.art/collections/bulk-purchases\">bulk custom coloring books for events</a>.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        },
+        "column_image_N3v4Cx": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/compressed_DSC04453.jpg",
+            "imageSize": 100,
+            "heading": "<p>Quality, Not Junk</p>",
+            "content": "<p>Not candy. Not plastic. Not another dollar-store toy headed for the trash. A custom Easter coloring book with their own photos — something they'll actually use and keep.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        }
+      },
+      "block_order": [
+        "column_image_M9iA9b",
+        "column_image_WXzAxr",
+        "column_image_JRHPbG",
+        "column_image_N1v4Ax",
+        "column_image_N2v4Bx",
+        "column_image_N3v4Cx"
+      ],
+      "name": "Columns",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "scopedCSS": "##scoped .column__media { height: 220px; overflow: hidden; display: flex; align-items: center; justify-content: center; } ##scoped .column__media img { width: 100%; height: 100%; object-fit: cover; border-radius: 8px; } @media screen and (max-width: 767px) { ##scoped .column__media { height: auto; max-height: 280px; } ##scoped .column__media img { height: auto; max-height: 280px; object-fit: contain; } }",
+        "height": 0,
+        "padding": 0,
+        "lineMargin": 12,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 0,
+        "overlayColor": "#000000",
+        "contentColor": "rgba(0,0,0,0)",
+        "horizontalAlignment": "center",
+        "verticalAlignment": "middle",
+        "heading": "",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "",
+        "subheadingColor": "rgba(0,0,0,0)",
+        "subheadingPosition": "above",
+        "headingAlignment": "center",
+        "colHeight": 240,
+        "colGap": 20,
+        "textAlign": "center",
+        "contentAlign": "top",
+        "colCount": "col-md-4",
+        "enableCarousel": false,
+        "enableAutoplay": true,
+        "slideSpeed": 3,
+        "spaceBetween": 30,
+        "enableDragging": true,
+        "enablePagination": true,
+        "enableAutoHeight": false,
+        "buttonDisplayFor": "hide-mobile",
+        "productCardDesktop": 4,
+        "productCardTablet": 2,
+        "productCardMobile": 1
+      }
+    },
+    "section_columns_96WPHc": {
+      "type": "section__columns",
+      "blocks": {
+        "column_image_QmrRYJ": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/How_to_1.png",
+            "imageSize": 100,
+            "heading": "<h3>Step 1: Choose Your Book Size</h3>",
+            "content": "<p>Choose the perfect size for your personalized Easter coloring book — 20, 32, or 40 pages of family photos, pets, and favorite moments.</p>",
+            "buttonText": " Choose Your Size",
+            "buttonURL": "shopify://collections/frontpage",
+            "openTab": false,
+            "buttonStyle": "primary",
+            "buttonType": "filled"
+          }
+        },
+        "column_image_hCgnjJ": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/How_to_2.png",
+            "imageSize": 100,
+            "heading": "<h3>Step 2: Upload Photos and Customize Your Cover</h3>",
+            "content": "<p>Upload family and pet photos and personalize the cover. Our AI transforms each image into a coloring page, then a human designer reviews every single page.</p>",
+            "buttonText": "Upload Your Photos",
+            "buttonURL": "shopify://collections/frontpage",
+            "openTab": false,
+            "buttonStyle": "primary",
+            "buttonType": "filled"
+          }
+        },
+        "column_image_dk6pBQ": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/5_82452436-ee00-4da2-a547-ad8dba6b897c.png",
+            "imageSize": 100,
+            "heading": "<h3>Step 3: Checkout and Delivery</h3>",
+            "content": "<p>Your personalized Easter coloring book will be professionally printed on high-quality paper and shipped to your door — or directly to the grandkids.</p>",
+            "buttonText": "Place Your Order",
+            "buttonURL": "shopify://collections/frontpage",
+            "openTab": false,
+            "buttonStyle": "primary",
+            "buttonType": "filled"
+          }
+        }
+      },
+      "block_order": [
+        "column_image_QmrRYJ",
+        "column_image_hCgnjJ",
+        "column_image_dk6pBQ"
+      ],
+      "name": "Columns",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "scopedCSS": "",
+        "height": 0,
+        "padding": 0,
+        "lineMargin": 12,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 90,
+        "overlayColor": "#f4ffff",
+        "contentColor": "rgba(0,0,0,0)",
+        "horizontalAlignment": "center",
+        "verticalAlignment": "top",
+        "heading": "<p>Create Your Coloring Book in 3 Simple Steps</p>",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "",
+        "subheadingColor": "rgba(0,0,0,0)",
+        "subheadingPosition": "above",
+        "headingAlignment": "center",
+        "colHeight": 240,
+        "colGap": 20,
+        "textAlign": "start",
+        "contentAlign": "top",
+        "colCount": "col-md-4",
+        "enableCarousel": false,
+        "enableAutoplay": true,
+        "slideSpeed": 3,
+        "spaceBetween": 30,
+        "enableDragging": true,
+        "enablePagination": true,
+        "enableAutoHeight": false,
+        "buttonDisplayFor": "hide-mobile",
+        "productCardDesktop": 4,
+        "productCardTablet": 2,
+        "productCardMobile": 1
+      }
+    },
+    "section_image_text_xwE7U6": {
+      "type": "section__image-text",
+      "blocks": {
+        "title_ebQrFX": {
+          "type": "title",
+          "settings": {
+            "fullWidth": true,
+            "content": "What You Get in a Personalized Easter Coloring Book",
+            "textColor": "rgba(0,0,0,0)",
+            "fontFamily": "title",
+            "fontSize": "medium"
+          }
+        },
+        "html_ixqnX7": {
+          "type": "html",
+          "settings": {
+            "fullWidth": true,
+            "html": "<div class=\"custom-age-section\">\n  <div class=\"age-card-styled\">\n    <span class=\"age-icon-styled\">📸</span>\n    <span class=\"age-text-styled\">Their Photos as Coloring Pages</span>\n    <span class=\"age-desc-styled\">Our AI transforms family photos into detailed Easter coloring pages — their faces, their pets, the family together. Personal pages they'll actually color.</span>\n  </div>\n</div>",
+            "customCSS": "<style>\n  /* Container to ensure it looks good in Shopify layouts */\n  .custom-age-section {\n    padding: 15px 0;\n    width: 100%;\n    display: flex;\n    justify-content: center;\n  }\n\n  /* The Card Style */\n  .age-card-styled {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: flex-start; /* Aligns content to the left like the image */\n    \n    background-color: #f2f2f2; /* Light grey background */\n    border-radius: 24px;       /* Smooth rounded corners */\n    padding: 25px 30px;        /* Matches the generous padding in the image */\n    width: 100%;\n    max-width: 100%;          /* Adjust width as needed */\nmargin:0 auto;\n    border: none;\n    text-decoration: none;\n    transition: transform 0.2s ease, background-color 0.2s ease;\n  }\n\n  /* Hover effect for interactivity */\n  .age-card-styled:hover {\n    background-color: #ebebeb;\n    transform: translateY(-2px);\n  }\n\n  /* The Emoji Icon */\n  .age-icon-styled {\n    font-size: 32px;           /* Large emoji size */\n    margin-bottom: 12px;       /* Space between icon and text */\n    display: block;\n    line-height: 1;\n  }\n\n  /* The Text Style */\n  .age-text-styled {\n    font-family: \"Assistant\", sans-serif; /* Shopify's common font, or use Helvetica */\n    font-size: 20px;\n    font-weight: 700;          /* Bold weight to match image */\n    color: #000000;\n    margin: 0;\n    letter-spacing: -0.01em;   /* Tightens the text slightly for that modern look */\n  }\n\n  .age-desc-styled {\n    font-family: \"Assistant\", sans-serif;\n    font-size: 14px;\n    font-weight: 400;\n    color: #555;\n    margin-top: 8px;\n    line-height: 1.5;\n    display: block;\n  }\n</style>"
+          }
+        },
+        "html_aMVHNG": {
+          "type": "html",
+          "settings": {
+            "fullWidth": true,
+            "html": "<div class=\"custom-age-section\">\n  <div class=\"age-card-styled\">\n    <span class=\"age-icon-styled\">🎨</span>\n    <span class=\"age-text-styled\">Custom Easter Cover With Their Name</span>\n    <span class=\"age-desc-styled\">A personalized cover featuring their name and photos. The candy-free Easter basket addition that stands out from every plastic egg.</span>\n  </div>\n</div>",
+            "customCSS": "<style>\n  /* Container to ensure it looks good in Shopify layouts */\n  .custom-age-section {\n    padding: 15px 0;\n    width: 100%;\n    display: flex;\n    justify-content: center;\n  }\n\n  /* The Card Style */\n  .age-card-styled {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: flex-start; /* Aligns content to the left like the image */\n    \n    background-color: #f2f2f2; /* Light grey background */\n    border-radius: 24px;       /* Smooth rounded corners */\n    padding: 25px 30px;        /* Matches the generous padding in the image */\n    \n    width: 100%;\n    max-width: 500px;          /* Adjust width as needed */\n    border: none;\n    text-decoration: none;\n    transition: transform 0.2s ease, background-color 0.2s ease;\n  }\n\n  /* Hover effect for interactivity */\n  .age-card-styled:hover {\n    background-color: #ebebeb;\n    transform: translateY(-2px);\n  }\n\n  /* The Emoji Icon */\n  .age-icon-styled {\n    font-size: 32px;           /* Large emoji size */\n    margin-bottom: 12px;       /* Space between icon and text */\n    display: block;\n    line-height: 1;\n  }\n\n  /* The Text Style */\n  .age-text-styled {\n    font-family: \"Assistant\", sans-serif; /* Shopify's common font, or use Helvetica */\n    font-size: 20px;\n    font-weight: 700;          /* Bold weight to match image */\n    color: #000000;\n    margin: 0;\n    letter-spacing: -0.01em;   /* Tightens the text slightly for that modern look */\n  }\n</style>"
+          }
+        },
+        "html_FtXtey": {
+          "type": "html",
+          "settings": {
+            "fullWidth": true,
+            "html": "<div class=\"custom-age-section\">\n  <div class=\"age-card-styled\">\n    <span class=\"age-icon-styled\">📐</span>\n    <span class=\"age-text-styled\">Thick Pages Built for Little Hands</span>\n    <span class=\"age-desc-styled\">Heavy-duty high-quality paper that handles crayons, markers, and colored pencils without bleeding. Built to survive Easter morning excitement.</span>\n  </div>\n</div>",
+            "customCSS": "<style>\n  /* Container to ensure it looks good in Shopify layouts */\n  .custom-age-section {\n    padding: 15px 0;\n    width: 100%;\n    display: flex;\n    justify-content: center;\n  }\n\n  /* The Card Style */\n  .age-card-styled {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: flex-start; /* Aligns content to the left like the image */\n    \n    background-color: #f2f2f2; /* Light grey background */\n    border-radius: 24px;       /* Smooth rounded corners */\n    padding: 25px 30px;        /* Matches the generous padding in the image */\n    \n    width: 100%;\n    max-width: 500px;          /* Adjust width as needed */\n    border: none;\n    text-decoration: none;\n    transition: transform 0.2s ease, background-color 0.2s ease;\n  }\n\n  /* Hover effect for interactivity */\n  .age-card-styled:hover {\n    background-color: #ebebeb;\n    transform: translateY(-2px);\n  }\n\n  /* The Emoji Icon */\n  .age-icon-styled {\n    font-size: 32px;           /* Large emoji size */\n    margin-bottom: 12px;       /* Space between icon and text */\n    display: block;\n    line-height: 1;\n  }\n\n  /* The Text Style */\n  .age-text-styled {\n    font-family: \"Assistant\", sans-serif; /* Shopify's common font, or use Helvetica */\n    font-size: 20px;\n    font-weight: 700;          /* Bold weight to match image */\n    color: #000000;\n    margin: 0;\n    letter-spacing: -0.01em;   /* Tightens the text slightly for that modern look */\n  }\n</style>"
+          }
+        },
+        "button_epFijN": {
+          "type": "button",
+          "settings": {
+            "fullWidth": true,
+            "text": "CREATE NOW",
+            "url": "",
+            "icon": "",
+            "iconPosition": "icon--left",
+            "wideButton": false,
+            "buttonStyle": "primary",
+            "buttonType": "default",
+            "fontSize": "base",
+            "fontFamily": "base",
+            "animation": "none",
+            "animationDuration": 1000,
+            "animationInfinite": true
+          }
+        }
+      },
+      "block_order": [
+        "title_ebQrFX",
+        "html_ixqnX7",
+        "html_aMVHNG",
+        "html_FtXtey",
+        "button_epFijN"
+      ],
+      "custom_css": [],
+      "name": "Image + text",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "scopedCSS": "@media (min-width: 769px) {\n  .age-card-styled {\n    width: 100%;\n    max-width: 700px;\n    min-width: 500px;\n  }\n}\n##scoped .tximage__txt {\n    padding: 8px 60px !important;\n}\n@media (max-width: 600px) {\n##scoped .tximage__txt {\n    padding: 8px 10px !important;\n}\n}",
+        "height": 0,
+        "padding": 0,
+        "lineMargin": 15,
+        "content_padding": 10,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 0,
+        "overlayColor": "#000000",
+        "contentColor": "rgba(0,0,0,0)",
+        "horizontalAlignment": "start",
+        "verticalAlignment": "middle",
+        "imagePosition": "left",
+        "imageWidth": "6",
+        "image": "shopify://shop_images/Service_page_image_3.png",
+        "image_url": "",
+        "imageOverlayOpacity": 0,
+        "imageOverlayColor": "#000000",
+        "vertPaddingAccord": 12,
+        "horPaddingAccord": 4
+      }
+    },
+    "section_columns_9Qh9EV": {
+      "type": "section__columns",
+      "blocks": {
+        "column_image_h37Ptt": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/By_Age_2.png",
+            "imageSize": 100,
+            "heading": "<h3><strong>Kids</strong></h3>",
+            "content": "<p>Kids enjoy coloring pages featuring their family, pets, and favorite moments, turning Easter into a fun, creative activity.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        },
+        "column_image_A8wDyT": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/By_Age_1.png",
+            "imageSize": 100,
+            "heading": "<h3><strong>Adults</strong></h3>",
+            "content": "<p>Enjoy a relaxing creative moment during Easter while coloring pages created from your favorite photos.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        },
+        "column_image_LLqhEe": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/By_Age_3.png",
+            "imageSize": 100,
+            "heading": "<h3><strong>Parents</strong></h3>",
+            "content": "<p>A screen-free Easter activity parents and kids can enjoy together while turning family photos into something creative.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        },
+        "column_image_z6Megp": {
+          "type": "columnImage",
+          "settings": {
+            "image": "shopify://shop_images/By_Age_4.png",
+            "imageSize": 100,
+            "heading": "<h3><strong>Grandparents</strong></h3>",
+            "content": "<p>A thoughtful Easter gift grandparents can give their grandkids, transforming family photos into a keepsake they can color and keep.</p>",
+            "buttonText": "",
+            "buttonURL": "",
+            "openTab": false,
+            "buttonStyle": "secondary",
+            "buttonType": "filled"
+          }
+        }
+      },
+      "block_order": [
+        "column_image_h37Ptt",
+        "column_image_A8wDyT",
+        "column_image_LLqhEe",
+        "column_image_z6Megp"
+      ],
+      "custom_css": [
+        ".column__media img {max-width: 100%; border-radius: 20px;}"
+      ],
+      "name": "Columns",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "scopedCSS": "",
+        "height": 0,
+        "padding": 0,
+        "lineMargin": 28,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 0,
+        "overlayColor": "#000000",
+        "contentColor": "rgba(0,0,0,0)",
+        "horizontalAlignment": "center",
+        "verticalAlignment": "middle",
+        "heading": "<p>A Creative Easter Gift for Kids and Families</p>",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "",
+        "subheadingColor": "rgba(0,0,0,0)",
+        "subheadingPosition": "above",
+        "headingAlignment": "center",
+        "colHeight": 240,
+        "colGap": 65,
+        "textAlign": "center",
+        "contentAlign": "top",
+        "colCount": "col-md-3",
+        "enableCarousel": true,
+        "enableAutoplay": true,
+        "slideSpeed": 3,
+        "spaceBetween": 50,
+        "enableDragging": true,
+        "enablePagination": true,
+        "enableAutoHeight": false,
+        "buttonDisplayFor": "hide-mobile",
+        "productCardDesktop": 4,
+        "productCardTablet": 2,
+        "productCardMobile": 1
+      }
+    },
+    "section_featured_collection_mw6qd6": {
+      "type": "section__featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "scopedCSS": "",
+        "height": 0,
+        "padding": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "heading": "Shop Easter Coloring Books",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "EASTER GIFTS",
+        "subheadingColor": "rgba(0,0,0,0)",
+        "subheadingPosition": "below",
+        "headingAlignment": "center",
+        "collection": "easter-coloring-books",
+        "productCount": 12,
+        "showMore": true,
+        "showMoreText": "See all Easter coloring books",
+        "showMoreAlignment": "center",
+        "enableCarousel": true,
+        "enableAutoplay": true,
+        "slideSpeed": 3,
+        "spaceBetween": 30,
+        "enableDragging": true,
+        "enablePagination": true,
+        "enableAutoHeight": false,
+        "buttonDisplayFor": "hide-mobile",
+        "productCardDesktop": 4,
+        "productCardTablet": 2,
+        "productCardMobile": 1,
+        "cardDesktop": "default",
+        "cardMobile": "default"
+      }
+    },
+    "section_image_text_yHgpzP": {
+      "type": "section__image-text",
+      "blocks": {
+        "title_rVRYYq": {
+          "type": "title",
+          "settings": {
+            "fullWidth": true,
+            "content": "Why Customers Love Our Personalized Easter Coloring Books",
+            "textColor": "rgba(0,0,0,0)",
+            "fontFamily": "title",
+            "fontSize": "medium"
+          }
+        },
+        "rich_text_CwgGHz": {
+          "type": "richText",
+          "settings": {
+            "fullWidth": true,
+            "maxBWidth": 100,
+            "content": "<p>Easter baskets are full of sugar and plastic — why not add something they'll actually keep? A personalized Easter coloring book featuring your family photos gives kids (and adults) a screen-free activity that lasts well past Sunday.</p><p>Our AI turns your family photos, pet pics, and holiday memories into coloring pages with recognizable faces. Every page is reviewed by a designer and printed on high-quality paper that handles crayons and markers.</p><p>Families tell us the coloring books outlast every other basket item. That's the kind of Easter gift worth giving.</p>",
+            "detectLists": true,
+            "textColor": "rgba(0,0,0,0)",
+            "fontFamily": "base",
+            "fontSize": "base"
+          }
+        },
+        "html_mABQVR": {
+          "type": "html",
+          "settings": {
+            "fullWidth": true,
+            "html": "<div class=\"age-grid-wrapper\">\n    <div class=\"age-card\">\n      <span class=\"age-icon\">🐣</span>\n      <span class=\"age-text\">The Easter Basket Item That Outlasts the Candy</span>\n    </div>\n</div>",
+            "customCSS": "<style>\n.age-grid-wrapper {\n  width: 1000%;\n  max-width: 1200px;\nmin-width: 1200px;\n}\n.age-card {\n  background: #f2f2f2;\n  border-radius: 18px;\n  padding: 22px;\n  display: flex;\n  align-items: center;\n  gap: 16px;\n  transition: 0.2s ease;\n}\n\n.age-card:hover {\n  background: #e9e9e9;\n}\n\n.age-icon {\n  font-size: 34px;\n  line-height: 1;\n  flex-shrink: 0;\n}\n\n.age-text {\n  font-size: 22px;\n  font-weight: 700;\n  text-align: left;\n  line-height: 1.3;\n}\n\n@media (max-width: 768px) {\n  .age-grid {\n    grid-template-columns: 1fr;\n  }\n\n  .age-text {\n    font-size: 20px;\n  }\n}\n</style>"
+          }
+        },
+        "html_drgnpX": {
+          "type": "html",
+          "settings": {
+            "fullWidth": true,
+            "html": "<div class=\"age-grid-wrapper\">\n    <div class=\"age-card\">\n      <span class=\"age-icon\">⭐</span>\n      <span class=\"age-text\">Families Say It's Their Favorite Easter Tradition</span>\n    </div>\n</div>",
+            "customCSS": "<style>\n.age-grid-wrapper {\n  width: 1000%;\n  max-width: 1200px;\n}\n.age-card {\n  background: #f2f2f2;\n  border-radius: 18px;\n  padding: 22px;\n  display: flex;\n  align-items: center;\n  gap: 16px;\n  transition: 0.2s ease;\n}\n\n.age-card:hover {\n  background: #e9e9e9;\n}\n\n.age-icon {\n  font-size: 34px;\n  line-height: 1;\n  flex-shrink: 0;\n}\n\n.age-text {\n  font-size: 22px;\n  font-weight: 700;\n  text-align: left;\n  line-height: 1.3;\n}\n\n@media (max-width: 768px) {\n  .age-grid {\n    grid-template-columns: 1fr;\n  }\n\n  .age-text {\n    font-size: 20px;\n  }\n}\n</style>"
+          }
+        },
+        "button_xhnayH": {
+          "type": "button",
+          "settings": {
+            "fullWidth": true,
+            "text": "Create an Easter Coloring Book",
+            "url": "",
+            "icon": "",
+            "iconPosition": "icon--left",
+            "wideButton": false,
+            "buttonStyle": "primary",
+            "buttonType": "default",
+            "fontSize": "base",
+            "fontFamily": "base",
+            "animation": "none",
+            "animationDuration": 1000,
+            "animationInfinite": true
+          }
+        }
+      },
+      "block_order": [
+        "title_rVRYYq",
+        "rich_text_CwgGHz",
+        "html_mABQVR",
+        "html_drgnpX",
+        "button_xhnayH"
+      ],
+      "name": "Image + text",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "scopedCSS": "@media (min-width: 769px) {\n  .age-card {\n    width: 100%;\n    max-width: 700px;\n    min-width: 500px;\n  }\n}\n##scoped .tximage__txt {\n    padding: 8px 96px !important;\n}\n@media (max-width: 600px) {\n##scoped .tximage__txt {\n    padding: 8px 10px !important;\n}\n}",
+        "height": 0,
+        "padding": 0,
+        "lineMargin": 15,
+        "content_padding": 20,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 0,
+        "overlayColor": "#000000",
+        "contentColor": "rgba(0,0,0,0)",
+        "horizontalAlignment": "start",
+        "verticalAlignment": "middle",
+        "imagePosition": "left",
+        "imageWidth": "6",
+        "image": "shopify://shop_images/Service_page_image_2.png",
+        "image_url": "",
+        "imageOverlayOpacity": 0,
+        "imageOverlayColor": "#000000",
+        "vertPaddingAccord": 12,
+        "horPaddingAccord": 4
+      }
+    },
+    "section_testimonials_X9fKp2": {
+      "type": "section__testimonials",
+      "blocks": {
+        "testimonial_A7kLzQ": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>I made a coloring book for my mom for Mother’s Day with photos of all her grandkids. She literally cried when she opened it. Best Mother’s Day gift I’ve ever given her</em></p>",
+            "authorName": "Angela R",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Mother's Day</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_K3vJr9": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>Is there a better way to celebrate life’s great moments? So nice to see </em>birthdays, holidays<em> and just everyday celebrations ready for the kids to color and reimagine themselves. Cannot believe mys election of photos turned into something that will be treasured by my family.</em></p>",
+            "authorName": "Kathy Spencer",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Birthday</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_L8qZpV": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>Made coloring books for my husband and kids for Valentine’s Day. The kids especially loved seeing </em>themselves. My<em> husband thought it was really creative and sweet. Will definitely be doing this again!</em></p>",
+            "authorName": "Donna",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Valentine's Day</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_Y2wHcD": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>Could not be more thrilled with how the coloring book turned out! It was a Hanukkah gift for my kids and they absolutely loved seeing their photos as coloring pages. Such a special and creative gift idea</em></p>",
+            "authorName": "Amanda Gershowitz",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Christmas</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_P4rJn8": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>Used these as party favors at my son’s graduation party. Each guest got coloring pages. It was such a conversation starter and everyone loved them!</em></p>",
+            "authorName": "Amy",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Graduation</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_V5gNpA": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>Put personalized coloring books in my grandkids’ Easter baskets and they were more excited about those than the candy! Such a creative gift idea.</em></p>",
+            "authorName": "Pamela",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Easter</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_R9bLtH": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>My granddaughter LOVED it! The WHOLE family loved it!!</em></p>",
+            "authorName": "Mary Peacock",
+            "showAuthorImage": false,
+            "fakeImageSex": "men",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Birthdays</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_T8mZxK": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>My granddaughter (age 7) just LOVES her new coloring book. When she realized the pictures were of her, her family and friends she had the biggest smile! Dad and Mom were amazed as well. I’ve given many friends the suggestion to make them for their families!</em></p>",
+            "authorName": "Robyn Kellman Herbst",
+            "showAuthorImage": false,
+            "fakeImageSex": "men",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Christmas</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_Q6wVfJ": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>My wife and kids surprised me with a coloring book for Father’s Day and it was honestly the best gift. All our family adventures in one book. Now we color together on weekends.</em></p>",
+            "authorName": "Greg",
+            "showAuthorImage": false,
+            "fakeImageSex": "men",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Birthdays</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_Z2kHtL": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>Made a coloring book chronicling my daughter’s school years for her high school graduation. It was a huge hit at the graduation party. All the other parents wanted to know how to make one.</em></p>",
+            "authorName": "Mike T",
+            "showAuthorImage": false,
+            "fakeImageSex": "men",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Graduation</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_M3pKrX": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>Turned our wedding photos and years of memories into a coloring book for our 10th anniversary. My wife said it was the most thoughtful gift I’ve ever given her. We spent the evening coloring and reminiscing.</em></p>",
+            "authorName": "James",
+            "showAuthorImage": false,
+            "fakeImageSex": "men",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Anniversaries</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_J7qHxP": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>I loved this book from the moment my family and I started putting it together and choosing photos from our last trip. We were so excited to see the final result and it did not disappoint.</em></p>",
+            "authorName": "Camila Galinsky",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Birthdays</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_F2wKtV": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>The coloring book was such a hit at our family gathering. Everyone was fighting over who got to color which page. Such a fun and unique gift!</em></p>",
+            "authorName": "Heidi W",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Christmas</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_P1xRtH": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>As a total cat person, I had to try this with photos of my cats. The results were adorable! I gave copies to my cat-loving friends and they all want to make their own now.</em></p>",
+            "authorName": "Christina M.",
+            "showAuthorImage": false,
+            "fakeImageSex": "women",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Birthdays</strong></p>",
+            "star_rating": 5
+          }
+        },
+        "testimonial_D8kPmJ": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p><em>Made a coloring book featuring our family dog and gave it to the kids. They think the dog is famous now because he has his own book! Great quality and fun for the whole family.</em></p>",
+            "authorName": "Kevin",
+            "showAuthorImage": false,
+            "fakeImageSex": "men",
+            "imageAlt": "",
+            "textBelowStarRating": "<p><strong>Christmas</strong></p>",
+            "star_rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_A7kLzQ",
+        "testimonial_K3vJr9",
+        "testimonial_L8qZpV",
+        "testimonial_Y2wHcD",
+        "testimonial_P4rJn8",
+        "testimonial_V5gNpA",
+        "testimonial_R9bLtH",
+        "testimonial_T8mZxK",
+        "testimonial_Q6wVfJ",
+        "testimonial_Z2kHtL",
+        "testimonial_M3pKrX",
+        "testimonial_J7qHxP",
+        "testimonial_F2wKtV",
+        "testimonial_P1xRtH",
+        "testimonial_D8kPmJ"
+      ],
+      "custom_css": [],
+      "name": "Testimonials",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "scopedCSS": "",
+        "height": 0,
+        "padding": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "heading": "<p> Why Families Love My Colorful World for Easter</p>",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "TESTIMONIAL",
+        "subheadingColor": "#fb046f",
+        "subheadingPosition": "above",
+        "headingAlignment": "center",
+        "blockStyle": "author-below",
+        "blockBackground": "rgba(0,0,0,0)",
+        "blockText": "#000000",
+        "testimonialAlign": "left",
+        "cardBackgroundColor": "#ffffff",
+        "cardBorderRadius": 26,
+        "cardPadding": 20,
+        "starRatingColor": "#ffb503",
+        "ratingBadgeBackground": "#fff4cc",
+        "ratingBadgeText": "#004a70",
+        "blockBottomBackground": "#000000",
+        "blockBottomText": "#004a70",
+        "useFakeImages": true,
+        "roundedImages": true,
+        "enableCarousel": true,
+        "enableAutoplay": true,
+        "slideSpeed": 4,
+        "spaceBetween": 10,
+        "enableDragging": true,
+        "enablePagination": true,
+        "enableAutoHeight": false,
+        "buttonDisplayFor": "hide-mobile",
+        "productCardDesktop": 3,
+        "productCardTablet": 2,
+        "productCardMobile": 1
+      }
+    },
+    "section_faq_xUle5T": {
+      "type": "section__faq",
+      "blocks": {
+        "accordion_cpHkQb": {
+          "type": "accordion",
+          "settings": {
+            "openAccordion": true,
+            "question": "<p>What's a screen-free Easter basket gift for kids?</p>",
+            "answer": "<p>A personalized Easter coloring book is a screen-free, candy-free basket addition the whole family enjoys. Fill it with photos of the kids, family pets, and favorite memories — they'll spend hours coloring pages of their own world instead of staring at a screen. It's creative, personal, and actually educational.</p>"
+          }
+        },
+        "accordion_AkGdjW": {
+          "type": "accordion",
+          "settings": {
+            "openAccordion": false,
+            "question": "<p>Why give a personalized Easter coloring book instead of more candy?</p>",
+            "answer": "<p>Because the candy is gone by Monday. A personalized Easter coloring book is a basket addition that lasts — kids color pages of their own family, pets, and memories instead of zoning out on screens after the sugar crash. It's screen-free, candy-free, and actually meaningful. Parents love it because it replaces clutter with connection.</p>"
+          }
+        },
+        "accordion_CHORlL": {
+          "type": "accordion",
+          "settings": {
+            "openAccordion": false,
+            "question": "<p>Can I order personalized Easter coloring books for a church or community Easter event?</p>",
+            "answer": "<p>Yes! We offer bulk pricing for personalized Easter coloring books perfect for church events, synagogue Passover celebrations, school events, and community gatherings. Same photos in every book, or customize each one. Contact us at hello@mycolorfulworld.art for group order details.</p>"
+          }
+        },
+        "accordion_B6YEGR": {
+          "type": "accordion",
+          "settings": {
+            "openAccordion": false,
+            "question": "<p>How do I order a personalized Easter coloring book?</p>",
+            "answer": "<p>It takes about 5 minutes: upload 16–40 family photos, our custom AI transforms each one into coloring page line art, a human designer reviews every page, and we print on high-quality paper and ship to your door. Order at least 2–3 weeks before Easter to ensure it arrives in time for the basket.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_cpHkQb",
+        "accordion_AkGdjW",
+        "accordion_CHORlL",
+        "accordion_B6YEGR"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "custom_id": "",
+        "displayFor": "display--both",
+        "layout": "default",
+        "nomargin": false,
+        "scopedCSS": "",
+        "height": 0,
+        "padding": 0,
+        "lineMargin": 12,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "backgroundPosition": "middle",
+        "backgroundFilter": "none",
+        "backdropIntensity": 50,
+        "parallax": false,
+        "backgroundPattern": false,
+        "overlayOpacity": 0,
+        "overlayColor": "#000000",
+        "contentColor": "rgba(0,0,0,0)",
+        "horizontalAlignment": "center",
+        "verticalAlignment": "middle",
+        "maxContentWidth": 100,
+        "heading": "<p>Frequently Asked Questions</p>",
+        "headingColor": "rgba(0,0,0,0)",
+        "subheading": "",
+        "subheadingColor": "rgba(0,0,0,0)",
+        "subheadingPosition": "above",
+        "headingAlignment": "center",
+        "textContent": "",
+        "vertPaddingAccord": 12,
+        "horPaddingAccord": 4
+      }
+    },
+    "section_before_after_occ": {
+      "type": "mcw-before-after",
+      "settings": {
+        "custom_id": "occ-before-after",
+        "product_handle": "easter-coloring-book",
+        "heading": "See a Real Before & After",
+        "subheading": "From your photos",
+        "intro": "<p>Upload your favorite photos, we turn them into custom coloring pages, and we print and ship a finished book to your door.</p>",
+        "padding": 35,
+        "backgroundColor": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "content",
+    "section_cta_zAfiNG",
+    "section_image_text_bq3JXN",
+    "section_before_after_occ",
+    "section_cta_zwHNWz",
+    "section_columns_Jy8iex",
+    "section_columns_96WPHc",
+    "section_image_text_xwE7U6",
+    "section_columns_9Qh9EV",
+    "section_featured_collection_mw6qd6",
+    "section_image_text_yHgpzP",
+    "section_testimonials_X9fKp2",
+    "section_faq_xUle5T"
+  ]
+}
