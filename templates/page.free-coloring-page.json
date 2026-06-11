@@ -1,0 +1,50 @@
+{
+  "sections": {
+    "main": {
+      "type": "mcw-free-coloring-landing",
+      "blocks": {
+        "faq_free": {
+          "type": "faq",
+          "settings": {
+            "question": "Are these coloring pages really free?",
+            "answer": "<p>Yes. Upload a photo, get your first coloring page free, and unlock two more by entering your email — three free pages total, print-ready at home. No app download, no credit card.</p>"
+          }
+        },
+        "faq_how": {
+          "type": "faq",
+          "settings": {
+            "question": "How does the photo-to-coloring-page generator work?",
+            "answer": "<p>Our AI traces your photo into clean, bold outlines — like a professional coloring book page — while keeping faces recognizable. Upload, wait about 15 seconds, and print. That's it.</p>"
+          }
+        },
+        "faq_photos": {
+          "type": "faq",
+          "settings": {
+            "question": "What photos work best?",
+            "answer": "<p>Clear, well-lit photos where faces are visible. Kids, pets, grandparents, family moments — if you love the photo, it will make a great coloring page.</p>"
+          }
+        },
+        "faq_print": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I print them at home?",
+            "answer": "<p>Yes — every page downloads as a print-ready file sized for standard letter paper at full print quality. Regular printer paper works; cardstock feels extra special.</p>"
+          }
+        },
+        "faq_book": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I turn my photos into a whole coloring book?",
+            "answer": "<p>That's what we do best. A personalized coloring book turns 20–40 of your photos into a printed, hand-reviewed keepsake — and every free page you print includes a 20% off code for your book.</p>"
+          }
+        }
+      },
+      "block_order": ["faq_free", "faq_how", "faq_photos", "faq_print", "faq_book"],
+      "settings": {
+        "app_url": "https://app.mycolorfulworld.art",
+        "show_generator": false
+      }
+    }
+  },
+  "order": ["main"]
+}

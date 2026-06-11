@@ -1,0 +1,158 @@
+{% comment %}
+  MCW Free Coloring Pages — SEO hub landing (PRD-1 §1g, one-page funnel).
+  Target: "free coloring pages" (90.5K/mo) + photo-conversion cluster.
+  Generator embedded via iframe from the MCW app (CORS-free). Library pages
+  (build-sheet rows 1+) hang off this hub in landing Phase 2.
+  Self-contained: all markup/CSS inline, scoped by section id.
+{% endcomment %}
+
+{%- assign sid = 's--' | append: section.id -%}
+{%- assign app_url = section.settings.app_url | default: 'https://app.mycolorfulworld.art' -%}
+
+<section id="{{ sid }}" class="mcw-fcl">
+
+  <div class="mcw-fcl__hero">
+    <h1>Free Coloring Pages — Print Instantly or Make One From Your Photo</h1>
+    <p class="mcw-fcl__answer"><strong>
+      Get free printable coloring pages in seconds: upload any photo and our
+      generator turns it into a print-ready coloring page — your kids, your dog,
+      your family as line art. One free page, no app download, print at home.
+    </strong></p>
+  </div>
+
+  {%- if section.settings.show_generator -%}
+  <div class="mcw-fcl__generator">
+    <iframe
+      src="{{ app_url }}?embed=1&utm_source=shopify&utm_medium=landing&utm_campaign=free-coloring-pages"
+      title="Free coloring page generator — turn your photo into a coloring page"
+      loading="eager"
+      allow="clipboard-write"
+      class="mcw-fcl__frame"></iframe>
+  </div>
+  {%- else -%}
+  <div class="mcw-fcl__generator mcw-fcl__generator--soon">
+    <span aria-hidden>🎨</span>
+    <p><strong>The free photo-to-coloring-page generator is almost here.</strong></p>
+    <p>Meanwhile, turn your photos into a full personalized coloring book below.</p>
+  </div>
+  {%- endif -%}
+
+  <div class="mcw-fcl__themes">
+    <h2>Free Coloring Pages for Every Theme</h2>
+    <p>
+      Whatever they love, the generator can draw it from your own photos — or
+      browse our growing library of free printable coloring pages:
+    </p>
+    <div class="mcw-fcl__chips">
+      {%- assign themes = "Christmas,Unicorns,Dinosaurs,Halloween,Princesses,Flowers,Cats,Dogs,Butterflies,Mandalas,Easter,Thanksgiving,Mermaids,Dragons,Fall,Summer,Animals,Horses" | split: "," -%}
+      {%- for t in themes -%}
+        <span class="mcw-fcl__chip">{{ t }}</span>
+      {%- endfor -%}
+    </div>
+  </div>
+
+  <div class="mcw-fcl__how">
+    <h2>How the Free Coloring Page Maker Works</h2>
+    <ol>
+      <li><strong>Upload a photo.</strong> Your kid, your pet, grandma at the park — clear, well-lit photos work best.</li>
+      <li><strong>We draw it.</strong> In about 15 seconds your photo becomes a clean, bold-outline coloring page — faces stay recognizable.</li>
+      <li><strong>Print it free.</strong> Enter your email, download the print-ready page, and color. You get 3 free pages.</li>
+    </ol>
+  </div>
+
+  <div class="mcw-fcl__book">
+    <h2>Love It? Make the Whole Book.</h2>
+    <p>
+      One page is the spark — the keepsake is a <a href="/collections/frontpage?utm_source=landing&utm_medium=seo&utm_campaign=free-coloring-pages">personalized coloring book</a>
+      made from 20–40 of your photos, hand-reviewed page by page and printed on
+      thick, marker-friendly paper. Every free page you print includes a code for
+      <strong>20% off your book</strong>.
+    </p>
+    <a class="mcw-fcl__cta" href="/collections/frontpage?utm_source=landing&utm_medium=seo&utm_campaign=free-coloring-pages">
+      See the coloring books →
+    </a>
+  </div>
+
+  <div class="mcw-fcl__faq">
+    <h2>Frequently Asked Questions</h2>
+    {%- for block in section.blocks -%}
+      <details {% if forloop.first %}open{% endif %} {{ block.shopify_attributes }}>
+        <summary>{{ block.settings.question | escape }}</summary>
+        <p>{{ block.settings.answer }}</p>
+      </details>
+    {%- endfor -%}
+  </div>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {%- for block in section.blocks -%}
+      {
+        "@type": "Question",
+        "name": {{ block.settings.question | json }},
+        "acceptedAnswer": { "@type": "Answer", "text": {{ block.settings.answer | strip_html | json }} }
+      }{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
+    ]
+  }
+  </script>
+</section>
+
+{% style %}
+  #{{ sid }} { max-width: 860px; margin: 0 auto; padding: 24px 16px 60px; color: #004a70; }
+  #{{ sid }} h1 { font-size: 2rem; line-height: 1.25; text-align: center; margin: 16px 0; }
+  #{{ sid }} h2 { font-size: 1.5rem; margin: 40px 0 12px; }
+  #{{ sid }} .mcw-fcl__answer { text-align: center; max-width: 720px; margin: 0 auto 24px; line-height: 1.55; }
+  #{{ sid }} .mcw-fcl__frame { width: 100%; height: 720px; border: 0; border-radius: 24px; box-shadow: 0 6px 24px rgba(0,0,0,0.08); background: #fff; }
+  #{{ sid }} .mcw-fcl__generator--soon { text-align: center; border: 2px dashed rgba(251,4,111,0.4); border-radius: 24px; padding: 48px 24px; background: #fff; }
+  #{{ sid }} .mcw-fcl__generator--soon span { font-size: 44px; }
+  #{{ sid }} .mcw-fcl__chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  #{{ sid }} .mcw-fcl__chip { background: #fff; border: 1px solid rgba(0,74,112,0.18); border-radius: 999px; padding: 7px 14px; font-size: 0.9rem; font-weight: 600; }
+  #{{ sid }} .mcw-fcl__how ol { line-height: 1.7; padding-left: 20px; }
+  #{{ sid }} .mcw-fcl__book { background: #fff7f0; border-radius: 20px; padding: 24px; margin-top: 40px; }
+  #{{ sid }} .mcw-fcl__cta { display: inline-block; margin-top: 10px; background: #fb046f; color: #fff; font-weight: 700; padding: 13px 26px; border-radius: 999px; text-decoration: none; }
+  #{{ sid }} .mcw-fcl__cta:hover { background: #e50464; color:#fff; }
+  #{{ sid }} .mcw-fcl__faq details { background: #fff; border-radius: 14px; padding: 14px 18px; margin-bottom: 10px; border: 1px solid rgba(0,74,112,0.12); }
+  #{{ sid }} .mcw-fcl__faq summary { font-weight: 700; cursor: pointer; }
+  @media (max-width: 640px) {
+    #{{ sid }} h1 { font-size: 1.5rem; }
+    #{{ sid }} .mcw-fcl__frame { height: 640px; }
+  }
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "MCW Free Coloring Landing",
+  "tag": "section",
+  "class": "mcw-free-coloring-landing",
+  "settings": [
+    {
+      "type": "text",
+      "id": "app_url",
+      "label": "Generator app URL",
+      "default": "https://app.mycolorfulworld.art",
+      "info": "The MCW consumer app origin embedded as the generator."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_generator",
+      "label": "Show the embedded generator",
+      "default": false,
+      "info": "Enable once the app is deployed; until then a coming-soon card renders."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "faq",
+      "name": "FAQ item",
+      "settings": [
+        { "type": "text", "id": "question", "label": "Question" },
+        { "type": "richtext", "id": "answer", "label": "Answer" }
+      ]
+    }
+  ],
+  "presets": [{ "name": "MCW Free Coloring Landing" }]
+}
+{% endschema %}
