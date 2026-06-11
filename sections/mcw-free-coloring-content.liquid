@@ -1,0 +1,105 @@
+{% comment %}
+  MCW Free Coloring Pages — PART 2: themes (full-keyword chips), how-it-works,
+  book funnel, FAQ + FAQPage JSON-LD. Renders below the before/after slider.
+  Chip labels are the EXACT keyword forms from the build sheet (SEO/AEO/GEO).
+{% endcomment %}
+
+{%- assign sid = 's--' | append: section.id -%}
+
+<section id="{{ sid }}" class="mcw-fcc">
+
+  <div class="mcw-fcc__themes">
+    <h2>Free Coloring Pages for Every Theme</h2>
+    <p>
+      Whatever they love, the generator can draw it from your own photos — or
+      browse our growing library of free printable coloring pages:
+    </p>
+    <div class="mcw-fcc__chips">
+      {%- assign chips = "Free Coloring Pages for Kids|Free Coloring Pages for Adults|Free Christmas Coloring Pages|Free Halloween Coloring Pages|Free Thanksgiving Coloring Pages|Free Unicorn Coloring Pages|Free Dinosaur Coloring Pages|Free Princess Coloring Pages|Free Flower Coloring Pages|Free Cat Coloring Pages|Free Dog Coloring Pages|Free Butterfly Coloring Pages|Free Mandala Coloring Pages|Free Easter Coloring Pages|Free Valentine Coloring Pages|Free Mermaid Coloring Pages|Free Dragon Coloring Pages|Free Fall Coloring Pages|Free Spring Coloring Pages|Free Summer Coloring Pages|Free Animal Coloring Pages|Free Horse Coloring Pages" | split: "|" -%}
+      {%- for chip in chips -%}
+        <span class="mcw-fcc__chip">{{ chip }}</span>
+      {%- endfor -%}
+    </div>
+  </div>
+
+  <div class="mcw-fcc__how">
+    <h2>How the Free Coloring Page Maker Works</h2>
+    <ol>
+      <li><strong>Upload a photo.</strong> Your kid, your pet, grandma at the park — clear, well-lit photos work best.</li>
+      <li><strong>We draw it.</strong> In about 15 seconds your photo becomes a clean, bold-outline coloring page — faces stay recognizable.</li>
+      <li><strong>Print it free.</strong> Enter your email, download the print-ready page, and color. You get 3 free pages.</li>
+    </ol>
+  </div>
+
+  <div class="mcw-fcc__book">
+    <h2>Love It? Make the Whole Book.</h2>
+    <p>
+      One page is the spark — the keepsake is a <a href="/collections/frontpage?utm_source=landing&utm_medium=seo&utm_campaign=free-coloring-pages">personalized coloring book</a>
+      made from 20–40 of your photos, hand-reviewed page by page and printed on
+      thick, marker-friendly paper. Every free page you print includes a code for
+      <strong>20% off your book</strong>.
+    </p>
+    <a class="mcw-fcc__cta" href="/collections/frontpage?utm_source=landing&utm_medium=seo&utm_campaign=free-coloring-pages">
+      See the coloring books →
+    </a>
+  </div>
+
+  <div class="mcw-fcc__faq">
+    <h2>Frequently Asked Questions</h2>
+    {%- for block in section.blocks -%}
+      <details {% if forloop.first %}open{% endif %} {{ block.shopify_attributes }}>
+        <summary>{{ block.settings.question | escape }}</summary>
+        <p>{{ block.settings.answer }}</p>
+      </details>
+    {%- endfor -%}
+  </div>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {%- for block in section.blocks -%}
+      {
+        "@type": "Question",
+        "name": {{ block.settings.question | json }},
+        "acceptedAnswer": { "@type": "Answer", "text": {{ block.settings.answer | strip_html | json }} }
+      }{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
+    ]
+  }
+  </script>
+</section>
+
+{% style %}
+  #{{ sid }} { max-width: 860px; margin: 0 auto; padding: 8px 16px 60px; color: #004a70; }
+  #{{ sid }} h2 { font-size: 1.5rem; margin: 40px 0 12px; }
+  #{{ sid }} .mcw-fcc__chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  #{{ sid }} .mcw-fcc__chip { background: #fff; border: 1px solid rgba(0,74,112,0.18); border-radius: 999px; padding: 7px 14px; font-size: 0.9rem; font-weight: 600; }
+  #{{ sid }} .mcw-fcc__how ol { line-height: 1.7; padding-left: 20px; }
+  #{{ sid }} .mcw-fcc__book { background: #fff7f0; border-radius: 20px; padding: 24px; margin-top: 40px; }
+  #{{ sid }} .mcw-fcc__cta { display: inline-block; margin-top: 10px; background: #fb046f; color: #fff; font-weight: 700; padding: 13px 26px; border-radius: 999px; text-decoration: none; }
+  #{{ sid }} .mcw-fcc__cta:hover { background: #e50464; color:#fff; }
+  #{{ sid }} .mcw-fcc__faq details { background: #fff; border-radius: 14px; padding: 14px 18px; margin-bottom: 10px; border: 1px solid rgba(0,74,112,0.12); }
+  #{{ sid }} .mcw-fcc__faq summary { font-weight: 700; cursor: pointer; }
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "MCW Free Coloring Content",
+  "tag": "section",
+  "class": "mcw-free-coloring-content",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "faq",
+      "name": "FAQ item",
+      "settings": [
+        { "type": "text", "id": "question", "label": "Question" },
+        { "type": "richtext", "id": "answer", "label": "Answer" }
+      ]
+    }
+  ],
+  "presets": [{ "name": "MCW Free Coloring Content" }]
+}
+{% endschema %}
