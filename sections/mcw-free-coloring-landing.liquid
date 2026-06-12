@@ -22,12 +22,27 @@
   {%- if section.settings.show_generator -%}
   <div class="mcw-fcl__generator">
     <iframe
+      id="mcw-gen-frame-{{ section.id }}"
       src="{{ app_url }}?embed=1&utm_source=shopify&utm_medium=landing&utm_campaign=free-coloring-pages"
       title="Free coloring page generator — turn your photo into a coloring page"
       loading="eager"
       allow="clipboard-write"
       class="mcw-fcl__frame"></iframe>
   </div>
+  <script>
+    // Auto-size the generator iframe to its content (the app posts mcw:height)
+    (function () {
+      var frame = document.getElementById('mcw-gen-frame-{{ section.id }}');
+      if (!frame) return;
+      var appOrigin = new URL({{ app_url | json }}).origin;
+      window.addEventListener('message', function (e) {
+        if (e.origin !== appOrigin) return;
+        if (!e.data || e.data.type !== 'mcw:height') return;
+        var h = Math.max(420, Math.min(1400, parseInt(e.data.height, 10) || 0));
+        if (h) frame.style.height = h + 'px';
+      });
+    })();
+  </script>
   {%- else -%}
   <div class="mcw-fcl__generator mcw-fcl__generator--soon">
     <span aria-hidden>🎨</span>
@@ -42,12 +57,11 @@
   #{{ sid }} { max-width: 860px; margin: 0 auto; padding: 24px 16px 8px; color: #004a70; }
   #{{ sid }} h1 { font-size: 2rem; line-height: 1.25; text-align: center; margin: 16px 0; }
   #{{ sid }} .mcw-fcl__answer { text-align: center; max-width: 720px; margin: 0 auto 24px; line-height: 1.55; }
-  #{{ sid }} .mcw-fcl__frame { width: 100%; height: 720px; border: 0; border-radius: 24px; box-shadow: 0 6px 24px rgba(0,0,0,0.08); background: #fff; }
+  #{{ sid }} .mcw-fcl__frame { width: 100%; height: 560px; border: 0; border-radius: 24px; box-shadow: 0 6px 24px rgba(0,0,0,0.08); background: #fff; transition: height 0.25s ease; }
   #{{ sid }} .mcw-fcl__generator--soon { text-align: center; border: 2px dashed rgba(251,4,111,0.4); border-radius: 24px; padding: 48px 24px; background: #fff; }
   #{{ sid }} .mcw-fcl__generator--soon span { font-size: 44px; }
   @media (max-width: 640px) {
     #{{ sid }} h1 { font-size: 1.5rem; }
-    #{{ sid }} .mcw-fcl__frame { height: 640px; }
   }
 {% endstyle %}
 
