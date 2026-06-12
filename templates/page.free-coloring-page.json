@@ -4,7 +4,7 @@
       "type": "mcw-free-coloring-landing",
       "settings": {
         "app_url": "https://app.mycolorfulworld.art",
-        "show_generator": false
+        "show_generator": true
       }
     },
     "before_after": {
