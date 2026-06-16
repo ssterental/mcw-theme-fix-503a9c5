@@ -10,6 +10,10 @@
 
 <section id="{{ sid }}" class="mcw-fcl">
 
+  <nav class="mcw-fcl__crumbs" aria-label="Breadcrumb">
+    <a href="{{ shop.url }}">Home</a> <span aria-hidden="true">›</span> Free Coloring Pages
+  </nav>
+
   <div class="mcw-fcl__hero">
     <h1>Free Coloring Pages — Print Instantly or Make One From Your Photo</h1>
     <p class="mcw-fcl__answer"><strong>
@@ -54,7 +58,10 @@
 </section>
 
 {% style %}
-  #{{ sid }} { max-width: 860px; margin: 0 auto; padding: 24px 16px 8px; color: #004a70; }
+  #{{ sid }} { max-width: 860px; margin: 0 auto; padding: 16px 16px 8px; color: #004a70; }
+  #{{ sid }} .mcw-fcl__crumbs { font-size: 0.8rem; color: rgba(0,74,112,0.6); margin: 4px 0 12px; }
+  #{{ sid }} .mcw-fcl__crumbs a { color: rgba(0,74,112,0.6); text-decoration: none; }
+  #{{ sid }} .mcw-fcl__crumbs a:hover { color: #fb046f; }
   #{{ sid }} h1 { font-size: 2rem; line-height: 1.25; text-align: center; margin: 16px 0; }
   #{{ sid }} .mcw-fcl__answer { text-align: center; max-width: 720px; margin: 0 auto 24px; line-height: 1.55; }
   #{{ sid }} .mcw-fcl__frame { width: 100%; height: 560px; border: 0; border-radius: 24px; box-shadow: 0 6px 24px rgba(0,0,0,0.08); background: #fff; transition: height 0.25s ease; }
