@@ -1,0 +1,166 @@
+{% if product.images.size > 5 %}
+    <button data-thumbnail_slide="-" class="thumbnail--slide hide-mobile" aria-label="Previous"><i class="uil uil-angle-left-b"></i></button>
+{% endif %}
+<div class="gallery__thumbnails hidden-scroll">
+    {% for image in product.images %}
+        {%- comment -%} MCW 2026-06-17: hide only the AFTER slider image from the gallery; the BEFORE image is shown (it's a real product photo). See THEME_MODIFICATIONS.md. {%- endcomment -%}
+        {%- if image.alt == 'MCW after slider' -%}{%- continue -%}{%- endif -%}
+        <span class="gallery__thumbnail {% if forloop.first %}bstrSlider__thumb--active{%endif%}" data-media-type="image" data-bstr-slider-for="{{section.id}}" data-bstr-slider-thumb="{{forloop.index0}}"
+        {% if section.settings.autoChange %}data-bstr-slider-thumb-hover{% endif %}
+            >
+            <img height="{{image.height}}" width="{{image.width}}" src="{{image.src|img_url: '200x'}}" alt="{{image.alt}}">
+        </span>
+        {% assign currentIndex = forloop.index0 | plus: 1 %}
+    {% endfor %}
+    {% for media in product.media %}
+        {% case media.media_type %}
+            {% when 'image' %}
+                {% continue %}
+            {% when 'external_video' %}
+                <span data-media-type="{{media.id}}" class="gallery__thumbnail" data-bstr-slider-for="{{section.id}}" data-bstr-slider-thumb="{{currentIndex}}"
+                {% if section.settings.autoChange %}data-bstr-slider-thumb-hover{% endif %}>
+                    {% render 'image', size: '200x', src: media, alt: media.alt %}
+                </span>
+                {% assign currentIndex = currentIndex | plus: 1 %}
+            {% when 'video' %}
+                <span data-media-type="{{media.id}}" class="gallery__thumbnail" data-bstr-slider-for="{{section.id}}" data-bstr-slider-thumb="{{currentIndex}}"
+                {% if section.settings.autoChange %}data-bstr-slider-thumb-hover{% endif %}>
+                    {% render 'image', size: '200x', src: media, alt: media.alt %}
+                </span>
+                {% assign currentIndex = currentIndex | plus: 1 %}
+            {% when 'model' %}
+                <span data-media-type="{{media.id}}" class="gallery__thumbnail" data-bstr-slider-for="{{section.id}}" data-bstr-slider-thumb="{{currentIndex}}"
+                {% if section.settings.autoChange %}data-bstr-slider-thumb-hover{% endif %}>
+                    {% render 'image', size: '200x', src: media, alt: media.alt %}
+                </span>
+                {% assign currentIndex = currentIndex | plus: 1 %}
+    {% endcase %}
+    {% endfor %}
+</div>
+{% if product.images.size > 5 %}
+    <button data-thumbnail_slide="+" class="thumbnail--slide thumbnail--slide-next hide-mobile" aria-label="Next"><i class="uil uil-angle-right-b"></i></button>
+{% endif %}
+
+<div class="slider--product__holder" data-bstr-ppslider="{{section.id}}">
+{% if product.images.size > 1 %}
+    <button data-bstr-slider-button="-" class="slider__button hide-mobile" aria-label="Previous"><i class="uil uil-angle-left-b"></i></button>
+    <button data-bstr-slider-button="+" class="slider__button slider__button--next hide-mobile" aria-label="Next"><i class="uil uil-angle-right-b"></i></button>
+{% endif %}
+<div class="slider--product slider--product-holder" data-bstr-slider-height="auto" data-bstr-slider-orientation="horizontal" data-bstr-slide-holder="1" data-bstr-slider-current="0">
+    {% for image in product.images %}
+        {%- comment -%} MCW 2026-06-17: hide only the AFTER slider image from the gallery; the BEFORE image is shown (it's a real product photo). See THEME_MODIFICATIONS.md. {%- endcomment -%}
+        {%- if image.alt == 'MCW after slider' -%}{%- continue -%}{%- endif -%}
+        <div data-variants="|{% for var in image.variants %}{{var.options| join: '#' | escape}}|{% endfor %}" class="slide--product {% if isAutoZoom %}zoom{% endif %}" data-bstr-slide>
+            <img height="{{image.height}}" width="{{image.width}}" loading="lazy"  class="lazyload {% if isAutoZoom %}image-zoom{% endif %}" alt="{{image.alt | escape}}" src="{{ image.src | img_url: '1280x' }}" data-zoom="{{ image | img_url: '1024x1024', scale: 2 }}">
+        </div>
+    {% endfor %}
+    {% for media in product.media %}
+        {% case media.media_type %}
+            {% when 'image' %}
+                {% continue %}
+            {% when 'external_video' %}
+                <div class="external__holder slide--product" data-bstr-slide data-media-holder="{{media.id}}" style="padding-top: {{ 1 | divided_by: media.aspect_ratio | times: 100}}%;">
+                    {% capture med %}{{ media | external_video_tag: class: 'gallery__external lazyload' }}{% endcapture %}
+                    {{med | replace_first: 'src', 'data-src'}}
+                </div>
+            {% when 'video' %}
+                <div class="video__holder slide--product" data-bstr-slide data-media-holder="{{media.id}}">
+                    {% capture med %}{{ media | video_tag: class: 'gallery__video lazyload' }}{% endcapture %}
+                    {% if video_loop == true and video_autoplay == true %}
+                        {{med | replace_first: 'poster=', 'autoplay loop muted controls=true poster='}}
+                    {% elsif video_loop == true and video_autoplay != true %}
+                        {{med | replace_first: 'poster=', 'loop muted controls=true poster='}}
+                    {% elsif video_autoplay == true and video_loop != true %}
+                        {{med | replace_first: 'poster=', 'autoplay muted poster='}}
+                    {% else %}
+                        {{med | replace_first: 'poster=', 'controls=true poster='}}
+                    {% endif %}
+                </div>
+            {% when 'model' %}
+                <div class="video__holder model__holder slide--product" data-bstr-slide data-media-holder="{{media.id}}">
+                    {{ media | model_viewer_tag }}
+                </div>
+        {% endcase %}
+    {% endfor %}
+    </div>
+</div>
+
+<script defer="defer">
+    window.addEventListener('DOMContentLoaded', () => {
+        // Get the required elements
+        var currentScroll = 0;
+        var thumbnailCount = document.querySelectorAll('.gallery__thumbnail').length;
+
+        // Get all elements with class '.thumbnail--slide'
+        var thumbnailSlides = document.querySelectorAll('.thumbnail--slide');
+
+        // Loop through each thumbnail slide and attach a click event
+        thumbnailSlides.forEach(function(thumbnailSlide) {
+            thumbnailSlide.addEventListener('click', function(event) {
+                if(this.dataset.thumbnail_slide == '+') {
+                    if(currentScroll >= (thumbnailCount - 5) * 86 ) {
+                        currentScroll = currentScroll;
+                    } else {
+                        currentScroll = currentScroll + 86;
+                    }
+                    // Scroll animation
+                    document.querySelector('.gallery__thumbnails').scroll({
+                        top: currentScroll,
+                        behavior: 'smooth'
+                    });
+                } else if (this.dataset.thumbnail_slide == '-') {
+                    if(currentScroll <= 0) {
+                        currentScroll = 0;
+                    } else {
+                        currentScroll = currentScroll - 86;
+                    }
+                    // Scroll animation
+                    document.querySelector('.gallery__thumbnails').scroll({
+                        top: currentScroll,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    });
+</script>
+
+  <style>
+    .gallery__thumbnails {
+      max-height: calc((80px + 0.25rem) * 5);
+    }
+
+    .slider--product__holder {
+      position: relative;
+    }
+
+    .thumbnail--slide {
+      position: absolute;
+      left: 30px;
+      top: 0%;
+      height: 40px;
+      width: 40px;
+      background: rgba(0,0,0,0.2);
+      backdrop-filter: blur(15px);
+      z-index: 2;
+      color: white !important;
+      transition: all 0.15s;
+      border: 0px;
+    }
+
+    .thumbnail--slide-next {
+      top: 380px;
+    }
+
+    .gallery__thumbnails {
+       position: relative;
+    }
+
+    .thumbnail--slide .uil-angle-left-b:before {
+      transform: rotate(90deg);
+    }
+
+    .thumbnail--slide .uil-angle-right-b:before {
+      transform: rotate(90deg);
+    }
+  </style>
