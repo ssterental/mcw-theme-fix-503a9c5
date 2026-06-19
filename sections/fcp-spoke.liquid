@@ -34,10 +34,23 @@
   <div class="fcp__generator">
     <h2 class="fcp__sub">Or turn your own photo into a coloring page</h2>
     <iframe
+      id="fcp-gen-frame-{{ section.id }}"
       src="{{ app_url }}?embed=1&utm_source=shopify&utm_medium=spoke&utm_campaign={{ page.handle }}"
       title="Free coloring page generator — turn your photo into a coloring page"
       loading="lazy" allow="clipboard-write" class="fcp__frame"></iframe>
   </div>
+  <script>
+    (function () {
+      var f = document.getElementById('fcp-gen-frame-{{ section.id }}');
+      if (!f) return;
+      var origin = new URL({{ app_url | json }}).origin;
+      window.addEventListener('message', function (e) {
+        if (e.origin !== origin || !e.data || e.data.type !== 'mcw:height') return;
+        var h = Math.max(300, Math.min(1400, parseInt(e.data.height, 10) || 0));
+        if (h) f.style.height = h + 'px';
+      });
+    })();
+  </script>
 
   {%- comment -%} Free printable gallery {%- endcomment -%}
   {%- if urls and urls.size > 0 -%}
@@ -133,7 +146,7 @@
   #{{ sid }} .fcp__answer { text-align:center; max-width:720px; margin:0 auto 28px; line-height:1.55; }
   #{{ sid }} .fcp__sub { text-align:center; font-size:1.5rem; margin:40px 0 16px; }
   #{{ sid }} .fcp__generator { text-align:center; margin:0 auto 8px; }
-  #{{ sid }} .fcp__frame { width:100%; max-width:560px; height:560px; border:0; border-radius:24px; box-shadow:0 6px 24px rgba(0,0,0,.08); background:#fff; }
+  #{{ sid }} .fcp__frame { width:100%; max-width:560px; height:380px; border:0; border-radius:24px; box-shadow:0 6px 24px rgba(0,0,0,.08); background:#fff; transition:height .25s ease; }
   #{{ sid }} .fcp__grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(170px,1fr)); gap:16px; }
   #{{ sid }} .fcp__item { margin:0; background:#fff; border:1px solid rgba(0,74,112,.12); border-radius:12px; overflow:hidden; }
   #{{ sid }} .fcp__item img { width:100%; height:auto; display:block; }
