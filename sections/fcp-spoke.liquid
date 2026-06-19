@@ -1,0 +1,162 @@
+{% comment %}
+  MCW Free Coloring Pages — reusable SPOKE section.
+  Drives every /pages/free-*-coloring-pages spoke from per-page metafields:
+    custom.fcp_answer       (multi_line)        — 40-word AEO answer
+    custom.fcp_image_urls   (list.url)          — gallery image CDN URLs
+    custom.fcp_image_alts   (list.single_line)  — parallel alt text
+    custom.fcp_faq_q        (list.single_line)  — FAQ questions
+    custom.fcp_faq_a        (list.single_line)  — parallel FAQ answers
+  Editorial body = page.content. Generator embed + book band are static.
+{% endcomment %}
+
+{%- assign sid = 's--' | append: section.id -%}
+{%- assign urls = page.metafields.custom.fcp_image_urls.value -%}
+{%- assign alts = page.metafields.custom.fcp_image_alts.value -%}
+{%- assign faqq = page.metafields.custom.fcp_faq_q.value -%}
+{%- assign faqa = page.metafields.custom.fcp_faq_a.value -%}
+{%- assign app_url = section.settings.app_url | default: 'https://app.mycolorfulworld.art' -%}
+
+<section id="{{ sid }}" class="fcp">
+
+  <nav class="fcp__crumbs" aria-label="Breadcrumb">
+    <a href="{{ shop.url }}">Home</a> <span aria-hidden="true">›</span>
+    <a href="{{ shop.url }}/pages/free-coloring-pages">Free Coloring Pages</a>
+    <span aria-hidden="true">›</span> {{ page.title | escape }}
+  </nav>
+
+  <h1 class="fcp__h1">{{ page.title | escape }}</h1>
+
+  {%- if page.metafields.custom.fcp_answer != blank -%}
+    <p class="fcp__answer"><strong>{{ page.metafields.custom.fcp_answer }}</strong></p>
+  {%- endif -%}
+
+  {%- comment -%} The wedge: make your own from a photo {%- endcomment -%}
+  <div class="fcp__generator">
+    <h2 class="fcp__sub">Or turn your own photo into a coloring page</h2>
+    <iframe
+      src="{{ app_url }}?embed=1&utm_source=shopify&utm_medium=spoke&utm_campaign={{ page.handle }}"
+      title="Free coloring page generator — turn your photo into a coloring page"
+      loading="lazy" allow="clipboard-write" class="fcp__frame"></iframe>
+  </div>
+
+  {%- comment -%} Free printable gallery {%- endcomment -%}
+  {%- if urls and urls.size > 0 -%}
+    <h2 class="fcp__sub">Free printable {{ page.title | downcase | remove: 'free ' }} to download</h2>
+    <div class="fcp__grid">
+      {%- for url in urls -%}
+        {%- assign a = alts[forloop.index0] | default: page.title -%}
+        <figure class="fcp__item">
+          <img src="{{ url }}&width=500" alt="{{ a | escape }}" loading="lazy" width="500" height="647">
+          <a class="fcp__dl" href="{{ url }}" download target="_blank" rel="noopener">Download &darr;</a>
+        </figure>
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+
+  {%- comment -%} Editorial body {%- endcomment -%}
+  {%- if page.content != blank -%}
+    <div class="fcp__editorial rte">{{ page.content }}</div>
+  {%- endif -%}
+
+  {%- comment -%} Book upsell bridge {%- endcomment -%}
+  <div class="fcp__book">
+    <p>Love these? Turn <strong>your own photos</strong> into a
+      <a href="/collections/frontpage?utm_source=spoke&utm_medium=seo&utm_campaign={{ page.handle }}">personalized coloring book</a>
+      — hand-reviewed page by page, printed on thick paper, shipped to your door.</p>
+    <a class="fcp__cta" href="/collections/frontpage?utm_source=spoke&utm_medium=seo&utm_campaign={{ page.handle }}">See the coloring books &rarr;</a>
+  </div>
+
+  {%- comment -%} FAQ {%- endcomment -%}
+  {%- if faqq and faqq.size > 0 -%}
+    <div class="fcp__faq">
+      <h2 class="fcp__sub">Frequently asked questions</h2>
+      {%- for q in faqq -%}
+        <details {% if forloop.first %}open{% endif %}>
+          <summary>{{ q | escape }}</summary>
+          <p>{{ faqa[forloop.index0] }}</p>
+        </details>
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+
+</section>
+
+{%- comment -%} ── Schema: CollectionPage + ItemList(ImageObject) ── {%- endcomment -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ page.title | json }},
+  "url": "{{ canonical_url }}"
+  {%- if urls and urls.size > 0 -%},
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": {{ urls.size }},
+    "itemListElement": [
+      {%- for url in urls -%}
+      { "@type": "ImageObject", "position": {{ forloop.index }}, "contentUrl": {{ url | json }}, "name": {{ alts[forloop.index0] | default: page.title | json }} }{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
+    ]
+  }
+  {%- endif -%}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org", "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ shop.url }}" },
+    { "@type": "ListItem", "position": 2, "name": "Free Coloring Pages", "item": "{{ shop.url }}/pages/free-coloring-pages" },
+    { "@type": "ListItem", "position": 3, "name": {{ page.title | json }}, "item": "{{ canonical_url }}" }
+  ]
+}
+</script>
+{%- if faqq and faqq.size > 0 -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org", "@type": "FAQPage",
+  "mainEntity": [
+    {%- for q in faqq -%}
+    { "@type": "Question", "name": {{ q | json }}, "acceptedAnswer": { "@type": "Answer", "text": {{ faqa[forloop.index0] | strip_html | json }} } }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ]
+}
+</script>
+{%- endif -%}
+
+{% style %}
+  #{{ sid }} { max-width: 1000px; margin: 0 auto; padding: 16px 16px 60px; color: #004a70; }
+  #{{ sid }} .fcp__crumbs { font-size:.8rem; color:rgba(0,74,112,.6); margin:4px 0 12px; }
+  #{{ sid }} .fcp__crumbs a { color:rgba(0,74,112,.6); text-decoration:none; }
+  #{{ sid }} .fcp__crumbs a:hover { color:#fb046f; }
+  #{{ sid }} .fcp__h1 { font-size:2rem; line-height:1.22; text-align:center; margin:8px 0; }
+  #{{ sid }} .fcp__answer { text-align:center; max-width:720px; margin:0 auto 28px; line-height:1.55; }
+  #{{ sid }} .fcp__sub { text-align:center; font-size:1.5rem; margin:40px 0 16px; }
+  #{{ sid }} .fcp__generator { text-align:center; margin:0 auto 8px; }
+  #{{ sid }} .fcp__frame { width:100%; max-width:560px; height:560px; border:0; border-radius:24px; box-shadow:0 6px 24px rgba(0,0,0,.08); background:#fff; }
+  #{{ sid }} .fcp__grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(170px,1fr)); gap:16px; }
+  #{{ sid }} .fcp__item { margin:0; background:#fff; border:1px solid rgba(0,74,112,.12); border-radius:12px; overflow:hidden; }
+  #{{ sid }} .fcp__item img { width:100%; height:auto; display:block; }
+  #{{ sid }} .fcp__dl { display:block; text-align:center; padding:10px; font-weight:700; color:#fb046f; text-decoration:none; border-top:1px solid rgba(0,74,112,.08); }
+  #{{ sid }} .fcp__dl:hover { background:#fff7fb; }
+  #{{ sid }} .fcp__editorial { max-width:720px; margin:48px auto; line-height:1.65; }
+  #{{ sid }} .fcp__editorial h2 { font-size:1.4rem; margin:28px 0 10px; }
+  #{{ sid }} .fcp__book { background:#fff7f0; border-radius:20px; padding:24px; margin:48px auto; max-width:720px; text-align:center; line-height:1.55; }
+  #{{ sid }} .fcp__cta { display:inline-block; margin-top:12px; background:#fb046f; color:#fff; font-weight:700; padding:13px 26px; border-radius:999px; text-decoration:none; }
+  #{{ sid }} .fcp__cta:hover { background:#e50464; }
+  #{{ sid }} .fcp__faq { max-width:720px; margin:48px auto 0; }
+  #{{ sid }} .fcp__faq details { background:#fff; border-radius:14px; padding:14px 18px; margin-bottom:10px; border:1px solid rgba(0,74,112,.12); }
+  #{{ sid }} .fcp__faq summary { font-weight:700; cursor:pointer; }
+  @media (max-width:640px){ #{{ sid }} .fcp__h1 { font-size:1.5rem; } #{{ sid }} .fcp__sub { font-size:1.25rem; } }
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "MCW Free Coloring Spoke",
+  "tag": "section",
+  "settings": [
+    { "type": "text", "id": "app_url", "label": "Generator app URL", "default": "https://app.mycolorfulworld.art" }
+  ],
+  "presets": [{ "name": "MCW Free Coloring Spoke" }]
+}
+{% endschema %}
