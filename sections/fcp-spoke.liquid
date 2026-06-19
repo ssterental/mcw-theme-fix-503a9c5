@@ -58,9 +58,13 @@
     <div class="fcp__grid">
       {%- for url in urls -%}
         {%- assign a = alts[forloop.index0] | default: page.title -%}
+        {%- comment -%} Preview = CLEAN art; the footer + lead-gen QR is applied
+          ONLY at download by the app endpoint (so an ugly footer never scares a
+          user off the preview). Single source of truth: only clean files on CDN. {%- endcomment -%}
+        {%- assign dl_name = page.handle | append: '-' | append: forloop.index -%}
         <figure class="fcp__item">
           <img src="{{ url }}&width=500" alt="{{ a | escape }}" loading="lazy" width="500" height="647">
-          <a class="fcp__dl" href="{{ url }}" download target="_blank" rel="noopener">Download &darr;</a>
+          <a class="fcp__dl" href="{{ app_url }}/api/free-download?src={{ url | url_encode }}&name={{ dl_name | url_encode }}" target="_blank" rel="noopener">Download &darr;</a>
         </figure>
       {%- endfor -%}
     </div>
