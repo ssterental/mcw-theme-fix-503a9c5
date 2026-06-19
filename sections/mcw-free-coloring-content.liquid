@@ -14,11 +14,64 @@
       Whatever they love, the generator can draw it from your own photos — or
       browse our growing library of free printable coloring pages:
     </p>
-    <div class="mcw-fcc__chips">
-      {%- assign chips = "Free Coloring Pages for Kids|Free Coloring Pages for Adults|Free Christmas Coloring Pages|Free Halloween Coloring Pages|Free Thanksgiving Coloring Pages|Free Unicorn Coloring Pages|Free Dinosaur Coloring Pages|Free Princess Coloring Pages|Free Flower Coloring Pages|Free Cat Coloring Pages|Free Dog Coloring Pages|Free Butterfly Coloring Pages|Free Mandala Coloring Pages|Free Easter Coloring Pages|Free Valentine Coloring Pages|Free Mermaid Coloring Pages|Free Dragon Coloring Pages|Free Fall Coloring Pages|Free Spring Coloring Pages|Free Summer Coloring Pages|Free Animal Coloring Pages|Free Horse Coloring Pages" | split: "|" -%}
-      {%- for chip in chips -%}
-        <span class="mcw-fcc__chip">{{ chip }}</span>
-      {%- endfor -%}
+    <div class="mcw-fcc__chipgroup">
+      <h3 class="mcw-fcc__chiph">By age</h3>
+      <div class="mcw-fcc__chips">
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-coloring-pages-for-kids">Free Coloring Pages for Kids</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-coloring-pages-for-teens">Free Coloring Pages for Teens</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-coloring-pages-for-adults">Free Coloring Pages for Adults</a>
+      </div>
+    </div>
+    <div class="mcw-fcc__chipgroup">
+      <h3 class="mcw-fcc__chiph">By theme</h3>
+      <div class="mcw-fcc__chips">
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-alphabet-coloring-pages">Free Alphabet Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-animals-coloring-pages">Free Animals Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-bible-coloring-pages">Free Bible Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-butterfly-coloring-pages">Free Butterfly Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-car-coloring-pages">Free Car Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-cat-coloring-pages">Free Cat Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-christian-coloring-pages">Free Christian Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-christmas-coloring-pages">Free Christmas Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-coloring-book-pages">Free Coloring Book Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-dinosaur-coloring-pages">Free Dinosaur Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-dog-coloring-pages">Free Dog Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-dragon-coloring-pages">Free Dragon Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-easter-coloring-pages">Free Easter Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-elephant-coloring-pages">Free Elephant Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-fall-coloring-pages">Free Fall Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-fathers-day-coloring-pages">Free Fathers Day Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-fish-coloring-pages">Free Fish Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-flowers-coloring-pages">Free Flowers Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-halloween-coloring-pages">Free Halloween Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-happy-birthday-coloring-pages">Free Happy Birthday Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-heart-coloring-pages">Free Heart Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-holiday-coloring-pages">Free Holiday Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-horse-coloring-pages">Free Horse Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-mandala-coloring-pages">Free Mandala Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-mermaid-coloring-pages">Free Mermaid Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-monster-truck-coloring-pages">Free Monster Truck Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-mothers-day-coloring-pages">Free Mothers Day Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-penguin-coloring-pages">Free Penguin Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-preschool-coloring-pages">Free Preschool Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-princess-coloring-pages">Free Princess Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-pumpkin-coloring-pages">Free Pumpkin Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-puppy-coloring-pages">Free Puppy Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-rabbit-coloring-pages">Free Rabbit Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-rainbow-coloring-pages">Free Rainbow Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-santa-coloring-pages">Free Santa Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-snowman-coloring-pages">Free Snowman Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-spring-coloring-pages">Free Spring Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-st-patrick-coloring-pages">Free St Patrick Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-summer-coloring-pages">Free Summer Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-superhero-coloring-pages">Free Superhero Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-thanksgiving-coloring-pages">Free Thanksgiving Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-turkey-coloring-pages">Free Turkey Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-unicorn-coloring-pages">Free Unicorn Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-valentine-coloring-pages">Free Valentine Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-wildlife-coloring-pages">Free Wildlife Coloring Pages</a>
+        <a class="mcw-fcc__chip" href="{{ shop.url }}/pages/free-winter-coloring-pages">Free Winter Coloring Pages</a>
+      </div>
     </div>
   </div>
 
@@ -123,8 +176,11 @@
 {% style %}
   #{{ sid }} { max-width: 860px; margin: 0 auto; padding: 8px 16px 60px; color: #004a70; }
   #{{ sid }} h2 { font-size: 1.5rem; margin: 40px 0 12px; }
-  #{{ sid }} .mcw-fcc__chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
-  #{{ sid }} .mcw-fcc__chip { background: #fff; border: 1px solid rgba(0,74,112,0.18); border-radius: 999px; padding: 7px 14px; font-size: 0.9rem; font-weight: 600; }
+  #{{ sid }} .mcw-fcc__chipgroup { margin-top: 18px; }
+  #{{ sid }} .mcw-fcc__chiph { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.6; margin: 0 0 8px; }
+  #{{ sid }} .mcw-fcc__chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 0; }
+  #{{ sid }} .mcw-fcc__chip { display: inline-block; background: #fff; border: 1px solid rgba(0,74,112,0.18); border-radius: 999px; padding: 7px 14px; font-size: 0.9rem; font-weight: 600; color: #004a70; text-decoration: none; transition: all 0.15s; }
+  #{{ sid }} a.mcw-fcc__chip:hover { border-color: #fb046f; color: #fb046f; background: #fff7fb; }
   #{{ sid }} .mcw-fcc__how ol { line-height: 1.7; padding-left: 20px; }
   #{{ sid }} .mcw-fcc__book { background: #fff7f0; border-radius: 20px; padding: 24px; margin-top: 40px; }
   #{{ sid }} .mcw-fcc__cta { display: inline-block; margin-top: 10px; background: #fb046f; color: #fff; font-weight: 700; padding: 13px 26px; border-radius: 999px; text-decoration: none; }

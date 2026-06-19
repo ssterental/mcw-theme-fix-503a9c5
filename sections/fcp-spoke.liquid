@@ -83,6 +83,15 @@
     <a class="fcp__cta" href="/collections/frontpage?utm_source=spoke&utm_medium=seo&utm_campaign={{ page.handle }}">See the coloring books &rarr;</a>
   </div>
 
+  {%- comment -%} Internal links: browse by age + back to hub (SEO crawl paths) {%- endcomment -%}
+  <nav class="fcp__related" aria-label="More free coloring pages">
+    <span class="fcp__related-label">More free printables:</span>
+    <a href="{{ shop.url }}/pages/free-coloring-pages-for-kids">For Kids</a>
+    <a href="{{ shop.url }}/pages/free-coloring-pages-for-teens">For Teens</a>
+    <a href="{{ shop.url }}/pages/free-coloring-pages-for-adults">For Adults</a>
+    <a href="{{ shop.url }}/pages/free-coloring-pages">All themes &rarr;</a>
+  </nav>
+
   {%- comment -%} FAQ {%- endcomment -%}
   {%- if faqq and faqq.size > 0 -%}
     <div class="fcp__faq">
@@ -161,6 +170,10 @@
   #{{ sid }} .fcp__book { background:#fff7f0; border-radius:20px; padding:24px; margin:48px auto; max-width:720px; text-align:center; line-height:1.55; }
   #{{ sid }} .fcp__cta { display:inline-block; margin-top:12px; background:#fb046f; color:#fff; font-weight:700; padding:13px 26px; border-radius:999px; text-decoration:none; }
   #{{ sid }} .fcp__cta:hover { background:#e50464; }
+  #{{ sid }} .fcp__related { max-width:720px; margin:48px auto 0; display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:center; font-size:.95rem; }
+  #{{ sid }} .fcp__related-label { font-weight:700; }
+  #{{ sid }} .fcp__related a { color:#fb046f; font-weight:600; text-decoration:none; border:1px solid rgba(0,74,112,.18); border-radius:999px; padding:6px 14px; }
+  #{{ sid }} .fcp__related a:hover { background:#fff7fb; }
   #{{ sid }} .fcp__faq { max-width:720px; margin:48px auto 0; }
   #{{ sid }} .fcp__faq details { background:#fff; border-radius:14px; padding:14px 18px; margin-bottom:10px; border:1px solid rgba(0,74,112,.12); }
   #{{ sid }} .fcp__faq summary { font-weight:700; cursor:pointer; }
